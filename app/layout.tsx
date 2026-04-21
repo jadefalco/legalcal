@@ -89,7 +89,7 @@ export default function RootLayout({
               <img
                 src="/logo-blue.png"
                 alt="LegalCals Logo"
-                className="h-8 w-auto"
+                className="h-12 w-auto md:h-14 group-hover:brightness-110 transition-filter"
               />
             </Link>
 
