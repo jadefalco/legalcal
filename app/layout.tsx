@@ -17,42 +17,42 @@ const merriweather = Merriweather({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://legalcals.com"),
   title: {
-    default: "BC Tenancy & Employment Law Calculators",
-    template: "%s | BC Legal Calculators",
+    default: "LegalCals — Legal Calculators for BC, AB, and ON",
+    template: "%s | LegalCals",
   },
   description:
-    "Free, easy-to-use legal calculators for British Columbia. Estimate notice periods, eviction timelines, deposit deadlines, employment termination entitlements, and Small Claims eligibility.",
+    "Accurate legal calculators for tenancy, employment, and small claims law across Canada. Free, fast, and easy to use.",
   keywords: [
+    "legal calculators",
     "BC legal calculators",
-    "BC tenancy notice calculator",
-    "BC eviction timeline",
-    "BC employment termination notice",
-    "BC security deposit deadline",
-    "BC small claims eligibility",
-    "British Columbia tenancy law",
-    "BC employment law tools",
-    "BC landlord tenant calculator",
-    "BC notice period estimator",
+    "AB legal calculators",
+    "ON legal calculators",
+    "tenancy calculator",
+    "eviction timeline calculator",
+    "employment termination calculator",
+    "security deposit calculator",
+    "small claims calculator",
+    "Canadian law tools",
   ],
-  authors: [{ name: "BC Legal Calculators" }],
-  creator: "BC Legal Calculators",
-  publisher: "BC Legal Calculators",
+  authors: [{ name: "LegalCals" }],
+  creator: "LegalCals",
+  publisher: "LegalCals",
   openGraph: {
-    title: "BC Tenancy & Employment Law Calculators",
+    title: "LegalCals — Legal Calculators for Canada",
     description:
-      "Free legal calculators for British Columbia. Quickly estimate notice periods, eviction timelines, deposit deadlines, and employment entitlements.",
-    url: "https://your-domain.com",
-    siteName: "BC Legal Calculators",
+      "Free legal calculators for tenancy, employment, and small claims law across Canada.",
+    url: "https://legalcals.com",
+    siteName: "LegalCals",
     locale: "en_CA",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BC Tenancy & Employment Law Calculators",
+    title: "LegalCals — Legal Calculators",
     description:
-      "Free legal calculators for British Columbia. Estimate notice periods, eviction timelines, deposit deadlines, and employment entitlements.",
+      "Free legal calculators for tenancy, employment, and small claims law across Canada.",
   },
   robots: {
     index: true,
@@ -66,7 +66,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://your-domain.com",
+    canonical: "https://legalcals.com",
+  },
+  icons: {
+    icon: "/favicon.png", // ⭐ Your favicon is now active
   },
 };
 
@@ -82,14 +85,14 @@ export default function RootLayout({
       >
         <header className="bg-navy text-white py-5">
           <div className="max-w-5xl mx-auto px-6 flex items-center justify-between">
-            <Link href="/" className="group">
-              <h1 className="text-2xl md:text-3xl font-serif text-gold tracking-tight group-hover:text-gold-light transition-colors">
-                Legal Calculators
-              </h1>
-              <p className="text-sm text-gray-300 mt-0.5 font-sans">
-                British Columbia Law Tools
-              </p>
+            <Link href="/" className="group flex items-center gap-3">
+              <img
+                src="/logo-blue.png"
+                alt="LegalCals Logo"
+                className="h-8 w-auto"
+              />
             </Link>
+
             <nav className="hidden md:flex items-center gap-6">
               <Link
                 href="/"
@@ -106,13 +109,20 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
+
         <main className="min-h-[calc(100vh-160px)] bg-gray-50">
           {children}
         </main>
+
         <footer className="bg-navy text-white py-6">
           <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-gray-400">
-            <p>© {new Date().getFullYear()} Legal Calculators. For informational purposes only. Not legal advice.</p>
-            <p className="text-xs">Not affiliated with the Government of British Columbia.</p>
+            <p>
+              © {new Date().getFullYear()} LegalCals. For informational purposes
+              only. Not legal advice.
+            </p>
+            <p className="text-xs">
+              Not affiliated with the Government of British Columbia.
+            </p>
           </div>
         </footer>
       </body>
