@@ -1,204 +1,159 @@
-"use client";
-
 import Link from "next/link";
-import JsonLd from "@/app/components/JsonLd";
-
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "BC Legal Calculators",
-  url: "https://your-domain.com",
-  description:
-    "Free legal calculators for British Columbia. Estimate notice periods, eviction timelines, deposit deadlines, and employment entitlements.",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate: "https://your-domain.com/calculators?q={search_term_string}",
-    },
-    "query-input": "required name=search_term_string",
-  },
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What do these legal calculators do?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Our calculators provide quick estimates for common British Columbia legal questions, including tenancy notice periods, eviction timelines, security deposit deadlines, employment termination notice, and Small Claims eligibility.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Are these calculators legal advice?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "No. These tools are for general information only and do not replace advice from a lawyer or qualified legal professional. Laws change, and every situation is different.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which provinces are supported?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "We currently support British Columbia (BC). Alberta and Ontario calculators are coming soon.",
-      },
-    },
-  ],
-};
 
 export default function HomePage() {
   return (
-    <>
-      <JsonLd data={[websiteSchema, faqSchema]} />
-      <div className="min-h-[calc(100vh-160px)]">
-       
+    <div className="max-w-5xl mx-auto px-6 py-12">
 
-        {/* Province Selector */}
-        <section className="border-b border-gray-200 bg-white">
-          <div className="mx-auto max-w-5xl px-6 py-4">
-            <div className="flex items-center gap-3">
-              <span className="text-sm font-medium text-gray-600">Province:</span>
-              <div className="flex gap-2">
-                <span className="inline-flex items-center rounded-full bg-navy px-3 py-1 text-xs font-semibold text-gold">
-                  British Columbia
-                </span>
-                <span className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-400 cursor-not-allowed">
-                  Alberta (Soon)
-                </span>
-                <span className="inline-flex items-center rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-400 cursor-not-allowed">
-                  Ontario (Soon)
-                </span>
-              </div>
+      {/* HERO */}
+      <section className="text-center mb-16">
+        <h1 className="text-4xl font-semibold text-navy mb-4">
+          Legal Calculators for Canada & the United States
+        </h1>
+        <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+          Accurate, jurisdiction‑specific tools for employment law,
+          landlord‑tenant law, small claims, and more. Updated for 2026.
+        </p>
+
+        <div className="flex justify-center gap-4 mt-8">
+          <Link
+            href="#regions"
+            className="rounded-md bg-navy px-5 py-2 text-white text-sm font-medium shadow hover:bg-[#00205B]"
+          >
+            Choose Your Region
+          </Link>
+
+          <Link
+            href="/calculators"
+            className="rounded-md border border-navy px-5 py-2 text-navy text-sm font-medium hover:bg-gray-50"
+          >
+            Browse All Calculators
+          </Link>
+        </div>
+
+        <p className="text-xs text-gray-500 mt-4">
+          Free to use • Not legal advice • Covers all provinces and states
+        </p>
+      </section>
+
+      {/* REGION SELECTOR */}
+      <section id="regions" className="mb-20">
+        <h2 className="text-2xl font-semibold text-navy mb-6 text-center">
+          Choose Your Region
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          {/* CANADA */}
+          <Link
+            href="/calculators/canada"
+            className="border rounded-lg p-6 shadow-sm hover:shadow-md transition bg-white"
+          >
+            <h3 className="text-xl font-semibold text-navy mb-2">🇨🇦 Canada</h3>
+            <p className="text-gray-700 text-sm mb-3">
+              Provincial calculators for employment, landlord‑tenant, and small claims.
+            </p>
+            <ul className="text-sm text-gray-600 list-disc ml-5">
+              <li>British Columbia</li>
+              <li>Alberta</li>
+              <li>Ontario</li>
+              <li>More coming</li>
+            </ul>
+          </Link>
+
+          {/* UNITED STATES */}
+          <Link
+            href="/calculators/us"
+            className="border rounded-lg p-6 shadow-sm hover:shadow-md transition bg-white"
+          >
+            <h3 className="text-xl font-semibold text-navy mb-2">🇺🇸 United States</h3>
+            <p className="text-gray-700 text-sm mb-3">
+              State‑specific calculators for employment law, landlord‑tenant, and civil claims.
+            </p>
+            <ul className="text-sm text-gray-600 list-disc ml-5">
+              <li>California</li>
+              <li>Texas</li>
+              <li>New York</li>
+              <li>Florida</li>
+              <li>More coming</li>
+            </ul>
+          </Link>
+
+        </div>
+      </section>
+
+      {/* CATEGORIES */}
+      <section className="mb-20">
+        <h2 className="text-2xl font-semibold text-navy mb-6 text-center">
+          Calculator Categories
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+          {[
+            "Employment Law",
+            "Landlord‑Tenant",
+            "Small Claims",
+            "Wage & Hour",
+            "Notice Periods",
+            "Severance",
+            "Eviction",
+            "Deposits",
+          ].map((category) => (
+            <div
+              key={category}
+              className="border rounded-lg p-5 bg-white shadow-sm hover:shadow-md transition"
+            >
+              <p className="text-navy font-medium">{category}</p>
             </div>
+          ))}
+
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section className="mb-20">
+        <h2 className="text-2xl font-semibold text-navy mb-6 text-center">
+          How It Works
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+          <div>
+            <div className="text-navy text-xl font-semibold mb-2">1. Choose your region</div>
+            <p className="text-gray-600 text-sm">
+              Select Canada or the United States to begin.
+            </p>
           </div>
-        </section>
 
-        {/* What these tools do */}
-        <section className="bg-white border-b border-gray-200 py-16">
-  <div className="max-w-5xl mx-auto px-6 text-center">
-    <h1 className="text-3xl md:text-5xl font-serif text-navy font-bold tracking-tight">
-      Accurate Legal Calculators for Canada
-    </h1>
+          <div>
+            <div className="text-navy text-xl font-semibold mb-2">2. Select your jurisdiction</div>
+            <p className="text-gray-600 text-sm">
+              Pick your province or state for accurate legal calculations.
+            </p>
+          </div>
 
-    <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-      Free tools that help you estimate notice periods, eviction timelines, security deposit deadlines,
-      employment termination entitlements, and Small Claims eligibility — starting with British Columbia.
-    </p>
+          <div>
+            <div className="text-navy text-xl font-semibold mb-2">3. Use the calculators</div>
+            <p className="text-gray-600 text-sm">
+              Get instant results based on current laws and regulations.
+            </p>
+          </div>
 
-    <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-      <Link
-        href="/calculators"
-        className="px-6 py-3 bg-navy text-white rounded-md text-sm font-medium hover:bg-navy-light transition-colors"
-      >
-        Browse Calculators
-      </Link>
+        </div>
+      </section>
 
-      <Link
-        href="/calculators/bc"
-        className="px-6 py-3 border border-navy text-navy rounded-md text-sm font-medium hover:bg-gray-100 transition-colors"
-      >
-        BC Calculators
-      </Link>
+      {/* TRUST SECTION */}
+      <section className="mb-20 text-center">
+        <h2 className="text-2xl font-semibold text-navy mb-4">
+          Built for Accuracy & Trust
+        </h2>
+        <p className="text-gray-700 max-w-2xl mx-auto text-sm">
+          LegalCals provides jurisdiction‑specific legal calculators for both
+          Canada and the United States. Updated for 2026, free to use, and
+          designed for clarity and reliability.
+        </p>
+      </section>
+
     </div>
-
-    <p className="mt-6 text-xs text-gray-400">
-      Updated for 2026 • Free to use • Not legal advice
-    </p>
-  </div>
-</section>
-
-        {/* Calculator List */}
-        <section id="calculators" className="mx-auto max-w-5xl px-6 pb-12">
-          <h2 className="text-2xl font-serif font-bold text-navy">
-            Available Calculators
-          </h2>
-          <p className="mt-1 text-sm text-gray-600">
-            Select a calculator to get started. All tools provide general information only and do not replace legal advice.
-          </p>
-
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
-            <Link
-              href="/calculators/bc/notice-period"
-              className="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all"
-            >
-              <h3 className="font-serif font-bold text-navy group-hover:text-gold-dark transition-colors">
-                BC Notice Period Calculator
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">
-                Estimate required notice for tenants and landlords in BC residential tenancies.
-              </p>
-            </Link>
-
-            <Link
-              href="/calculators/bc/eviction-timeline"
-              className="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all"
-            >
-              <h3 className="font-serif font-bold text-navy group-hover:text-gold-dark transition-colors">
-                BC Eviction Timeline Calculator
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">
-                Estimate earliest possible eviction dates based on notice type and dispute status.
-              </p>
-            </Link>
-
-            <Link
-              href="/calculators/bc/security-deposit"
-              className="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all"
-            >
-              <h3 className="font-serif font-bold text-navy group-hover:text-gold-dark transition-colors">
-                BC Security Deposit Deadline
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">
-                Calculate deposit return deadlines for BC landlords after a tenancy ends.
-              </p>
-            </Link>
-
-            <Link
-              href="/calculators/bc/employment-termination"
-              className="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all"
-            >
-              <h3 className="font-serif font-bold text-navy group-hover:text-gold-dark transition-colors">
-                BC Employment Termination Notice
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">
-                Estimate minimum statutory notice or pay in lieu for BC employees.
-              </p>
-            </Link>
-
-            <Link
-              href="/calculators/bc/small-claims"
-              className="group rounded-xl border border-gray-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-gold/30 transition-all md:col-span-2"
-            >
-              <h3 className="font-serif font-bold text-navy group-hover:text-gold-dark transition-colors">
-                BC Small Claims Eligibility Checker
-              </h3>
-              <p className="mt-2 text-sm text-gray-600">
-                Check if your dispute fits within BC Small Claims or Civil Resolution Tribunal limits.
-              </p>
-            </Link>
-          </div>
-        </section>
-
-        {/* Disclaimer */}
-        <section className="border-t border-gray-200 bg-white">
-          <div className="mx-auto max-w-5xl px-6 py-10">
-            <h2 className="text-xl font-serif font-bold text-navy">
-              Important Disclaimer
-            </h2>
-            <div className="mt-4 rounded-lg border border-amber-200 bg-amber-50 p-5">
-              <p className="text-sm text-amber-900 leading-relaxed">
-                <strong className="font-semibold">Not Legal Advice.</strong>{" "}
-                The information provided by these calculators is for general informational purposes only and does not constitute legal advice. Laws change frequently, and every situation is unique. For advice about your specific circumstances, please consult a lawyer, legal clinic, or the appropriate government authority such as the BC Residential Tenancy Branch or Employment Standards Branch.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </>
   );
 }

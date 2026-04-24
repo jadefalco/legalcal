@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import JsonLd from "@/app/components/JsonLd";
+import SecurityDepositClient from "./CalculatorClient";
 
 export const metadata: Metadata = {
-  title: "Alberta Security Deposit Deadline Calculator",
+  title: "Alberta Security Deposit Calculator",
   description:
-    "Alberta security deposit calculator coming soon. Use our BC security deposit calculator in the meantime.",
+    "Check maximum security deposit limits, return deadlines, and interest rules under Alberta’s Residential Tenancies Act.",
   alternates: {
     canonical: "https://your-domain.com/calculators/ab/security-deposit",
+  },
+  openGraph: {
+    title: "Alberta Security Deposit Calculator",
+    description:
+      "Determine if a security deposit complies with Alberta law, including maximum amounts, return deadlines, and interest rules.",
+    url: "https://your-domain.com/calculators/ab/security-deposit",
   },
   robots: {
     index: true,
@@ -14,19 +21,55 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AlbertaSecurityDepositPlaceholder() {
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://your-domain.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Calculators",
+      item: "https://your-domain.com/calculators",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Alberta",
+      item: "https://your-domain.com/calculators/ab",
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
+      name: "Security Deposit",
+      item: "https://your-domain.com/calculators/ab/security-deposit",
+    },
+  ],
+};
+
+export default function AlbertaSecurityDepositPage() {
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
-      <h1 className="text-3xl md:text-4xl font-serif text-navy mb-3">
-        Alberta Security Deposit Deadline Calculator
-      </h1>
-      <p className="text-gray-600 mb-6">Coming soon.</p>
-      <Link
-        href="/calculators/bc/security-deposit"
-        className="inline-flex items-center rounded-md bg-navy px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-navy-light transition-colors"
-      >
-        Try BC Security Deposit Calculator
-      </Link>
-    </div>
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <div className="max-w-3xl mx-auto px-6 py-10">
+        <h1 className="text-3xl font-semibold text-navy mb-4">
+          Alberta Security Deposit Calculator
+        </h1>
+        <p className="text-gray-700 text-base mb-6">
+          Check whether a security deposit complies with Alberta law, including
+          maximum amounts, return deadlines, and interest rules under the
+          Residential Tenancies Act.
+        </p>
+
+        <div className="h-1 w-20 bg-[#0077C8] rounded-full mb-8" />
+
+        <SecurityDepositClient />
+      </div>
+    </>
   );
 }
