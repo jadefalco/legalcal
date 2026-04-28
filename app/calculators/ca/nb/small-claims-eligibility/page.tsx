@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["nb"];
+const province: CAProvince = caProvinces["nb"];
+const theme: Theme = getTheme("ca", "nb");
 
 export const metadata: Metadata = {
   title: "New Brunswick – Small Claims Eligibility Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} Small Claims Eligibility Calculator`}
           description="Explain small claims court eligibility, limits, and filing procedures."
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

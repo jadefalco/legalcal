@@ -1,20 +1,60 @@
+/**
+ * US Interactive Single-Calculator Generator
+ *
+ * Prompts for a calculator, then generates it for all 50 states.
+ * Outputs: app/calculators/us/{state}/{calculator}/page.tsx
+ *          app/calculators/us/{state}/{calculator}/CalculatorClient.tsx
+ */
+
 import fs from "fs";
 import path from "path";
 import readline from "readline";
-import url from "url";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
 
-// Resolve project root
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+// FIX: root must be defined BEFORE reading templates
+const root = resolveRoot();
 
-// Paths
+// Eviction templates
+const evictionPageTemplate = fs.readFileSync(
+  path.join(root, "templates/usCalculator/page.tsx"),
+  "utf8"
+);
+
+const evictionClientTemplate = fs.readFileSync(
+  path.join(root, "templates/usCalculator/CalculatorClient.tsx"),
+  "utf8"
+);
+
+// Generic templates
+const genericPageTemplate = fs.readFileSync(
+  path.join(root, "templates/usCalculatorGeneric/page.tsx"),
+  "utf8"
+);
+
+const genericClientTemplate = fs.readFileSync(
+  path.join(root, "templates/usCalculatorGeneric/CalculatorClient.tsx"),
+  "utf8"
+);
+
+
+
 const statesConfigPath = path.join(root, "app/config/usStates.js");
 const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
-const templatePagePath = path.join(root, "app/templates/usCalculator/page.tsx");
-const templateClientPath = path.join(root, "app/templates/usCalculator/CalculatorClient.tsx");
+const templatePagePath = path.join(root, "templates/usCalculator/page.tsx");
+const templateClientPath = path.join(root, "templates/usCalculator/CalculatorClient.tsx");
 const outputBase = path.join(root, "app/calculators/us");
 
-// Readline prompt
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -24,26 +64,16 @@ function ask(q) {
   return new Promise((resolve) => rl.question(q, resolve));
 }
 
-async function loadStates() {
-  const module = await import(url.pathToFileURL(statesConfigPath).href);
-  return module.usStates;
-}
-
-async function loadCalculators() {
-  const module = await import(url.pathToFileURL(calculatorsConfigPath).href);
-  return module.calculators;
-}
-
-// === MAIN ===
 async function main() {
-  console.log("US Calculator Generator\n");
+  logStart("US Calculator Generator");
 
-  const states = await loadStates();
-  const registry = await loadCalculators();
+  const states = await loadConfig(statesConfigPath, "usStates");
+  const registry = await loadConfig(calculatorsConfigPath, "calculators");
 
-  if (!states || Object.keys(states).length === 0) {
-    throw new Error("No states found in config file.");
-  }
+  validateConfig(states, "usStates");
+
+  await validateWithZod(states, "app/validation/USStatesSchema.ts", "USStates");
+  await validateWithZod(registry, "app/validation/CalculatorsSchema.ts", "Calculators");
 
   console.log("Available calculators from registry:");
   registry.forEach((calc, i) => {
@@ -70,34 +100,53 @@ async function main() {
 
   rl.close();
 
-  const pageTemplate = fs.readFileSync(templatePagePath, "utf8");
-  const clientTemplate = fs.readFileSync(templateClientPath, "utf8");
+  const pageTemplate = loadTemplate(templatePagePath);
+  const clientTemplate = loadTemplate(templateClientPath);
+
+  let count = 0;
 
   for (const key of Object.keys(states)) {
     const state = states[key];
 
     const folder = path.join(outputBase, state.slug, calculatorSlug);
-    fs.mkdirSync(folder, { recursive: true });
+    ensureDirectory(folder);
 
-    const pageContent = pageTemplate
-      .replace(/STATE_NAME/g, state.name)
-      .replace(/STATE_SLUG/g, state.slug)
-      .replace(/STATE_KEY/g, key)
-      .replace(/CALCULATOR_NAME/g, calculatorName)
-      .replace(/CALCULATOR_SLUG/g, calculatorSlug)
-      .replace(/CALCULATOR_DESCRIPTION/g, calculatorDescription);
+   // Choose template based on calculator slug
+const isEviction = calculatorSlug === "eviction-notice";
 
-    const clientContent = clientTemplate
-      .replace(/STATE_NAME/g, state.name)
-      .replace(/STATE_KEY/g, key)
-      .replace(/CALCULATOR_NAME/g, calculatorName)
-      .replace(/CALCULATOR_DESCRIPTION/g, calculatorDescription);
+const pageTpl = isEviction
+  ? evictionPageTemplate
+  : genericPageTemplate;
 
-    fs.writeFileSync(path.join(folder, "page.tsx"), pageContent);
-    fs.writeFileSync(path.join(folder, "CalculatorClient.tsx"), clientContent);
+const clientTpl = isEviction
+  ? evictionClientTemplate
+  : genericClientTemplate;
+
+const pageContent = pageTpl
+  .replace(/STATE_NAME/g, state.name)
+  .replace(/STATE_SLUG/g, state.slug)
+  .replace(/STATE_KEY/g, key)
+  .replace(/CALCULATOR_NAME/g, calculatorName)
+  .replace(/CALCULATOR_SLUG/g, calculatorSlug)
+  .replace(/CALCULATOR_DESCRIPTION/g, calculatorDescription)
+  .replace(
+  /CALCULATOR_SECTIONS/g,
+  JSON.stringify(registry[num - 1].sections || [])
+);
+
+const clientContent = clientTpl
+  .replace(/STATE_NAME/g, state.name)
+  .replace(/STATE_SLUG/g, state.slug)
+  .replace(/STATE_KEY/g, key)
+  .replace(/CALCULATOR_NAME/g, calculatorName)
+  .replace(/CALCULATOR_DESCRIPTION/g, calculatorDescription);
+  
+    writePage(path.join(folder, "page.tsx"), pageContent);
+    writePage(path.join(folder, "CalculatorClient.tsx"), clientContent);
+    count += 2;
   }
 
-  console.log("\n✔ All state calculator files generated successfully!");
+  logSuccess("All state calculator files generated", count);
 }
 
-main().catch(err => console.error(err));
+main().catch(logError);

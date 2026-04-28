@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["ab"];
+const province: CAProvince = caProvinces["ab"];
+const theme: Theme = getTheme("ca", "ab");
 
 export const metadata: Metadata = {
   title: "Alberta – Notice Period Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} Notice Period Calculator`}
           description="Calculate notice period requirements for residential and employment terminations."
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

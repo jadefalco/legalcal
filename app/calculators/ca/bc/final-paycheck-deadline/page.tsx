@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["bc"];
+const province: CAProvince = caProvinces["bc"];
+const theme: Theme = getTheme("ca", "bc");
 
 export const metadata: Metadata = {
   title: "British Columbia – Final Paycheck Deadline Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} Final Paycheck Deadline Calculator`}
           description="Calculate final paycheck deadlines and accrued vacation payouts."
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

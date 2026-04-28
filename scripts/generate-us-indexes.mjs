@@ -1,52 +1,102 @@
-import fs from "fs";
-import path from "path";
-import url from "url";
+/**
+ * US Calculator Index Pages Generator
+ *
+ * Outputs:
+ *   - app/calculators/us/{state}/page.tsx      (state calculator indexes)
+ *   - app/calculators/us/page.tsx              (US national calculator index)
+ */
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+import path from "path";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
+
+const root = resolveRoot();
 
 const statesConfigPath = path.join(root, "app/config/usStates.js");
-const templateStateIndexPath = path.join(root, "app/templates/usStateIndex/page.tsx");
-const templateUSIndexPath = path.join(root, "app/templates/usIndex/page.tsx");
+const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
+const templateStateIndexPath = path.join(root, "templates/usStateIndex/page.tsx");
+const templateUSIndexPath = path.join(root, "templates/usIndex/page.tsx");
 const outputBase = path.join(root, "app/calculators/us");
 
-async function loadStates() {
-  const module = await import(url.pathToFileURL(statesConfigPath).href);
-  return module.usStates;
+function escapeString(str) {
+  return str.replace(/"/g, '\\"');
+}
+
+function generateCalculatorsArray(calculators) {
+  return calculators
+    .map(
+      (calc) =>
+        `  { name: "${escapeString(calc.name)}", slug: "${calc.slug}", description: "${escapeString(calc.description)}" }`
+    )
+    .join(",\n");
+}
+
+function generateStatesArray(states) {
+  return Object.values(states)
+    .map(
+      (state) =>
+        `  { name: "${escapeString(state.name)}", slug: "${state.slug}", accent: "${state.accent}", seal: "${state.seal || ""}" }`
+    )
+    .join(",\n");
 }
 
 async function main() {
-  console.log("US Index Pages Generator\n");
+  logStart("US Index Pages Generator");
 
-  const states = await loadStates();
+  const states = await loadConfig(statesConfigPath, "usStates");
+  const calculators = await loadConfig(calculatorsConfigPath, "calculators");
 
-  if (!states || Object.keys(states).length === 0) {
-    throw new Error("No states found in config file.");
-  }
+  validateConfig(states, "usStates");
+  validateConfig(calculators, "calculators");
 
-  const stateIndexTemplate = fs.readFileSync(templateStateIndexPath, "utf8");
-  const usIndexTemplate = fs.readFileSync(templateUSIndexPath, "utf8");
+  await validateWithZod(states, "app/validation/USStatesSchema.ts", "USStates");
+  await validateWithZod(calculators, "app/validation/CalculatorsSchema.ts", "Calculators");
+
+  const stateIndexTemplate = loadTemplate(templateStateIndexPath);
+  const usIndexTemplate = loadTemplate(templateUSIndexPath);
+
+  const calculatorsArray = generateCalculatorsArray(calculators);
 
   // Generate state index pages
+  let count = 0;
   for (const key of Object.keys(states)) {
     const state = states[key];
     const folder = path.join(outputBase, state.slug);
-    fs.mkdirSync(folder, { recursive: true });
+    ensureDirectory(folder);
 
     const content = stateIndexTemplate
       .replace(/STATE_NAME/g, state.name)
       .replace(/STATE_SLUG/g, state.slug)
-      .replace(/STATE_KEY/g, key);
+      .replace(/STATE_KEY/g, key)
+      .replace(/STATE_ACCENT/g, state.accent)
+      .replace(/STATE_SEAL/g, state.seal || "")
+      .replace(/\/\* CALCULATORS_ARRAY \*\//, calculatorsArray);
 
-    fs.writeFileSync(path.join(folder, "page.tsx"), content);
-    console.log(`  ✔ State index: ${state.name} → app/calculators/us/${state.slug}/page.tsx`);
+    writePage(path.join(folder, "page.tsx"), content);
+    count++;
   }
 
   // Generate US national index
-  fs.writeFileSync(path.join(outputBase, "page.tsx"), usIndexTemplate);
-  console.log(`  ✔ US national index: app/calculators/us/page.tsx`);
+  const statesArray = generateStatesArray(states);
+  const usIndexContent = usIndexTemplate.replace(
+    /\/\* STATES_ARRAY \*\//,
+    statesArray
+  );
 
-  console.log("\n✔ All US index pages generated successfully!");
+  writePage(path.join(outputBase, "page.tsx"), usIndexContent);
+  count++;
+
+  logSuccess("All US index pages generated", count);
 }
 
-main().catch((err) => console.error(err));
+main().catch(logError);

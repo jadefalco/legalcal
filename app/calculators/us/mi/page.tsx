@@ -2,10 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import JsonLd from "@/app/components/JsonLd";
-import { usStates } from "@/app/config/usStates";
-import { calculators } from "@/app/config/calculators";
-
-const state = usStates["mi"];
 
 export const metadata: Metadata = {
   title: "Michigan Legal Calculators",
@@ -53,6 +49,16 @@ const breadcrumbSchema = {
   ],
 };
 
+const calculators = [
+    { name: "Eviction Timeline", slug: "eviction-timeline", description: "Calculate eviction timelines and key deadlines for your jurisdiction." },
+  { name: "Notice Period", slug: "notice-period", description: "Calculate notice period requirements for residential and employment terminations." },
+  { name: "Security Deposit Return", slug: "security-deposit-return", description: "Calculate security deposit return deadlines and allowable deductions." },
+  { name: "Rent Increase Limits", slug: "rent-increase-limits", description: "Explain rent increase limits, notice requirements, and exemption rules." },
+  { name: "Final Paycheck Deadline", slug: "final-paycheck-deadline", description: "Calculate final paycheck deadlines and accrued vacation payouts." },
+  { name: "Overtime Calculator", slug: "overtime-calculator", description: "Estimate overtime pay rules and eligibility for your jurisdiction." },
+  { name: "Small Claims Eligibility", slug: "small-claims-eligibility", description: "Explain small claims court eligibility, limits, and filing procedures." }
+];
+
 export default function StateIndexPage() {
   return (
     <>
@@ -60,15 +66,13 @@ export default function StateIndexPage() {
       <div className="max-w-5xl mx-auto px-6 py-10">
         <div className="mb-10">
           <div className="flex items-center gap-4 mb-4">
-            {state.seal && (
-              <Image
-                src={state.seal}
-                alt="Michigan state seal"
-                width={60}
-                height={60}
-                className="opacity-80"
-              />
-            )}
+            <Image
+              src="/seals/us/mi.png"
+              alt="Michigan state seal"
+              width={60}
+              height={60}
+              className="opacity-80"
+            />
             <h1 className="text-3xl md:text-4xl font-serif text-navy">
               Michigan Legal Calculators
             </h1>
@@ -79,7 +83,7 @@ export default function StateIndexPage() {
           </p>
           <div
             className="mt-3 w-20 h-1 rounded-full"
-            style={{ backgroundColor: state.accent }}
+            style={{ backgroundColor: "#00274C" }}
           />
         </div>
 

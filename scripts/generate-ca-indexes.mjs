@@ -1,52 +1,102 @@
-import fs from "fs";
-import path from "path";
-import url from "url";
+/**
+ * Canada Calculator Index Pages Generator
+ *
+ * Outputs:
+ *   - app/calculators/ca/{province}/page.tsx   (province calculator indexes)
+ *   - app/calculators/ca/page.tsx              (Canada national calculator index)
+ */
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+import path from "path";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
+
+const root = resolveRoot();
 
 const provincesConfigPath = path.join(root, "app/config/caProvinces.js");
-const templateProvinceIndexPath = path.join(root, "app/templates/caProvinceIndex/page.tsx");
-const templateCAIndexPath = path.join(root, "app/templates/caIndex/page.tsx");
+const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
+const templateProvinceIndexPath = path.join(root, "templates/caProvinceIndex/page.tsx");
+const templateCAIndexPath = path.join(root, "templates/caIndex/page.tsx");
 const outputBase = path.join(root, "app/calculators/ca");
 
-async function loadProvinces() {
-  const module = await import(url.pathToFileURL(provincesConfigPath).href);
-  return module.caProvinces;
+function escapeString(str) {
+  return str.replace(/"/g, '\\"');
+}
+
+function generateCalculatorsArray(calculators) {
+  return calculators
+    .map(
+      (calc) =>
+        `  { name: "${escapeString(calc.name)}", slug: "${calc.slug}", description: "${escapeString(calc.description)}" }`
+    )
+    .join(",\n");
+}
+
+function generateProvincesArray(provinces) {
+  return Object.values(provinces)
+    .map(
+      (province) =>
+        `  { name: "${escapeString(province.name)}", slug: "${province.slug}", accent: "${province.accent}", seal: "${province.seal || ""}" }`
+    )
+    .join(",\n");
 }
 
 async function main() {
-  console.log("Canada Index Pages Generator\n");
+  logStart("Canada Index Pages Generator");
 
-  const provinces = await loadProvinces();
+  const provinces = await loadConfig(provincesConfigPath, "caProvinces");
+  const calculators = await loadConfig(calculatorsConfigPath, "calculators");
 
-  if (!provinces || Object.keys(provinces).length === 0) {
-    throw new Error("No provinces found in config file.");
-  }
+  validateConfig(provinces, "caProvinces");
+  validateConfig(calculators, "calculators");
 
-  const provinceIndexTemplate = fs.readFileSync(templateProvinceIndexPath, "utf8");
-  const caIndexTemplate = fs.readFileSync(templateCAIndexPath, "utf8");
+  await validateWithZod(provinces, "app/validation/CAProvincesSchema.ts", "CAProvinces");
+  await validateWithZod(calculators, "app/validation/CalculatorsSchema.ts", "Calculators");
+
+  const provinceIndexTemplate = loadTemplate(templateProvinceIndexPath);
+  const caIndexTemplate = loadTemplate(templateCAIndexPath);
+
+  const calculatorsArray = generateCalculatorsArray(calculators);
 
   // Generate province index pages
+  let count = 0;
   for (const key of Object.keys(provinces)) {
     const province = provinces[key];
     const folder = path.join(outputBase, province.slug);
-    fs.mkdirSync(folder, { recursive: true });
+    ensureDirectory(folder);
 
     const content = provinceIndexTemplate
       .replace(/PROVINCE_NAME/g, province.name)
       .replace(/PROVINCE_SLUG/g, province.slug)
-      .replace(/PROVINCE_KEY/g, key);
+      .replace(/PROVINCE_KEY/g, key)
+      .replace(/PROVINCE_ACCENT/g, province.accent)
+      .replace(/PROVINCE_SEAL/g, province.seal || "")
+      .replace(/\/\* CALCULATORS_ARRAY \*\//, calculatorsArray);
 
-    fs.writeFileSync(path.join(folder, "page.tsx"), content);
-    console.log(`  ✔ Province index: ${province.name} → app/calculators/ca/${province.slug}/page.tsx`);
+    writePage(path.join(folder, "page.tsx"), content);
+    count++;
   }
 
   // Generate Canada national index
-  fs.writeFileSync(path.join(outputBase, "page.tsx"), caIndexTemplate);
-  console.log(`  ✔ Canada national index: app/calculators/ca/page.tsx`);
+  const provincesArray = generateProvincesArray(provinces);
+  const caIndexContent = caIndexTemplate.replace(
+    /\/\* PROVINCES_ARRAY \*\//,
+    provincesArray
+  );
 
-  console.log("\n✔ All Canada index pages generated successfully!");
+  writePage(path.join(outputBase, "page.tsx"), caIndexContent);
+  count++;
+
+  logSuccess("All Canada index pages generated", count);
 }
 
-main().catch((err) => console.error(err));
+main().catch(logError);

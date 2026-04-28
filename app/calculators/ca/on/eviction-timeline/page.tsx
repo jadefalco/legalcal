@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["on"];
+const province: CAProvince = caProvinces["on"];
+const theme: Theme = getTheme("ca", "on");
 
 export const metadata: Metadata = {
   title: "Ontario – Eviction Timeline Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} Eviction Timeline Calculator`}
           description="Calculate eviction timelines and key deadlines for your jurisdiction."
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

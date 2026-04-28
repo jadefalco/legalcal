@@ -1,20 +1,34 @@
-import fs from "fs";
+/**
+ * Canada Interactive Single-Calculator Generator
+ *
+ * Prompts for a calculator, then generates it for all provinces/territories.
+ * Outputs: app/calculators/ca/{province}/{calculator}/page.tsx
+ *          app/calculators/ca/{province}/{calculator}/CalculatorClient.tsx
+ */
+
 import path from "path";
 import readline from "readline";
-import url from "url";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
 
-// Resolve project root
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = resolveRoot();
 
-// Paths
 const provincesConfigPath = path.join(root, "app/config/caProvinces.js");
 const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
-const templatePagePath = path.join(root, "app/templates/caCalculator/page.tsx");
-const templateClientPath = path.join(root, "app/templates/caCalculator/CalculatorClient.tsx");
+const templatePagePath = path.join(root, "templates/caCalculator/page.tsx");
+const templateClientPath = path.join(root, "templates/caCalculator/CalculatorClient.tsx");
 const outputBase = path.join(root, "app/calculators/ca");
 
-// Readline prompt
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
@@ -24,26 +38,16 @@ function ask(q) {
   return new Promise((resolve) => rl.question(q, resolve));
 }
 
-async function loadProvinces() {
-  const module = await import(url.pathToFileURL(provincesConfigPath).href);
-  return module.caProvinces;
-}
-
-async function loadCalculators() {
-  const module = await import(url.pathToFileURL(calculatorsConfigPath).href);
-  return module.calculators;
-}
-
-// === MAIN ===
 async function main() {
-  console.log("Canada Calculator Generator\n");
+  logStart("Canada Calculator Generator");
 
-  const provinces = await loadProvinces();
-  const registry = await loadCalculators();
+  const provinces = await loadConfig(provincesConfigPath, "caProvinces");
+  const registry = await loadConfig(calculatorsConfigPath, "calculators");
 
-  if (!provinces || Object.keys(provinces).length === 0) {
-    throw new Error("No provinces found in config file.");
-  }
+  validateConfig(provinces, "caProvinces");
+
+  await validateWithZod(provinces, "app/validation/CAProvincesSchema.ts", "CAProvinces");
+  await validateWithZod(registry, "app/validation/CalculatorsSchema.ts", "Calculators");
 
   console.log("Available calculators from registry:");
   registry.forEach((calc, i) => {
@@ -70,14 +74,16 @@ async function main() {
 
   rl.close();
 
-  const pageTemplate = fs.readFileSync(templatePagePath, "utf8");
-  const clientTemplate = fs.readFileSync(templateClientPath, "utf8");
+  const pageTemplate = loadTemplate(templatePagePath);
+  const clientTemplate = loadTemplate(templateClientPath);
+
+  let count = 0;
 
   for (const key of Object.keys(provinces)) {
     const province = provinces[key];
 
     const folder = path.join(outputBase, province.slug, calculatorSlug);
-    fs.mkdirSync(folder, { recursive: true });
+    ensureDirectory(folder);
 
     const pageContent = pageTemplate
       .replace(/PROVINCE_NAME/g, province.name)
@@ -89,14 +95,16 @@ async function main() {
 
     const clientContent = clientTemplate
       .replace(/PROVINCE_NAME/g, province.name)
+      .replace(/PROVINCE_KEY/g, key)
       .replace(/CALCULATOR_NAME/g, calculatorName)
       .replace(/CALCULATOR_DESCRIPTION/g, calculatorDescription);
 
-    fs.writeFileSync(path.join(folder, "page.tsx"), pageContent);
-    fs.writeFileSync(path.join(folder, "CalculatorClient.tsx"), clientContent);
+    writePage(path.join(folder, "page.tsx"), pageContent);
+    writePage(path.join(folder, "CalculatorClient.tsx"), clientContent);
+    count += 2;
   }
 
-  console.log("\n✔ All province calculator files generated successfully!");
+  logSuccess("All province calculator files generated", count);
 }
 
-main().catch(err => console.error(err));
+main().catch(logError);

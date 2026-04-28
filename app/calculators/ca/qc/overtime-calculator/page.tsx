@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["qc"];
+const province: CAProvince = caProvinces["qc"];
+const theme: Theme = getTheme("ca", "qc");
 
 export const metadata: Metadata = {
   title: "Quebec – Overtime Calculator Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} Overtime Calculator Calculator`}
           description="Estimate overtime pay rules and eligibility for your jurisdiction."
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

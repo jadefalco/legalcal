@@ -1,43 +1,12 @@
-import type { Metadata } from "next";
-import JsonLd from "@/app/components/JsonLd";
-import { usStates } from "@/app/config/usStates";
-import { StateThemeProvider } from "@/app/components/StateThemeProvider";
-import StateHeader from "@/app/components/StateHeader";
 import USCalculatorClient from "./CalculatorClient";
 
-const state = usStates["ak"];
-
-export const metadata: Metadata = {
-  title: "Alaska – Notice Period Calculator",
-  description: "Calculate notice period requirements for residential and employment terminations.",
-};
-
-export default function USCalculatorPage() {
-
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "/" },
-      { "@type": "ListItem", position: 2, name: "Calculators", item: "/calculators" },
-      { "@type": "ListItem", position: 3, name: "United States", item: "/calculators/us" },
-      { "@type": "ListItem", position: 4, name: state.name, item: `/calculators/us/${state.slug}` },
-      { "@type": "ListItem", position: 5, name: "Notice Period" },
-    ],
-  };
-
+export default function Page() {
   return (
-    <StateThemeProvider state={state}>
-      <JsonLd data={breadcrumbSchema} />
-
-      <div className="max-w-3xl mx-auto px-6 py-10">
-        <StateHeader
-          title={`${state.name} Notice Period Calculator`}
-          description="Calculate notice period requirements for residential and employment terminations."
-        />
-
-        <USCalculatorClient />
-      </div>
-    </StateThemeProvider>
+    <USCalculatorClient
+      theme={{}}
+      title="Notice Period"
+      description="Calculate notice period requirements for residential and employment terminations."
+      sections={[{"title":"What is a Notice Period?","content":"A notice period is the required time a landlord or employer must give before ending a tenancy or employment."},{"title":"Why Notice Periods Matter","content":"They protect tenants and employees by ensuring they have time to prepare for major life changes."}]}
+    />
   );
 }

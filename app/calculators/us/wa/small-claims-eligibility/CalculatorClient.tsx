@@ -1,62 +1,62 @@
 "use client";
 
+import { notFound } from "next/navigation";
 import { evictionRules } from "@/app/data/us/evictionRules";
-import { usStates } from "@/app/config/usStates";
+import type { EvictionRule } from "@/app/types/EvictionRules";
+import type { Theme } from "@/app/types/Theme";
 
-const state = usStates["wa"];
+import { LCCard } from "@/app/components/lc/LCCard";
+import { LCSection } from "@/app/components/lc/LCSection";
 
-// @ts-expect-error - state.slug may not exist in evictionRules type
-const rules = evictionRules[state.slug];
+import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
 
-export default function USCalculatorClient() {
+const stateCode = "wa";
+const rules: EvictionRule | undefined = evictionRules[stateCode];
+
+export default function USCalculatorClient({ theme }: { theme: Theme }) {
   if (!rules) {
-    return (
-      <div className="p-4 border rounded bg-red-50">
-        <p>No eviction data available for this state yet.</p>
-      </div>
-    );
+    return notFound();
   }
 
   return (
     <div className="space-y-6">
-      <section>
-        <h2 className="text-xl font-semibold">Eviction Timeline Overview</h2>
-        <p>
-          This timeline summarizes the eviction process in {state.name}, including notice
-          periods, court deadlines, and lockout rules.
-        </p>
-      </section>
+      <LCSection
+        title="Eviction Timeline Overview"
+        description="This timeline summarizes the eviction process, including notice periods, court deadlines, and lockout rules."
+        icon={ArrowRightCircleIcon}
+        theme={theme}
+      />
 
-      <section className="border rounded p-4 bg-gray-50">
+      <LCCard theme={theme} className="space-y-6">
         <h3 className="font-semibold mb-2">Notice Periods</h3>
         <ul className="list-disc ml-6">
           <li>Nonpayment of rent: {rules.noticeForNonpayment} days</li>
           <li>Lease violation: {rules.noticeForLeaseViolation} days</li>
         </ul>
-      </section>
+      </LCCard>
 
-      <section className="border rounded p-4 bg-gray-50">
+      <LCCard theme={theme} className="space-y-6">
         <h3 className="font-semibold mb-2">Court Deadlines</h3>
         <ul className="list-disc ml-6">
           <li>Landlord may file after: {rules.courtFilingTime}</li>
           <li>Tenant answer deadline: {rules.answerDeadline} days</li>
           <li>Hearing typically occurs: {rules.hearingTimeline}</li>
         </ul>
-      </section>
+      </LCCard>
 
-      <section className="border rounded p-4 bg-gray-50">
+      <LCCard theme={theme} className="space-y-6">
         <h3 className="font-semibold mb-2">Lockout Rules</h3>
         <p>{rules.lockoutAllowedAfter}</p>
-      </section>
+      </LCCard>
 
-      <section className="border rounded p-4 bg-gray-50">
+      <LCCard theme={theme} className="space-y-6">
         <h3 className="font-semibold mb-2">Legal Citations</h3>
         <ul className="list-disc ml-6">
-          {rules.citations.map((cite: string, i: number) => (
-            <li key={i}>{cite}</li>
+          {rules.citations.map((citation, index) => (
+            <li key={index}>{citation}</li>
           ))}
         </ul>
-      </section>
+      </LCCard>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { createContext, useContext, ReactNode } from "react";
 
 interface StateTheme {
   accent: string;
-  seal: string;
+  seal?: string;
   name: string;
   slug: string;
 }

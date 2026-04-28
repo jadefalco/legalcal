@@ -1,10 +1,20 @@
+/**
+ * Sitemap Generator
+ *
+ * Scans app/calculators, app/us, and app/ca for page.tsx files
+ * and builds public/sitemap.xml.
+ */
+
 import fs from "fs";
 import path from "path";
-import url from "url";
+import {
+  resolveRoot,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
-
+const root = resolveRoot();
 const DOMAIN = "https://your-domain.com";
 
 function scanPages(dir, baseUrlPath) {
@@ -36,7 +46,7 @@ function escapeXml(str) {
 }
 
 async function main() {
-  console.log("Sitemap Generator\n");
+  logStart("Sitemap Generator");
 
   const routes = new Set();
   const lastmod = new Date().toISOString().split("T")[0];
@@ -46,18 +56,38 @@ async function main() {
   routes.add("/calculators");
   routes.add("/calculators/us");
   routes.add("/calculators/ca");
+  routes.add("/us");
+  routes.add("/us/calculators");
+  routes.add("/us/documents");
+  routes.add("/ca");
+  routes.add("/ca/calculators");
+  routes.add("/ca/documents");
 
   // US calculators and state indexes
-  const usDir = path.join(root, "app/calculators/us");
-  if (fs.existsSync(usDir)) {
-    const usRoutes = scanPages(usDir, "/calculators/us");
+  const usCalcDir = path.join(root, "app/calculators/us");
+  if (fs.existsSync(usCalcDir)) {
+    const usRoutes = scanPages(usCalcDir, "/calculators/us");
     usRoutes.forEach((r) => routes.add(r));
   }
 
   // Canada calculators and province indexes
-  const caDir = path.join(root, "app/calculators/ca");
+  const caCalcDir = path.join(root, "app/calculators/ca");
+  if (fs.existsSync(caCalcDir)) {
+    const caRoutes = scanPages(caCalcDir, "/calculators/ca");
+    caRoutes.forEach((r) => routes.add(r));
+  }
+
+  // US content pages (states, calculators, documents)
+  const usDir = path.join(root, "app/us");
+  if (fs.existsSync(usDir)) {
+    const usRoutes = scanPages(usDir, "/us");
+    usRoutes.forEach((r) => routes.add(r));
+  }
+
+  // Canada content pages (provinces, calculators, documents)
+  const caDir = path.join(root, "app/ca");
   if (fs.existsSync(caDir)) {
-    const caRoutes = scanPages(caDir, "/calculators/ca");
+    const caRoutes = scanPages(caDir, "/ca");
     caRoutes.forEach((r) => routes.add(r));
   }
 
@@ -80,8 +110,10 @@ async function main() {
   const outputPath = path.join(root, "public/sitemap.xml");
   fs.writeFileSync(outputPath, xml);
 
-  console.log(`✔ Sitemap generated with ${routes.size} URLs`);
-  console.log(`  → ${path.relative(process.cwd(), outputPath)}`);
+  console.log(`  ✔ Sitemap generated with ${routes.size} URLs`);
+  console.log(`    → ${path.relative(process.cwd(), outputPath)}`);
+
+  logSuccess("Sitemap generated", 1);
 }
 
-main().catch((err) => console.error(err));
+main().catch(logError);

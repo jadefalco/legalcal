@@ -1,55 +1,80 @@
+/**
+ * US Unified Generation Pipeline
+ *
+ * Runs all US generators:
+ *   - Per-state calculators
+ *   - Content pages (eviction, security-deposit, rent-increase, lease-termination)
+ *   - National calculators
+ *   - National documents
+ *   - Indexes
+ */
+
 import fs from "fs";
 import path from "path";
-import url from "url";
+import { execSync } from "child_process";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
 
-// Resolve project root
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = resolveRoot();
+const scriptsDir = path.join(root, "scripts");
 
-// Paths
+// ── Sub-generator runner ─────────────────────────────────────────────────────
+
+function run(script) {
+  const scriptPath = path.join(scriptsDir, script);
+  if (!fs.existsSync(scriptPath)) {
+    throw new Error(`Script not found: ${scriptPath}`);
+  }
+  console.log(`\n▶ Running ${script}...\n`);
+  execSync(`npx tsx "${scriptPath}"`, {
+    stdio: "inherit",
+    cwd: root,
+    env: process.env,
+  });
+}
+
+// ── Per-state calculator generation ──────────────────────────────────────────
+
 const statesConfigPath = path.join(root, "app/config/usStates.js");
 const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
-const templatePagePath = path.join(root, "app/templates/usCalculator/page.tsx");
-const templateClientPath = path.join(root, "app/templates/usCalculator/CalculatorClient.tsx");
+const templatePagePath = path.join(root, "templates/usCalculator/page.tsx");
+const templateClientPath = path.join(root, "templates/usCalculator/CalculatorClient.tsx");
 const outputBase = path.join(root, "app/calculators/us");
 
-// Load states config
-async function loadStates() {
-  const module = await import(url.pathToFileURL(statesConfigPath).href);
-  return module.usStates;
-}
+async function generatePerStateCalculators() {
+  logStart("US Per-State Calculator Generator");
 
-// Load calculators registry
-async function loadCalculators() {
-  const module = await import(url.pathToFileURL(calculatorsConfigPath).href);
-  return module.calculators;
-}
+  const states = await loadConfig(statesConfigPath, "usStates");
+  const calculators = await loadConfig(calculatorsConfigPath, "calculators");
 
-async function main() {
-  console.log("US All-Calculators Generator\n");
+  validateConfig(states, "usStates");
+  validateConfig(calculators, "calculators");
 
-  const states = await loadStates();
-  const calculators = await loadCalculators();
+  await validateWithZod(states, "app/validation/USStatesSchema.ts", "USStates");
+  await validateWithZod(calculators, "app/validation/CalculatorsSchema.ts", "Calculators");
 
-  if (!states || Object.keys(states).length === 0) {
-    throw new Error("No states found in config file.");
-  }
+  const pageTemplate = loadTemplate(templatePagePath);
+  const clientTemplate = loadTemplate(templateClientPath);
 
-  if (!calculators || calculators.length === 0) {
-    throw new Error("No calculators found in registry.");
-  }
-
-  const pageTemplate = fs.readFileSync(templatePagePath, "utf8");
-  const clientTemplate = fs.readFileSync(templateClientPath, "utf8");
+  let count = 0;
 
   for (const calc of calculators) {
-    console.log(`\nGenerating: ${calc.name} (${calc.slug})`);
+    console.log(`  Generating: ${calc.name} (${calc.slug})`);
 
     for (const key of Object.keys(states)) {
       const state = states[key];
-
       const folder = path.join(outputBase, state.slug, calc.slug);
-      fs.mkdirSync(folder, { recursive: true });
+      ensureDirectory(folder);
 
       const pageContent = pageTemplate
         .replace(/STATE_NAME/g, state.name)
@@ -65,14 +90,43 @@ async function main() {
         .replace(/CALCULATOR_NAME/g, calc.name)
         .replace(/CALCULATOR_DESCRIPTION/g, calc.description);
 
-      fs.writeFileSync(path.join(folder, "page.tsx"), pageContent);
-      fs.writeFileSync(path.join(folder, "CalculatorClient.tsx"), clientContent);
+      writePage(path.join(folder, "page.tsx"), pageContent);
+      writePage(path.join(folder, "CalculatorClient.tsx"), clientContent);
+      count += 2;
     }
 
-    console.log(`✔ Finished: ${calc.name}`);
+    console.log(`  ✔ Finished: ${calc.name}`);
   }
 
-  console.log("\n✔ All US calculators generated successfully!");
+  logSuccess("All US per-state calculators generated", count);
 }
 
-main().catch(err => console.error(err));
+// ── Main ─────────────────────────────────────────────────────────────────────
+
+async function main() {
+  console.log("╔══════════════════════════════════════════════════════════════╗");
+  console.log("║     US Unified Generation Pipeline                           ║");
+  console.log("╚══════════════════════════════════════════════════════════════╝");
+
+  // 1. Per-state calculators
+  await generatePerStateCalculators();
+
+  // 2. Content page generators
+  run("generateStatePages.cjs");
+  run("generateSecurityDepositPages.cjs");
+  run("generateStateRentIncreasePages.cjs");
+  run("generateStateLeaseTerminationPages.cjs");
+
+  // 3. National calculators and documents
+  run("generateStateCalculators.mjs");
+  run("generateStateDocuments.mjs");
+
+  // 4. Indexes
+  run("generate-us-indexes.mjs");
+
+  console.log("\n╔══════════════════════════════════════════════════════════════╗");
+  console.log("║     US Pipeline Complete                                     ║");
+  console.log("╚══════════════════════════════════════════════════════════════╝");
+}
+
+main().catch(logError);

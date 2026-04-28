@@ -1,3 +1,4 @@
+/** @type {import("../types/CAProvinces").CAProvincesMap} */
 export const caProvinces = {
   ab: { name: "Alberta", slug: "ab", accent: "#003A6C", seal: "/seals/ca/ab.png" },
   bc: { name: "British Columbia", slug: "bc", accent: "#002D62", seal: "/seals/ca/bc.png" },

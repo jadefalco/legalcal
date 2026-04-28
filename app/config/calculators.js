@@ -1,3 +1,4 @@
+/** @type {import("../types/Calculators").CalculatorsList} */
 export const calculators = [
   {
     name: "Eviction Timeline",
@@ -6,11 +7,20 @@ export const calculators = [
       "Calculate eviction timelines and key deadlines for your jurisdiction.",
   },
   {
-    name: "Notice Period",
-    slug: "notice-period",
-    description:
-      "Calculate notice period requirements for residential and employment terminations.",
-  },
+  name: "Notice Period",
+  slug: "notice-period",
+  description: "Calculate notice period requirements for residential and employment terminations.",
+  sections: [
+    {
+      title: "What is a Notice Period?",
+      content: "A notice period is the required time a landlord or employer must give before ending a tenancy or employment."
+    },
+    {
+      title: "Why Notice Periods Matter",
+      content: "They protect tenants and employees by ensuring they have time to prepare for major life changes."
+    }
+  ]
+},
   {
     name: "Security Deposit Return",
     slug: "security-deposit-return",

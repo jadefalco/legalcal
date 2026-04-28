@@ -1,3 +1,4 @@
+/** @type {import("../types/USStates").USStatesMap} */
 export const usStates = {
   al: { name: "Alabama", slug: "al", accent: "#9E1B32", seal: "/seals/us/al.png" },
   ak: { name: "Alaska", slug: "ak", accent: "#0F204B", seal: "/seals/us/ak.png" },

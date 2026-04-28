@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { USState } from "@/app/types/USStates";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { usStates } from "@/app/config/usStates";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import USCalculatorClient from "./CalculatorClient";
 
-const state = usStates["wv"];
+const state: USState = usStates["wv"];
+const theme: Theme = getTheme("us", "wv");
 
 export const metadata: Metadata = {
   title: "West Virginia – Rent Increase Limits Calculator",
@@ -13,7 +17,6 @@ export const metadata: Metadata = {
 };
 
 export default function USCalculatorPage() {
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -36,7 +39,7 @@ export default function USCalculatorPage() {
           description="Explain rent increase limits, notice requirements, and exemption rules."
         />
 
-        <USCalculatorClient />
+        <USCalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

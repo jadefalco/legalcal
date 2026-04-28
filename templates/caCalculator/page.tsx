@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { CAProvince } from "@/app/types/CAProvinces";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { caProvinces } from "@/app/config/caProvinces";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import CACalculatorClient from "./CalculatorClient";
 
-const province = caProvinces["PROVINCE_KEY"];
+const province: CAProvince = caProvinces["PROVINCE_KEY"];
+const theme: Theme = getTheme("ca", "PROVINCE_KEY");
 
 export const metadata: Metadata = {
   title: "PROVINCE_NAME – CALCULATOR_NAME Calculator",
@@ -41,7 +45,7 @@ export default function CACalculatorPage() {
           title={`${province.name} CALCULATOR_NAME Calculator`}
           description="CALCULATOR_DESCRIPTION"
         />
-        <CACalculatorClient />
+        <CACalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

@@ -1,47 +1,80 @@
+/**
+ * Canada Unified Generation Pipeline
+ *
+ * Runs all Canada generators:
+ *   - Per-province calculators
+ *   - Content pages (eviction)
+ *   - National calculators
+ *   - National documents
+ *   - Indexes
+ */
+
 import fs from "fs";
 import path from "path";
-import url from "url";
+import { execSync } from "child_process";
+import {
+  resolveRoot,
+  ensureDirectory,
+  loadConfig,
+  validateConfig,
+  validateWithZod,
+  loadTemplate,
+  writePage,
+  logStart,
+  logSuccess,
+  logError,
+} from "./lib/generator-utils.mjs";
 
-const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
-const root = path.resolve(__dirname, "..");
+const root = resolveRoot();
+const scriptsDir = path.join(root, "scripts");
+
+// ── Sub-generator runner ─────────────────────────────────────────────────────
+
+function run(script) {
+  const scriptPath = path.join(scriptsDir, script);
+  if (!fs.existsSync(scriptPath)) {
+    throw new Error(`Script not found: ${scriptPath}`);
+  }
+  console.log(`\n▶ Running ${script}...\n`);
+  execSync(`npx tsx "${scriptPath}"`, {
+    stdio: "inherit",
+    cwd: root,
+    env: process.env,
+  });
+}
+
+// ── Per-province calculator generation ───────────────────────────────────────
 
 const provincesConfigPath = path.join(root, "app/config/caProvinces.js");
-const templatePagePath = path.join(root, "app/templates/caCalculator/page.tsx");
-const templateClientPath = path.join(root, "app/templates/caCalculator/CalculatorClient.tsx");
 const calculatorsConfigPath = path.join(root, "app/config/calculators.js");
+const templatePagePath = path.join(root, "templates/caCalculator/page.tsx");
+const templateClientPath = path.join(root, "templates/caCalculator/CalculatorClient.tsx");
 const outputBase = path.join(root, "app/calculators/ca");
 
-async function loadProvinces() {
-  const module = await import(url.pathToFileURL(provincesConfigPath).href);
-  return module.caProvinces;
-}
+async function generatePerProvinceCalculators() {
+  logStart("Canada Per-Province Calculator Generator");
 
-async function loadCalculators() {
-  const module = await import(url.pathToFileURL(calculatorsConfigPath).href);
-  return module.calculators;
-}
+  const provinces = await loadConfig(provincesConfigPath, "caProvinces");
+  const calculators = await loadConfig(calculatorsConfigPath, "calculators");
 
-async function main() {
-  console.log("Canada All-Calculators Generator\n");
+  validateConfig(provinces, "caProvinces");
+  validateConfig(calculators, "calculators");
 
-  const provinces = await loadProvinces();
-  const calculators = await loadCalculators();
+  await validateWithZod(provinces, "app/validation/CAProvincesSchema.ts", "CAProvinces");
+  await validateWithZod(calculators, "app/validation/CalculatorsSchema.ts", "Calculators");
 
-  if (!provinces || Object.keys(provinces).length === 0) {
-    throw new Error("No provinces found in config file.");
-  }
+  const pageTemplate = loadTemplate(templatePagePath);
+  const clientTemplate = loadTemplate(templateClientPath);
 
-  const pageTemplate = fs.readFileSync(templatePagePath, "utf8");
-  const clientTemplate = fs.readFileSync(templateClientPath, "utf8");
+  let count = 0;
 
   for (const calc of calculators) {
-    console.log(`\nGenerating: ${calc.name} (${calc.slug})`);
+    console.log(`  Generating: ${calc.name} (${calc.slug})`);
 
     for (const key of Object.keys(provinces)) {
       const province = provinces[key];
-
       const folder = path.join(outputBase, province.slug, calc.slug);
-      fs.mkdirSync(folder, { recursive: true });
+      ensureDirectory(folder);
 
       const pageContent = pageTemplate
         .replace(/PROVINCE_NAME/g, province.name)
@@ -57,14 +90,40 @@ async function main() {
         .replace(/CALCULATOR_NAME/g, calc.name)
         .replace(/CALCULATOR_DESCRIPTION/g, calc.description);
 
-      fs.writeFileSync(path.join(folder, "page.tsx"), pageContent);
-      fs.writeFileSync(path.join(folder, "CalculatorClient.tsx"), clientContent);
+      writePage(path.join(folder, "page.tsx"), pageContent);
+      writePage(path.join(folder, "CalculatorClient.tsx"), clientContent);
+      count += 2;
     }
 
-    console.log(`✔ Finished: ${calc.name}`);
+    console.log(`  ✔ Finished: ${calc.name}`);
   }
 
-  console.log("\n✔ All Canada calculators generated successfully!");
+  logSuccess("All Canada per-province calculators generated", count);
 }
 
-main().catch((err) => console.error(err));
+// ── Main ─────────────────────────────────────────────────────────────────────
+
+async function main() {
+  console.log("╔══════════════════════════════════════════════════════════════╗");
+  console.log("║     Canada Unified Generation Pipeline                       ║");
+  console.log("╚══════════════════════════════════════════════════════════════╝");
+
+  // 1. Per-province calculators
+  await generatePerProvinceCalculators();
+
+  // 2. Content page generators
+  run("generateCanadaEvictionPages.cjs");
+
+  // 3. National calculators and documents
+  run("generateProvinceCalculators.mjs");
+  run("generateProvinceDocuments.mjs");
+
+  // 4. Indexes
+  run("generate-ca-indexes.mjs");
+
+  console.log("\n╔══════════════════════════════════════════════════════════════╗");
+  console.log("║     Canada Pipeline Complete                                 ║");
+  console.log("╚══════════════════════════════════════════════════════════════╝");
+}
+
+main().catch(logError);

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
+import type { USState } from "@/app/types/USStates";
+import type { Theme } from "@/app/types/Theme";
 import JsonLd from "@/app/components/JsonLd";
 import { usStates } from "@/app/config/usStates";
+import { getTheme } from "@/app/theme";
 import { StateThemeProvider } from "@/app/components/StateThemeProvider";
 import StateHeader from "@/app/components/StateHeader";
 import USCalculatorClient from "./CalculatorClient";
 
-const state = usStates["az"];
+const state: USState = usStates["az"];
+const theme: Theme = getTheme("us", "az");
 
 export const metadata: Metadata = {
   title: "Arizona – Overtime Calculator Calculator",
@@ -13,7 +17,6 @@ export const metadata: Metadata = {
 };
 
 export default function USCalculatorPage() {
-
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -36,7 +39,7 @@ export default function USCalculatorPage() {
           description="Estimate overtime pay rules and eligibility for your jurisdiction."
         />
 
-        <USCalculatorClient />
+        <USCalculatorClient theme={theme} />
       </div>
     </StateThemeProvider>
   );

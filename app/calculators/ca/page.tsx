@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import JsonLd from "@/app/components/JsonLd";
-import { caProvinces } from "@/app/config/caProvinces";
 
 export const metadata: Metadata = {
   title: "Canada Legal Calculators",
@@ -44,9 +43,23 @@ const breadcrumbSchema = {
   ],
 };
 
-export default function CAIndexPage() {
-  const provinces = Object.values(caProvinces);
+const provinces = [
+    { name: "Alberta", slug: "ab", accent: "#003A6C", seal: "/seals/ca/ab.png" },
+  { name: "British Columbia", slug: "bc", accent: "#002D62", seal: "/seals/ca/bc.png" },
+  { name: "Manitoba", slug: "mb", accent: "#00549F", seal: "/seals/ca/mb.png" },
+  { name: "New Brunswick", slug: "nb", accent: "#00205B", seal: "/seals/ca/nb.png" },
+  { name: "Newfoundland and Labrador", slug: "nl", accent: "#0055A4", seal: "/seals/ca/nl.png" },
+  { name: "Nova Scotia", slug: "ns", accent: "#002D72", seal: "/seals/ca/ns.png" },
+  { name: "Northwest Territories", slug: "nt", accent: "#005596", seal: "/seals/ca/nt.png" },
+  { name: "Nunavut", slug: "nu", accent: "#FFD520", seal: "/seals/ca/nu.png" },
+  { name: "Ontario", slug: "on", accent: "#BF0A30", seal: "/seals/ca/on.png" },
+  { name: "Prince Edward Island", slug: "pe", accent: "#00693E", seal: "/seals/ca/pe.png" },
+  { name: "Quebec", slug: "qc", accent: "#003DA5", seal: "/seals/ca/qc.png" },
+  { name: "Saskatchewan", slug: "sk", accent: "#006A4E", seal: "/seals/ca/sk.png" },
+  { name: "Yukon", slug: "yt", accent: "#FFB81C", seal: "/seals/ca/yt.png" }
+];
 
+export default function CAIndexPage() {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
@@ -71,15 +84,13 @@ export default function CAIndexPage() {
               className="group block bg-white rounded-xl shadow-sm border border-gray-100 p-6 transition-all hover:shadow-md hover:border-gray-200"
             >
               <div className="flex items-center gap-4">
-                {province.seal && (
-                  <Image
-                    src={province.seal}
-                    alt={`${province.name} seal`}
-                    width={48}
-                    height={48}
-                    className="opacity-80"
-                  />
-                )}
+                <Image
+                  src={province.seal}
+                  alt={`${province.name} seal`}
+                  width={48}
+                  height={48}
+                  className="opacity-80"
+                />
                 <div>
                   <h2 className="text-lg font-serif text-navy group-hover:text-gray-700 transition-colors">
                     {province.name}

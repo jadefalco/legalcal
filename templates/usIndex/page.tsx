@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import JsonLd from "@/app/components/JsonLd";
-import { usStates } from "@/app/config/usStates";
 
 export const metadata: Metadata = {
   title: "United States Legal Calculators",
@@ -44,9 +43,11 @@ const breadcrumbSchema = {
   ],
 };
 
-export default function USIndexPage() {
-  const states = Object.values(usStates);
+const states = [
+  /* STATES_ARRAY */
+];
 
+export default function USIndexPage() {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
@@ -71,15 +72,13 @@ export default function USIndexPage() {
               className="group block bg-white rounded-xl shadow-sm border border-gray-100 p-6 transition-all hover:shadow-md hover:border-gray-200"
             >
               <div className="flex items-center gap-4">
-                {state.seal && (
-                  <Image
-                    src={state.seal}
-                    alt={`${state.name} state seal`}
-                    width={48}
-                    height={48}
-                    className="opacity-80"
-                  />
-                )}
+                <Image
+                  src={state.seal}
+                  alt={`${state.name} state seal`}
+                  width={48}
+                  height={48}
+                  className="opacity-80"
+                />
                 <div>
                   <h2 className="text-lg font-serif text-navy group-hover:text-gray-700 transition-colors">
                     {state.name}
