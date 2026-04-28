@@ -6,7 +6,7 @@ export const calculators = [
     description:
       "Calculate eviction timelines and key deadlines for your jurisdiction.",
   },
-  {
+ {
   name: "Notice Period",
   slug: "notice-period",
   description: "Calculate notice period requirements for residential and employment terminations.",
