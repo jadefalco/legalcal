@@ -38,13 +38,15 @@ export default function Page() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <Link href="/calculators/eviction-notice">
+          {/* Start a Calculator → Notice Period */}
+          <Link href="/notice-period">
             <LCButton variant="primary" theme={theme}>
               <CalculatorIcon className="w-5 h-5" />
               Start a Calculator
             </LCButton>
           </Link>
 
+          {/* Browse US States */}
           <Link href="/us">
             <LCButton variant="secondary" theme={theme}>
               <GlobeAmericasIcon className="w-5 h-5" />
@@ -64,32 +66,36 @@ export default function Page() {
         />
 
         <div className="grid gap-6 md:grid-cols-3 mt-6">
+
+          {/* Eviction Calculators */}
           <LCCard theme={theme} className="space-y-3">
             <DocumentTextIcon className="w-8 h-8 text-blue-600" />
             <h3 className="font-semibold text-slate-800">Eviction Calculators</h3>
             <p className="text-sm text-slate-600">
               Notice periods, filing timelines, answer deadlines, and lockout rules for all 50 states.
             </p>
-            <Link href="/calculators/eviction-notice">
+            <Link href="/eviction-timeline">
               <LCButton variant="ghost" className="w-full" theme={theme}>
                 Open Calculator
               </LCButton>
             </Link>
           </LCCard>
 
+          {/* Employment Termination */}
           <LCCard theme={theme} className="space-y-3">
             <CalculatorIcon className="w-8 h-8 text-blue-600" />
             <h3 className="font-semibold text-slate-800">Employment Termination</h3>
             <p className="text-sm text-slate-600">
               Provincial and state‑level notice requirements for employee termination.
             </p>
-            <Link href="/calculators/employment-termination">
+            <Link href="/termination">
               <LCButton variant="ghost" className="w-full" theme={theme}>
                 Coming Soon
               </LCButton>
             </Link>
           </LCCard>
 
+          {/* State & Province Pages */}
           <LCCard theme={theme} className="space-y-3">
             <GlobeAmericasIcon className="w-8 h-8 text-blue-600" />
             <h3 className="font-semibold text-slate-800">State & Province Pages</h3>
@@ -102,6 +108,7 @@ export default function Page() {
               </LCButton>
             </Link>
           </LCCard>
+
         </div>
       </section>
 
@@ -122,6 +129,7 @@ export default function Page() {
           </LCButton>
         </Link>
       </section>
+
     </main>
   );
 }
