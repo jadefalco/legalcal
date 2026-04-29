@@ -8,7 +8,9 @@
   --navy: #0A1A2F;
   --gold: #C9A86A;
 }
-
+span:not(.sr-only) {
+  color: inherit !important;
+}
 body {
   color: var(--foreground);
   background: var(--background);
