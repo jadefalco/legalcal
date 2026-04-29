@@ -9,21 +9,17 @@ interface Props {
 }
 
 export function LCLegalSummary({ jurisdiction, summary, citation }: Props) {
-  const theme = JURISDICTION_THEME[jurisdiction] ?? {
-    color: "slate",
-    icon: "📘",
-    label: "Your Region",
-  };
+  const theme = JURISDICTION_THEME[jurisdiction] ?? JURISDICTION_THEME.default;
 
   return (
     <div
       className={`
         border-l-4 p-4 rounded-md shadow-sm bg-white animate-fadeIn
-        border-${theme.color}-600
+        ${theme.borderClass}
       `}
     >
       <div className="flex items-start gap-3">
-        <div className={`text-${theme.color}-600 text-3xl`}>
+        <div className={`${theme.colorClass} text-3xl`}>
           {theme.icon}
         </div>
 
