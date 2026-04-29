@@ -134,9 +134,9 @@ export default function CalculatorsIndexPage() {
 
       {/* Jurisdiction Header */}
 <section className="text-center space-y-2 animate-fadeIn">
-  <div className={`text-4xl ${themeData.colorClass}`}>
-  <span className="not-sr-only">{themeData.icon}</span>
-</div>
+  <div className="text-4xl">
+    <span className={themeData.colorClass}>{themeData.icon}</span>
+  </div>
 
   <h2 className="text-xl font-semibold text-slate-800">
     {themeData.label}
