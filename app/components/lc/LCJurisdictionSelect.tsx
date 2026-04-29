@@ -20,7 +20,7 @@ const GROUPS = [
     items: [
       { code: "bc", name: "British Columbia", flag: "🏔️" },
       { code: "ab", name: "Alberta", flag: "⛽" },
-      { code: "sk", name: "Saskatchewan", flag: "🌾" },
+      { code: "sk", name: "Sask", flag: "🌾" },
       { code: "mb", name: "Manitoba", flag: "🌻" },
       { code: "on", name: "Ontario", flag: "🛶" },
       { code: "qc", name: "Quebec", flag: "⚜️" },
