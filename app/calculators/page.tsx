@@ -100,7 +100,8 @@ export default function CalculatorsIndexPage() {
     evictionDescriptions[jurisdiction] ?? evictionDescriptions.default;
 
   const themeData = JURISDICTION_THEME[jurisdiction] ?? {
-    color: "slate",
+    colorClass: "text-slate-600",
+    borderClass: "border-slate-600",
     icon: "🌐",
     label: "Your Region",
   };
@@ -132,17 +133,19 @@ export default function CalculatorsIndexPage() {
       </section>
 
       {/* Jurisdiction Header */}
-      <section className="text-center space-y-2 animate-fadeIn">
-        <div className={`text-${themeData.colorClass}-600 text-4xl`}>
-          {themeData.icon}
-        </div>
-        <h2 className="text-xl font-semibold text-slate-800">
-          {themeData.label}
-        </h2>
-        <p className="text-sm text-slate-500">
-          {availableCount} calculator{availableCount !== 1 ? "s" : ""} available in your region
-        </p>
-      </section>
+<section className="text-center space-y-2 animate-fadeIn">
+  <div className={`${themeData.colorClass} text-4xl`}>
+    {themeData.icon}
+  </div>
+
+  <h2 className="text-xl font-semibold text-slate-800">
+    {themeData.label}
+  </h2>
+
+  <p className="text-sm text-slate-500">
+    {availableCount} calculator{availableCount !== 1 ? "s" : ""} available in your region
+  </p>
+</section>
 
       {/* Legal Summary */}
 <section className="animate-fadeIn">
@@ -164,7 +167,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Notice Period */}
         <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <BriefcaseIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
+          <BriefcaseIcon className={`w-8 h-8 ${themeData.colorClass}`} />
           <h3 className="font-semibold text-slate-800">Notice Period</h3>
           <p className="text-sm text-slate-600">{getNoticeDescription()}</p>
 
@@ -177,7 +180,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Eviction Timeline */}
         <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <ClockIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
+          <ClockIcon className={`w-8 h-8 ${themeData.colorClass}`} />
           <h3 className="font-semibold text-slate-800">Eviction Timeline</h3>
           <p className="text-sm text-slate-600">{getEvictionDescription()}</p>
 
@@ -196,7 +199,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Employment Termination */}
         <LCCard theme={theme} className="space-y-3 opacity-60">
-          <CalculatorIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
+          <CalculatorIcon className={`w-8 h-8 ${themeData.colorClass}`} />
           <h3 className="font-semibold text-slate-800">Employment Termination</h3>
           <p className="text-sm text-slate-600">
             Full termination workflows including severance, ESA rules, and exceptions.
@@ -208,7 +211,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Rent Increase */}
         <LCCard theme={theme} className="space-y-3 opacity-60">
-          <DocumentTextIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
+          <DocumentTextIcon className={`w-8 h-8 ${themeData.colorClass}`} />
           <h3 className="font-semibold text-slate-800">Rent Increase Rules</h3>
           <p className="text-sm text-slate-600">
             Provincial and state‑level rent increase limits and notice requirements.
