@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { LCLegalSummary } from "@/app/components/lc/LCLegalSummary";
-
 import { defaultTheme } from "@/app/theme";
 import type { Theme } from "@/app/types/Theme";
 import type { Jurisdiction } from "@/app/notice-period/types";
@@ -134,7 +133,7 @@ export default function CalculatorsIndexPage() {
 
       {/* Jurisdiction Header */}
       <section className="text-center space-y-2 animate-fadeIn">
-        <div className={`text-${themeData.color}-600 text-4xl`}>
+        <div className={`text-${themeData.colorClass}-600 text-4xl`}>
           {themeData.icon}
         </div>
         <h2 className="text-xl font-semibold text-slate-800">
@@ -165,7 +164,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Notice Period */}
         <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <BriefcaseIcon className={`w-8 h-8 text-${themeData.color}-600`} />
+          <BriefcaseIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
           <h3 className="font-semibold text-slate-800">Notice Period</h3>
           <p className="text-sm text-slate-600">{getNoticeDescription()}</p>
 
@@ -178,7 +177,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Eviction Timeline */}
         <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <ClockIcon className={`w-8 h-8 text-${themeData.color}-600`} />
+          <ClockIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
           <h3 className="font-semibold text-slate-800">Eviction Timeline</h3>
           <p className="text-sm text-slate-600">{getEvictionDescription()}</p>
 
@@ -197,7 +196,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Employment Termination */}
         <LCCard theme={theme} className="space-y-3 opacity-60">
-          <CalculatorIcon className={`w-8 h-8 text-${themeData.color}-600`} />
+          <CalculatorIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
           <h3 className="font-semibold text-slate-800">Employment Termination</h3>
           <p className="text-sm text-slate-600">
             Full termination workflows including severance, ESA rules, and exceptions.
@@ -209,7 +208,7 @@ export default function CalculatorsIndexPage() {
 
         {/* Rent Increase */}
         <LCCard theme={theme} className="space-y-3 opacity-60">
-          <DocumentTextIcon className={`w-8 h-8 text-${themeData.color}-600`} />
+          <DocumentTextIcon className={`w-8 h-8 text-${themeData.colorClass}-600`} />
           <h3 className="font-semibold text-slate-800">Rent Increase Rules</h3>
           <p className="text-sm text-slate-600">
             Provincial and state‑level rent increase limits and notice requirements.
