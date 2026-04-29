@@ -38,8 +38,8 @@ export default function Page() {
         </p>
 
         <div className="flex justify-center gap-4">
-          {/* Start a Calculator → Notice Period */}
-          <Link href="/notice-period">
+          {/* Start a Calculator → calculators index */}
+          <Link href="/calculators">
             <LCButton variant="primary" theme={theme}>
               <CalculatorIcon className="w-5 h-5" />
               Start a Calculator
