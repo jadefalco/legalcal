@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tx"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 3,
+        "special": [
+          "3-day notice to vacate for lease violations",
+          "30 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 2,
+      "hearingSchedulingDelay": 7,
+      "sheriffLockoutDelay": 3
+    },
+    "citations": [
+      {
+        "statute": "Tex. Prop. Code § 24.005",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Texas has one of the fastest eviction timelines in the country.",
+        "Justice of the Peace courts handle most evictions."
+      ]
+    }
+  }
+}

@@ -1,5 +1,3 @@
-"use client";
-
 import type { LCStickySidebarProps } from "./types";
 
 export const LCStickySidebar = ({

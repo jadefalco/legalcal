@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 0,
+      "weekendExtension": true,
+      "holidayExtension": true,
+      "lateFeeStartAfterGrace": true
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1947",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "If due date falls on a weekend or holiday, next business day applies.",
+        "Late fees may only be charged after the adjusted due date."
+      ]
+    }
+  }
+}

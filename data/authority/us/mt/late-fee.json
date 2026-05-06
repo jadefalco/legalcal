@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mt"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Mont. Code § 70-24-301",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Montana does not limit late fees. They must be reasonable and in the lease."
+      ]
+    }
+  }
+}

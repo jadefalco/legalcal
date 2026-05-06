@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "hi"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 5,
+        "special": [
+          "10 days for lease violations",
+          "45 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Haw. Rev. Stat. § 521-68",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Hawaii requires landlords to provide notice before filing for eviction."
+      ]
+    }
+  }
+}

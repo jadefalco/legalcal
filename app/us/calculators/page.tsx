@@ -101,7 +101,7 @@ export default function Page() {
           {stateSpecificTypes.map((calc) => (
             <Link
               key={calc.slug}
-              href={`/calculators/us/${calc.slug}`}
+              href={`/us/calculators/${calc.slug}`}
             >
               <LCCard theme={theme} className="h-full hover:border-blue-300 transition-colors space-y-2">
                 <div className="flex items-center gap-2">

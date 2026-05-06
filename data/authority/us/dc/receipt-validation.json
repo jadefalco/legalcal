@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "dc"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [
+        "amount paid",
+        "date of payment",
+        "tenant name",
+        "property address",
+        "payment period",
+        "landlord name"
+      ],
+      "digitalAllowed": true,
+      "signatureRequired": false,
+      "itemizationRequired": false
+    },
+    "citations": [
+      {
+        "statute": "D.C. Code § 42-3505.31",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Digital receipts allowed with tenant consent.",
+        "Receipt must be provided for all rent payments."
+      ]
+    }
+  }
+}

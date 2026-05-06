@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order stub",
+        "cash receipt",
+        "Zelle/Venmo screenshot"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": false,
+      "acknowledgementTimeframe": "Not required",
+      "burdenOfProofRule": "Tenant must prove payment"
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1314",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Electronic transfer records are generally accepted as proof."
+      ]
+    }
+  }
+}

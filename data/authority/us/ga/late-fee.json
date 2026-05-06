@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ga"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Ga. Code § 44-7-16",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Georgia does not limit late fees, but they must be reasonable and in the lease."
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Landlord must mitigate damages"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "765 ILCS 705/1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Chicago Residential Landlord and Tenant Ordinance provides additional protections."
+      ]
+    }
+  }
+}

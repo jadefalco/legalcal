@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "notice posting fees",
+        "administrative fees"
+      ],
+      "lateFeeRules": "Late fees must be reasonable and tied to actual costs",
+      "partialPaymentRules": "Landlord may accept or refuse unless lease states otherwise"
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Many fees are unlawful unless tied to actual cost.",
+        "Late fees in subsidized housing may have additional restrictions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nh"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees"
+      ],
+      "lateFeeRules": "Late fees allowed if specified in lease",
+      "partialPaymentRules": "Landlord may accept or refuse partial payments"
+    },
+    "citations": [
+      {
+        "statute": "N.H. Rev. Stat. Ann. § 540-A:1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory limit on late fees."
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tn"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant liable for damages and unpaid rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Tenn. Code § 66-28-512",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Nashville and Memphis have additional local protections."
+      ]
+    }
+  }
+}

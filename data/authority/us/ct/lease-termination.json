@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "3 days for nonpayment of rent",
+          "15 days for lease violation"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "nonpayment",
+        "lease violation",
+        "domestic violence"
+      ],
+      "penalties": [
+        "Double damages for improper security deposit withholding"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Conn. Gen. Stat. § 47a-23",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Victims of family violence may terminate early with court documentation."
+      ]
+    }
+  }
+}

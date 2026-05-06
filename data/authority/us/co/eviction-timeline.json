@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 3,
+        "special": [
+          "10 days for lease violations",
+          "21 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 10,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 13-40-104",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Colorado requires landlords to provide a demand for compliance or possession."
+      ]
+    }
+  }
+}

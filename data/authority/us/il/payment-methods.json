@@ -1,0 +1,42 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "payment-methods",
+  "rule": {
+    "data": {
+      "mustAcceptCash": true,
+      "mustAcceptCheck": true,
+      "mustAcceptMoneyOrder": true,
+      "canRequireOnlineOnly": false,
+      "canChargeProcessingFee": false,
+      "prohibitedMethods": [
+        "online-only requirements"
+      ],
+      "requiredAlternatives": [
+        "cash",
+        "check",
+        "money order"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "765 Ill. Comp. Stat. 705/5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords must accept at least one non-electronic form of payment."
+      ]
+    }
+  }
+}

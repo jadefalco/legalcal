@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "hi"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [
+        "amount paid",
+        "date of payment",
+        "tenant name",
+        "property address",
+        "payment period"
+      ],
+      "digitalAllowed": true,
+      "signatureRequired": false,
+      "itemizationRequired": false
+    },
+    "citations": [
+      {
+        "statute": "Haw. Rev. Stat. § 521-21",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide receipt for all rent payments upon request."
+      ]
+    }
+  }
+}

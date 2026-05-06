@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [
+        "amount paid",
+        "date of payment",
+        "tenant name",
+        "property address",
+        "payment period",
+        "payment method"
+      ],
+      "digitalAllowed": true,
+      "signatureRequired": false,
+      "itemizationRequired": false
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1499",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Digital receipts allowed if tenant consents.",
+        "Landlord must provide a receipt upon request when rent is paid in cash."
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "al"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "nonpayment",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may be liable for rent until unit is re-rented"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ala. Code § 35-9A-441",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory right to break lease early except under SCRA for military deployment."
+      ]
+    }
+  }
+}

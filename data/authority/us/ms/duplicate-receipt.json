@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ms"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": false,
+      "landlordMustProvide": false,
+      "timeframe": "Not required",
+      "allowedFee": null,
+      "requiredFields": []
+    },
+    "citations": [
+      {
+        "statute": "Miss. Code § 89-8-13",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Mississippi has no statutory requirement for duplicate receipts."
+      ]
+    }
+  }
+}

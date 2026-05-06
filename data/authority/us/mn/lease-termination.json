@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mn"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "7 days for week-to-week",
+          "30 days for month-to-month written notice required"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may recover up to $500 for improper notice"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Minn. Stat. § 504B.135",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Victims of domestic violence may terminate early with order for protection."
+      ]
+    }
+  }
+}

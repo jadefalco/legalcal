@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 21,
+        "special": [
+          "91 days for leases longer than 1 year",
+          "7 days for week-to-week"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "substantial violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Landlord must make reasonable efforts to re-rent the unit"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 13-40-107",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Colorado requires landlords to mitigate damages by attempting to re-rent."
+      ]
+    }
+  }
+}

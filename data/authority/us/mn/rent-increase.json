@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mn"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": 30,
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Minn. Stat. § 504B.135",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Minnesota requires 30 days notice for month-to-month tenancies.",
+        "Some cities have tenant screening and notice ordinances."
+      ]
+    }
+  }
+}

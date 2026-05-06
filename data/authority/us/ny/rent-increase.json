@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": 30,
+      "maxIncreasePercent": null,
+      "rentControl": true,
+      "frequencyLimit": "Once every 12 months"
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Law § 226-c",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "NYC and several other municipalities have rent stabilization programs.",
+        "Good cause eviction laws apply in some areas."
+      ]
+    }
+  }
+}

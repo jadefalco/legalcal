@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 7,
+      "severityThreshold": "Material noncompliance affecting health or safety",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 38-12-507",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant must deposit rent into an escrow account with the court."
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tn"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": true,
+      "returnDeadlineDays": 30,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Tenn. Code Ann. § 66-28-301",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No cap on security deposit amount.",
+        "Landlord must provide itemized statement within 30 days."
+      ]
+    }
+  }
+}

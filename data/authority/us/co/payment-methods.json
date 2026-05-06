@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "payment-methods",
+  "rule": {
+    "data": {
+      "mustAcceptCash": false,
+      "mustAcceptCheck": false,
+      "mustAcceptMoneyOrder": false,
+      "canRequireOnlineOnly": true,
+      "canChargeProcessingFee": true,
+      "prohibitedMethods": [],
+      "requiredAlternatives": []
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 38-12-102",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Payment methods are typically determined by the lease agreement."
+      ]
+    }
+  }
+}

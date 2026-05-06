@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mn"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": 8,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Minn. Stat. § 504B.177",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Minnesota limits late fees to 8% of the overdue rent payment."
+      ]
+    }
+  }
+}

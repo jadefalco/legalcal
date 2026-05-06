@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "de"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": 5,
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Del. Code tit. 25, § 5713",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "5-day notice required for nonpayment of rent."
+      ]
+    }
+  }
+}

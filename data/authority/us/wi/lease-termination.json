@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wi"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 28,
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant liable for unpaid rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Wis. Stat. § 704.19",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Milwaukee has additional tenant protections.",
+        "Landlord must mitigate damages."
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wv"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": true,
+      "returnDeadlineDays": 60,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "W. Va. Code § 37-6A-1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No cap on security deposit amount.",
+        "Landlord must return deposit within 60 days."
+      ]
+    }
+  }
+}

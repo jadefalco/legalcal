@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "md"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": 5,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Md. Code, Real Prop. § 8-208",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Maryland limits late fees to 5% of the monthly rent due."
+      ]
+    }
+  }
+}

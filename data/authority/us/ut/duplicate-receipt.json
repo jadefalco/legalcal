@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ut"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": false,
+      "landlordMustProvide": false,
+      "timeframe": "Not required",
+      "allowedFee": null,
+      "requiredFields": []
+    },
+    "citations": [
+      {
+        "statute": "Utah Code § 57-22-4",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Utah has no statutory requirement for duplicate receipts."
+      ]
+    }
+  }
+}

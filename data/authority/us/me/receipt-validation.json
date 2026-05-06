@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "me"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [
+        "amount paid",
+        "date of payment",
+        "tenant name",
+        "property address"
+      ],
+      "digitalAllowed": true,
+      "signatureRequired": false,
+      "itemizationRequired": false
+    },
+    "citations": [
+      {
+        "statute": "14 Me. Rev. Stat. Ann. § 6028",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Receipt must be provided for all rent payments upon request."
+      ]
+    }
+  }
+}

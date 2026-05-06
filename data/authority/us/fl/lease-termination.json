@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "fl"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 15,
+        "special": [
+          "30 days if tenant has occupied for more than 1 year",
+          "7 days for week-to-week"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may owe accelerated rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Fla. Stat. § 83.57",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Florida law does not require landlords to mitigate damages."
+      ]
+    }
+  }
+}

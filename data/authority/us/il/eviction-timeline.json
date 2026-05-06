@@ -1,0 +1,48 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 5,
+        "special": [
+          "10 days for lease violations",
+          "30 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "735 ILCS 5/9-104",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "765 ILCS 705/0.01",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Chicago Residential Landlord and Tenant Ordinance provides additional protections.",
+        "Cook County has extended notice requirements."
+      ]
+    }
+  }
+}

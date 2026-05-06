@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "hi"
+  },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 48,
+      "allowedReasons": [
+        "Repairs",
+        "Inspections",
+        "Showings",
+        "Emergencies"
+      ],
+      "emergencyAllowed": true,
+      "weekendRules": [
+        "48-hour notice applies even on weekends"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Haw. Rev. Stat. § 521-53",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide reasonable notice; 48 hours is standard."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": 20,
+      "dailyLateFee": null,
+      "gracePeriodDays": 5,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "765 ILCS 730/1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Illinois limits late fees on month-to-month leases to $20 or 20% of rent, whichever is less.",
+        "Chicago has additional protections."
+      ]
+    }
+  }
+}

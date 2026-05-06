@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ar"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may owe rent for remainder of lease term"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ark. Code § 18-17-704",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory right to early termination for domestic violence."
+      ]
+    }
+  }
+}

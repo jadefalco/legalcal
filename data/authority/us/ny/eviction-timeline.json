@@ -1,0 +1,48 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 14,
+        "special": [
+          "10-day notice to cure for lease violations",
+          "30/60/90 day notices for no-fault depending on tenancy length"
+        ]
+      },
+      "courtFilingDelay": 7,
+      "hearingSchedulingDelay": 21,
+      "sheriffLockoutDelay": 14
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Acts § 711",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "N.Y. Real Prop. Law § 226-c",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "New York has extensive tenant protections; timelines vary significantly by locality.",
+        "NYC Housing Court can be heavily backlogged."
+      ]
+    }
+  }
+}

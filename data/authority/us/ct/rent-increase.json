@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": {
+        "standard": 30,
+        "special": [
+          "90 days for elderly or disabled tenants"
+        ]
+      },
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Conn. Gen. Stat. § 47a-15c",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Connecticut does not have statewide rent control, but some municipalities have ordinances."
+      ]
+    }
+  }
+}

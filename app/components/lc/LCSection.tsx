@@ -1,4 +1,4 @@
-"use client";
+
 
 import type { LCSectionProps } from "./types";
 

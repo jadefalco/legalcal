@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Rule Data Snapshots matches snapshot for ca/security-deposit: rule-ca-security-deposit 1`] = `
+{
+  "itemizedStatementRequired": true,
+  "maxMonthsRent": 1,
+  "nonrefundableFeesAllowed": false,
+  "penaltyMultiple": null,
+  "returnDeadlineDays": 21,
+  "separatePetDepositAllowed": true,
+}
+`;
+
+exports[`Rule Data Snapshots matches snapshot for ny/security-deposit: rule-ny-security-deposit 1`] = `
+{
+  "itemizedStatementRequired": true,
+  "maxMonthsRent": 1,
+  "nonrefundableFeesAllowed": false,
+  "penaltyMultiple": null,
+  "returnDeadlineDays": 14,
+  "separatePetDepositAllowed": false,
+}
+`;
+
+exports[`Rule Data Snapshots matches snapshot for tx/security-deposit: rule-tx-security-deposit 1`] = `
+{
+  "itemizedStatementRequired": true,
+  "maxMonthsRent": null,
+  "nonrefundableFeesAllowed": true,
+  "penaltyMultiple": 3,
+  "returnDeadlineDays": 30,
+  "separatePetDepositAllowed": true,
+}
+`;

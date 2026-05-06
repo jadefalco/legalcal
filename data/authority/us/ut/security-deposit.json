@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ut"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": true,
+      "returnDeadlineDays": 30,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Utah Code Ann. § 57-17-3",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No cap on security deposit amount.",
+        "Landlord must account for deposit within 30 days."
+      ]
+    }
+  }
+}

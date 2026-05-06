@@ -1,0 +1,12 @@
+import { Metadata } from "next"
+import {{COMPONENT_NAME}} from "@/components/calculators/{{COUNTRY}}/{{COMPONENT_NAME}}"
+import stateData from "@/data/{{COUNTRY}}/{{STATE_CODE}}"
+
+export const metadata: Metadata = {
+  title: "{{STATE_NAME}} Notice Period Calculator",
+  description: "Calculate residential lease notice periods for {{STATE_NAME}} using official statutes and rules.",
+}
+
+export default function Page() {
+  return <{{COMPONENT_NAME}} data={stateData} />
+}

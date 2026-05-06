@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 30,
+        "special": [
+          "45 days if tenant disputes deductions"
+        ]
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover twice the amount wrongfully withheld plus attorney fees"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "765 ILCS 710/1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Chicago Residential Landlord and Tenant Ordinance provides additional protections."
+      ]
+    }
+  }
+}

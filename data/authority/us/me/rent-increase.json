@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "me"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": 45,
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "14 Me. Rev. Stat. § 6015",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Maine requires 45 days written notice for rent increases."
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nm"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": 10,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "N.M. Stat. § 47-8-15",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "New Mexico limits late fees to 10% of the monthly rent."
+      ]
+    }
+  }
+}

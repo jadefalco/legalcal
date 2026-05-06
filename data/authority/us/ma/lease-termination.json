@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "14 days for mobile homes",
+          "30 days or rental period whichever is longer in Boston"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may recover up to 3 months rent for improper eviction"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 12",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Boston has additional tenant protections.",
+        "No-fault evictions require specific justifications in some cities."
+      ]
+    }
+  }
+}

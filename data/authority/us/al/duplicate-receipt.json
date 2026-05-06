@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "al"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": false,
+      "landlordMustProvide": false,
+      "timeframe": "Not required",
+      "allowedFee": null,
+      "requiredFields": []
+    },
+    "citations": [
+      {
+        "statute": "Ala. Code § 35-9A-161",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Alabama has no statutory requirement for landlords to provide duplicate receipts."
+      ]
+    }
+  }
+}

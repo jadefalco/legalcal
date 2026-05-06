@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mi"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 7,
+        "special": [
+          "30 days for month-to-month",
+          "24-hour for illegal drug activity"
+        ]
+      },
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 10,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Mich. Comp. Laws § 600.5714",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Michigan requires a 7-day notice for nonpayment of rent."
+      ]
+    }
+  }
+}

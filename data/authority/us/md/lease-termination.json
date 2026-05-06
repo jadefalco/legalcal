@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "md"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "60 days in Montgomery County for no-fault"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Civil penalties for improper notice"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Md. Code, Real Prop. § 8-402",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Some counties have additional notice requirements.",
+        "Victims of domestic violence may terminate early."
+      ]
+    }
+  }
+}

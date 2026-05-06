@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 21,
+        "special": []
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Up to 2x the deposit amount for bad-faith withholding"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond ordinary wear and tear",
+        "Cleaning to restore to same level of cleanliness"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1950.5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide itemized statement with receipts.",
+        "Local rent control may impose additional rules."
+      ]
+    }
+  }
+}

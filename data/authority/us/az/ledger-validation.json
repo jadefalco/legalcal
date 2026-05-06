@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees"
+      ],
+      "lateFeeRules": "Late fees allowed after 5-day grace period",
+      "partialPaymentRules": "Landlord may refuse partial payments"
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1314",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must be specified in the rental agreement."
+      ]
+    }
+  }
+}

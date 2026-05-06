@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 30,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Conn. Gen. Stat. § 47a-21",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No cap on security deposit, but interest must be paid annually.",
+        "Nonrefundable fees must be clearly stated in the lease."
+      ]
+    }
+  }
+}

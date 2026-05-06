@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "md"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "online payment fees"
+      ],
+      "lateFeeRules": "Late fees must be reasonable",
+      "partialPaymentRules": "Landlord may accept or refuse unless lease states otherwise"
+    },
+    "citations": [
+      {
+        "statute": "Md. Code Ann., Real Prop. § 8-401",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must reflect actual damages.",
+        "Some fees are prohibited in residential leases."
+      ]
+    }
+  }
+}

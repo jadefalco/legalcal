@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "pa"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 10,
+        "special": [
+          "15 days for lease violations",
+          "30 days for month-to-month",
+          "Philadelphia requires 30 days for nonpayment"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "68 Pa. Cons. Stat. § 250.501",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Pennsylvania requires a 10-day notice for nonpayment in most cases.",
+        "Philadelphia has additional protections."
+      ]
+    }
+  }
+}

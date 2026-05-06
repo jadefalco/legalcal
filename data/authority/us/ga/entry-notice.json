@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ga"
+  },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 24,
+      "allowedReasons": [
+        "Repairs",
+        "Inspections",
+        "Showings",
+        "Emergencies"
+      ],
+      "emergencyAllowed": true,
+      "weekendRules": []
+    },
+    "citations": [
+      {
+        "statute": "Ga. Code § 44-7-34",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Georgia does not specify exact notice hours; 24 hours is common practice."
+      ]
+    }
+  }
+}

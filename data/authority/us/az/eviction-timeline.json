@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 5,
+        "special": [
+          "10 days for lease violations",
+          "30 days for month-to-month termination"
+        ]
+      },
+      "courtFilingDelay": 2,
+      "hearingSchedulingDelay": 7,
+      "sheriffLockoutDelay": 5
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1368",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Arizona has one of the fastest eviction timelines in the country."
+      ]
+    }
+  }
+}

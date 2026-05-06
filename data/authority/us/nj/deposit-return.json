@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": 30,
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover twice the amount wrongfully withheld plus attorney fees and costs"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. § 46:8-21.1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must deposit funds in an insured bank account and notify tenant of location."
+      ]
+    }
+  }
+}

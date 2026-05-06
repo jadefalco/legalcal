@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mt"
+  },
+  "topic": "payment-methods",
+  "rule": {
+    "data": {
+      "mustAcceptCash": false,
+      "mustAcceptCheck": false,
+      "mustAcceptMoneyOrder": false,
+      "canRequireOnlineOnly": true,
+      "canChargeProcessingFee": true,
+      "prohibitedMethods": [],
+      "requiredAlternatives": []
+    },
+    "citations": [
+      {
+        "statute": "Mont. Code Ann. § 70-24-201",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory restriction on landlord payment method requirements."
+      ]
+    }
+  }
+}

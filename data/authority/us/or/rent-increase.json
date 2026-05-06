@@ -1,0 +1,47 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "or"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": {
+        "standard": 90,
+        "special": [
+          "30 days for week-to-week tenancies"
+        ]
+      },
+      "maxIncreasePercent": 10,
+      "rentControl": true,
+      "frequencyLimit": "Once every 12 months"
+    },
+    "citations": [
+      {
+        "statute": "Or. Rev. Stat. § 90.323",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "Or. Rev. Stat. § 90.324",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Oregon has statewide rent control limiting increases to 7% plus CPI.",
+        "Portland has additional local protections."
+      ]
+    }
+  }
+}

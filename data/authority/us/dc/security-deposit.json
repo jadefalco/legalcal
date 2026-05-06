@@ -1,0 +1,37 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "dc"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1,
+      "separatePetDepositAllowed": false,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 45,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "D.C. Code § 42-3502.17",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Security deposit strictly capped at one month's rent.",
+        "Pet deposits are considered part of the security deposit cap.",
+        "Landlord must pay interest on deposits."
+      ]
+    }
+  }
+}

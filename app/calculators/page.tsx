@@ -1,236 +1,154 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
-import { LCLegalSummary } from "@/app/components/lc/LCLegalSummary";
-import { defaultTheme } from "@/app/theme";
+
 import type { Theme } from "@/app/types/Theme";
-import type { Jurisdiction } from "@/app/notice-period/types";
+import { defaultTheme } from "@/app/theme";
 
-// LC Components
 import { LCCard } from "@/app/components/lc/LCCard";
+import { LCSection } from "@/app/components/lc/LCSection";
 import { LCButton } from "@/app/components/lc/LCButton";
-import { LCJurisdictionSelect } from "@/app/components/lc/LCJurisdictionSelect";
 
-// Icons
 import {
   CalculatorIcon,
-  ClockIcon,
-  BriefcaseIcon,
   DocumentTextIcon,
+  GlobeAmericasIcon,
+  ScaleIcon,
+  MapIcon,
+  ArrowRightCircleIcon,
 } from "@heroicons/react/24/outline";
 
-// Jurisdiction theme util
-import { JURISDICTION_THEME } from "@/app/utils/jurisdictionTheme";
-
-
-const legalSummaries: Record<
-  string,
-  { summary: string; citation: string }
-> = {
-  bc: {
-    summary:
-      "In British Columbia, employers must provide written working notice or pay in lieu based on years of service. Additional common‑law notice may apply.",
-    citation: "Employment Standards Act (BC), s.63",
-  },
-  ab: {
-    summary:
-      "Alberta requires employers to provide minimum statutory notice depending on length of employment. Common‑law notice may exceed statutory minimums.",
-    citation: "Employment Standards Code (AB), s.56",
-  },
-  on: {
-    summary:
-      "Ontario mandates minimum notice periods based on years of service. Severance pay may also apply for larger employers.",
-    citation: "Employment Standards Act (ON), s.57",
-  },
-  qc: {
-    summary:
-      "Quebec requires employers to provide reasonable notice of termination based on length of service.",
-    citation: "Act Respecting Labour Standards (QC), s.82",
-  },
-  federal: {
-    summary:
-      "Federally regulated employees are entitled to minimum notice or pay in lieu, with additional protections for long‑service employees.",
-    citation: "Canada Labour Code, s.230(1)",
-  },
-  us: {
-    summary:
-      "Most US employment is at‑will, meaning employers may terminate employment without statutory notice unless a contract or state law provides otherwise.",
-    citation: "At‑Will Employment Doctrine (varies by state)",
-  },
-  default: {
-    summary:
-      "Minimum statutory notice requirements vary by jurisdiction. Additional common‑law notice may apply.",
-    citation: "Jurisdiction‑specific employment standards",
-  },
-};
 export default function CalculatorsIndexPage() {
   const theme: Theme = defaultTheme;
 
-  const [jurisdiction, setJurisdiction] = useState<Jurisdiction>("bc");
-
-  // Jurisdiction-aware descriptions
-  const noticeDescriptions: Record<string, string> = {
-    bc: "Uses BC Employment Standards Act s.63 to calculate minimum notice.",
-    ab: "Uses Alberta ESC s.56 to determine statutory notice requirements.",
-    on: "Uses Ontario ESA s.57 to calculate minimum notice periods.",
-    qc: "Uses Quebec ALS s.82 to determine required notice.",
-    federal: "Uses Canada Labour Code s.230(1) for federally regulated employees.",
-    us: "Uses the at‑will employment doctrine (no statutory notice required).",
-    default: "Minimum statutory notice for employee termination.",
-  };
-
-  const evictionDescriptions: Record<string, string> = {
-    us: "State‑specific eviction timelines including notice, filing, answer, and lockout rules.",
-    default: "Eviction timelines are only available for US jurisdictions.",
-  };
-
-  // Calculator availability
-  const calculatorsForJurisdiction = {
-    notice: true,
-    eviction: jurisdiction === "us",
-    termination: false,
-    rent: false,
-  };
-
-  const getNoticeDescription = () =>
-    noticeDescriptions[jurisdiction] ?? noticeDescriptions.default;
-
-  const getEvictionDescription = () =>
-    evictionDescriptions[jurisdiction] ?? evictionDescriptions.default;
-
-  const themeData = JURISDICTION_THEME[jurisdiction] ?? {
-    colorClass: "text-slate-600",
-    borderClass: "border-slate-600",
-    icon: "🌐",
-    label: "Your Region",
-  };
-
-  // Availability summary
-  const availableCount =
-    (calculatorsForJurisdiction.notice ? 1 : 0) +
-    (calculatorsForJurisdiction.eviction ? 1 : 0);
-
   return (
-    <main className="min-h-screen px-4 py-12 max-w-4xl mx-auto space-y-12">
+    <main className="min-h-screen px-4 py-12 max-w-6xl mx-auto space-y-20">
 
       {/* HEADER */}
-      <section className="text-center space-y-4 animate-fadeIn">
-        <h1 className="text-4xl font-bold text-slate-900">
-          Choose a Calculator
-        </h1>
-        <p className="text-slate-600 max-w-xl mx-auto">
-          Select your jurisdiction to see calculators available in your region.
-        </p>
-      </section>
+      <LCSection
+        title="All Legal Calculators"
+        description="Browse every calculator available on LegalCals — organized by category and jurisdiction."
+        icon={CalculatorIcon}
+        theme={theme}
+      />
 
-      {/* JURISDICTION SELECTOR */}
-      <section className="max-w-md mx-auto animate-slideUp">
-        <LCJurisdictionSelect
-          value={jurisdiction}
-          onChange={setJurisdiction}
-        />
-      </section>
+      {/* CATEGORY GRID */}
+      <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-      {/* Jurisdiction Header */}
-<section className="text-center space-y-2 animate-fadeIn">
-  <div className="text-4xl">
-    <span className={themeData.colorClass}>{themeData.icon}</span>
-  </div>
+        {/* Notice Period Calculators */}
+        <LCCard theme={theme} className="p-6 space-y-4">
+          <DocumentTextIcon className="w-8 h-8 text-blue-600" />
+          <h3 className="font-semibold text-slate-800 text-lg">
+            Notice Period Calculators
+          </h3>
+          <p className="text-sm text-slate-600">
+            Calculate residential lease notice periods for all 50 states.
+          </p>
+          <Link href="/us">
+            <LCButton variant="ghost" className="w-full" theme={theme}>
+              Browse States
+            </LCButton>
+          </Link>
+        </LCCard>
 
-  <h2 className="text-xl font-semibold text-slate-800">
-    {themeData.label}
-  </h2>
-
-  <p className="text-sm text-slate-500">
-    {availableCount} calculator{availableCount !== 1 ? "s" : ""} available in your region
-  </p>
-</section>
-
-      {/* Legal Summary */}
-<section className="animate-fadeIn">
-  <LCLegalSummary
-    jurisdiction={jurisdiction}
-    summary={
-      legalSummaries[jurisdiction]?.summary ??
-      legalSummaries.default.summary
-    }
-    citation={
-      legalSummaries[jurisdiction]?.citation ??
-      legalSummaries.default.citation
-    }
-  />
-</section>
-
-      {/* CALCULATOR GRID */}
-      <section className="grid gap-6 md:grid-cols-2 animate-fadeIn">
-
-        {/* Notice Period */}
-        <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <BriefcaseIcon className={`w-8 h-8 ${themeData.colorClass}`} />
-          <h3 className="font-semibold text-slate-800">Notice Period</h3>
-          <p className="text-sm text-slate-600">{getNoticeDescription()}</p>
-
-          <Link href="/notice-period">
+        {/* Eviction Timeline Calculators */}
+        <LCCard theme={theme} className="p-6 space-y-4">
+          <ScaleIcon className="w-8 h-8 text-blue-600" />
+          <h3 className="font-semibold text-slate-800 text-lg">
+            Eviction Timeline Calculators
+          </h3>
+          <p className="text-sm text-slate-600">
+            Filing deadlines, answer periods, and lockout rules by state.
+          </p>
+          <Link href="/eviction-timeline">
             <LCButton variant="ghost" className="w-full" theme={theme}>
               Open Calculator
             </LCButton>
           </Link>
         </LCCard>
 
-        {/* Eviction Timeline */}
-        <LCCard theme={theme} className="space-y-3 transition-all hover:scale-[1.02]">
-          <ClockIcon className={`w-8 h-8 ${themeData.colorClass}`} />
-          <h3 className="font-semibold text-slate-800">Eviction Timeline</h3>
-          <p className="text-sm text-slate-600">{getEvictionDescription()}</p>
-
-          {calculatorsForJurisdiction.eviction ? (
-            <Link href="/eviction-timeline">
-              <LCButton variant="ghost" className="w-full" theme={theme}>
-                Open Calculator
-              </LCButton>
-            </Link>
-          ) : (
-            <LCButton variant="ghost" className="w-full" theme={theme} disabled>
-              Not Available in Your Region
-            </LCButton>
-          )}
-        </LCCard>
-
         {/* Employment Termination */}
-        <LCCard theme={theme} className="space-y-3 opacity-60">
-          <CalculatorIcon className={`w-8 h-8 ${themeData.colorClass}`} />
-          <h3 className="font-semibold text-slate-800">Employment Termination</h3>
+        <LCCard theme={theme} className="p-6 space-y-4">
+          <CalculatorIcon className="w-8 h-8 text-blue-600" />
+          <h3 className="font-semibold text-slate-800 text-lg">
+            Employment Termination
+          </h3>
           <p className="text-sm text-slate-600">
-            Full termination workflows including severance, ESA rules, and exceptions.
+            Provincial and state‑level notice requirements for employee termination.
           </p>
-          <LCButton variant="ghost" className="w-full" theme={theme} disabled>
+          <LCButton variant="ghost" className="w-full" theme={theme}>
             Coming Soon
           </LCButton>
         </LCCard>
 
-        {/* Rent Increase */}
-        <LCCard theme={theme} className="space-y-3 opacity-60">
-          <DocumentTextIcon className={`w-8 h-8 ${themeData.colorClass}`} />
-          <h3 className="font-semibold text-slate-800">Rent Increase Rules</h3>
+        {/* Security Deposit Calculators */}
+        <LCCard theme={theme} className="p-6 space-y-4">
+          <MapIcon className="w-8 h-8 text-blue-600" />
+          <h3 className="font-semibold text-slate-800 text-lg">
+            Security Deposit Calculators
+          </h3>
           <p className="text-sm text-slate-600">
-            Provincial and state‑level rent increase limits and notice requirements.
+            Maximum deposit amounts, return deadlines, and itemization rules.
           </p>
-          <LCButton variant="ghost" className="w-full" theme={theme} disabled>
-            Coming Soon
-          </LCButton>
+          <Link href="/us/states">
+            <LCButton variant="ghost" className="w-full" theme={theme}>
+              Browse States
+            </LCButton>
+          </Link>
+        </LCCard>
+
+        {/* State & Province Pages */}
+        <LCCard theme={theme} className="p-6 space-y-4">
+          <GlobeAmericasIcon className="w-8 h-8 text-blue-600" />
+          <h3 className="font-semibold text-slate-800 text-lg">
+            State & Province Legal Pages
+          </h3>
+          <p className="text-sm text-slate-600">
+            Full legal breakdowns for each jurisdiction, including citations and timelines.
+          </p>
+          <Link href="/us">
+            <LCButton variant="ghost" className="w-full" theme={theme}>
+              Browse US States
+            </LCButton>
+          </Link>
+        </LCCard>
+
+        {/* Canada Placeholder */}
+        <LCCard theme={theme} className="p-6 space-y-4 opacity-50 cursor-not-allowed">
+          <GlobeAmericasIcon className="w-8 h-8 text-slate-400" />
+          <h3 className="font-semibold text-slate-500 text-lg">
+            Canada Calculators
+          </h3>
+          <p className="text-sm text-slate-500">
+            Provincial calculators coming soon.
+          </p>
         </LCCard>
 
       </section>
 
       {/* CTA */}
-      <section className="text-center pt-8 animate-fadeIn">
-        <Link href="/">
+      <section className="text-center space-y-6 py-12">
+        <h2 className="text-3xl font-bold text-slate-900">
+          More Calculators Coming Soon
+        </h2>
+        <p className="text-slate-600 max-w-xl mx-auto">
+          LegalCals is expanding rapidly — new tools, new jurisdictions, and new automation
+          features are on the way.
+        </p>
+
+        <Link href="/us">
           <LCButton variant="primary" theme={theme}>
-            Back to Home
+            <ArrowRightCircleIcon className="w-5 h-5" />
+            Browse US States
           </LCButton>
         </Link>
       </section>
+
+      {/* FOOTER */}
+      <footer className="border-t pt-8 text-center text-sm text-slate-500">
+        <p>LegalCals is not legal advice. Always consult a qualified attorney.</p>
+        <p className="mt-2">© {new Date().getFullYear()} LegalCals. All rights reserved.</p>
+      </footer>
 
     </main>
   );

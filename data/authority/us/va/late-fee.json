@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "va"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": 10
+    },
+    "citations": [
+      {
+        "statute": "Va. Code § 55.1-1204",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Virginia limits late fees to 10% of the amount of rent due or the remaining balance."
+      ]
+    }
+  }
+}

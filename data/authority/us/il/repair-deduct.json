@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "repair-deduct",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "maxDeduction": null,
+      "frequencyLimit": null,
+      "noticeRequirementDays": 14,
+      "emergencyAllowed": true
+    },
+    "citations": [
+      {
+        "statute": "765 ILCS 742/5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may deduct reasonable costs after written notice and 14 days.",
+        "Chicago Residential Landlord and Tenant Ordinance provides additional protections."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 5,
+      "weekendExtension": true,
+      "holidayExtension": true,
+      "lateFeeStartAfterGrace": true
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. Ann. § 46:8-29",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "5-business-day grace period before late fees may be charged.",
+        "If due date falls on a weekend or holiday, next business day applies."
+      ]
+    }
+  }
+}

@@ -487,7 +487,7 @@ export default function EvictionNoticeGenerator({
                   View {rule.name} Eviction Rules
                 </LCButton>
               </Link>
-              <Link href={`/calculators/us/${stateCode}`}>
+              <Link href={`/calculators/us/${stateCode}/eviction-notice`}>
                 <LCButton variant="ghost" theme={theme}>
                   <ArrowTopRightOnSquareIcon className="w-4 h-4" />
                   All {rule.name} Calculators

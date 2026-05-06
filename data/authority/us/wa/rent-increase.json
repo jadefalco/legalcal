@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wa"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": 60,
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Wash. Rev. Code § 59.18.140",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Washington requires 60 days notice for rent increases.",
+        "Seattle has additional tenant protections."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "pa"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 30,
+      "severityThreshold": "Serious habitability defects",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "68 Pa. Cons. Stat. § 250.206",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may escrow rent with the court in certain municipalities."
+      ]
+    }
+  }
+}

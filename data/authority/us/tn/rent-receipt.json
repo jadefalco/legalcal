@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tn"
+  },
+  "topic": "rent-receipt",
+  "rule": {
+    "data": {
+      "required": false,
+      "requiredWhenCash": false,
+      "requiredWhenRequested": false,
+      "deliveryMethods": [
+        "paper"
+      ],
+      "timeframe": "Varies by lease"
+    },
+    "citations": [
+      {
+        "statute": "Tenn. Code § 66-28-512",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tennessee has no statutory rent receipt requirement."
+      ]
+    }
+  }
+}

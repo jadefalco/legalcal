@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "payment-methods",
+  "rule": {
+    "data": {
+      "mustAcceptCash": true,
+      "mustAcceptCheck": true,
+      "mustAcceptMoneyOrder": true,
+      "canRequireOnlineOnly": false,
+      "canChargeProcessingFee": false,
+      "prohibitedMethods": [
+        "crypto-only payments",
+        "online-only requirements"
+      ],
+      "requiredAlternatives": [
+        "cash",
+        "check",
+        "money order"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1947.3",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords may not require electronic-only payments.",
+        "Tenants have the right to pay rent by at least one form of payment that is neither electronic nor a fee-based method."
+      ]
+    }
+  }
+}

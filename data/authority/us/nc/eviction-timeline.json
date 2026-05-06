@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nc"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 10,
+        "special": [
+          "2 days for lease violations in some counties",
+          "7 days for criminal activity"
+        ]
+      },
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "N.C. Gen. Stat. § 42-3",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "North Carolina requires a 10-day notice for nonpayment in most cases."
+      ]
+    }
+  }
+}

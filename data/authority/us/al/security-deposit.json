@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "al"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": true,
+      "returnDeadlineDays": 35,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Ala. Code § 35-9A-201",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory cap on security deposit amount."
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "payment-methods",
+  "rule": {
+    "data": {
+      "mustAcceptCash": true,
+      "mustAcceptCheck": true,
+      "mustAcceptMoneyOrder": true,
+      "canRequireOnlineOnly": false,
+      "canChargeProcessingFee": false,
+      "prohibitedMethods": [
+        "online-only requirements",
+        "crypto-only payments"
+      ],
+      "requiredAlternatives": [
+        "cash",
+        "check",
+        "money order"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords may not require electronic-only rent payments.",
+        "Tenants have the right to pay using a non-fee method."
+      ]
+    }
+  }
+}

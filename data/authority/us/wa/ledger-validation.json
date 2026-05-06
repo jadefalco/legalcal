@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wa"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "notice posting fees"
+      ],
+      "lateFeeRules": "Late fees must be reasonable",
+      "partialPaymentRules": "Landlord may accept or refuse unless lease states otherwise"
+    },
+    "citations": [
+      {
+        "statute": "Wash. Rev. Code § 59.18.280",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must reflect actual damages.",
+        "Landlord must provide receipt for cash payments upon request."
+      ]
+    }
+  }
+}

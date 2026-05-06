@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nd"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 30,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "N.D. Cent. Code § 47-16-07.1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Security deposit cannot exceed one month's rent.",
+        "Landlord must return deposit within 30 days."
+      ]
+    }
+  }
+}

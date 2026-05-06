@@ -1,0 +1,42 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 2,
+      "returnDeadlineDays": 21,
+      "itemizedDeductionsRequired": true,
+      "interestRequired": false,
+      "allowableDeductions": [
+        "unpaid rent",
+        "damage beyond normal wear and tear",
+        "cleaning to return unit to initial condition"
+      ],
+      "penaltyMultiplier": null
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1950.5",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+        "excerpt": "No later than twenty-one days...",
+        "sourceType": "statute",
+        "lastUpdated": "2024-01-15",
+        "confidence": 1
+      }
+    ],
+    "version": {
+      "version": "2024.1",
+      "effectiveDate": "2024-01-01",
+      "supersedes": null
+    }
+  },
+  "review": {
+    "status": "published",
+    "reviewer": "legal-team",
+    "reviewedAt": "2024-01-20",
+    "notes": "Verified against current CA code."
+  }
+}

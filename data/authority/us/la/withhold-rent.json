@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "la"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": false,
+      "noticeRequirementDays": 30,
+      "severityThreshold": "Serious habitability defects",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "La. Civ. Code art. 2694",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may withhold rent after notice and a reasonable time for landlord to remedy."
+      ]
+    }
+  }
+}

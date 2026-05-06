@@ -1,5 +1,3 @@
-"use client";
-
 import { JURISDICTION_THEME } from "@/app/utils/jurisdictionTheme";
 
 interface Props {

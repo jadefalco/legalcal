@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "vt"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "60 days if tenant has occupied for more than 2 years",
+          "21 days for week-to-week"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant liable for unpaid rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "9 Vt. Stat. § 4467",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Vermont has strong tenant protections.",
+        "Victims of domestic violence may terminate early."
+      ]
+    }
+  }
+}

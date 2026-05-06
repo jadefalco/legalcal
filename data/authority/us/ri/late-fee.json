@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ri"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 0,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "R.I. Gen. Laws § 34-18-18",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Rhode Island does not cap late fees. They must be reasonable and in the lease."
+      ]
+    }
+  }
+}

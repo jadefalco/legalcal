@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ri"
+  },
+  "topic": "rent-receipt",
+  "rule": {
+    "data": {
+      "required": true,
+      "requiredWhenCash": true,
+      "requiredWhenRequested": true,
+      "deliveryMethods": [
+        "paper"
+      ],
+      "timeframe": "Immediately upon payment"
+    },
+    "citations": [
+      {
+        "statute": "R.I. Gen. Laws § 34-18-18",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords must provide receipts for all rent payments."
+      ]
+    }
+  }
+}

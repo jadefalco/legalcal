@@ -1,80 +1,62 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
-
-import type { Theme } from "@/app/types/Theme";
 import { getTheme } from "@/app/theme";
 import { usStates } from "@/app/config/usStates";
-
-import { LCCard } from "@/app/components/lc/LCCard";
 import { LCSection } from "@/app/components/lc/LCSection";
-import { LCNotice } from "@/app/components/lc/LCNotice";
-import { LCButton } from "@/app/components/lc/LCButton";
-import { LCField } from "@/app/components/lc/LCField";
+import { CalculatorIcon } from "@heroicons/react/24/outline";
 
-import {
-  CalculatorIcon,
-  ArrowRightCircleIcon,
-  ExclamationTriangleIcon,
-} from "@heroicons/react/24/outline";
+import { calculateEvictionTimeline } from "./logic";
+import { EvictionTimelineForm } from "./ui";
+import type { EvictionTimelineResult } from "./schema";
 
-type StateKey = keyof typeof usStates;
+interface EvictionTimelineCalculatorProps {
+  initialState?: string;
+}
 
 export default function EvictionTimelineCalculator({
   initialState,
-}: {
-  initialState?: string;
-}) {
-  const [stateCode, setStateCode] = useState<StateKey>(
-    (initialState?.toLowerCase() as StateKey) || "ca"
+}: EvictionTimelineCalculatorProps) {
+  const [stateCode, setStateCode] = useState<string>(
+    initialState?.toLowerCase() || "ca"
   );
-  const theme: Theme = getTheme("us", stateCode);
+  const [result, setResult] = useState<EvictionTimelineResult | null>(null);
+
+  const stateInfo = usStates[stateCode as keyof typeof usStates];
+  const theme = getTheme("us", stateCode);
 
   useEffect(() => {
-    if (initialState && usStates[initialState.toLowerCase() as StateKey]) {
-      setStateCode(initialState.toLowerCase() as StateKey);
+    if (
+      initialState &&
+      usStates[initialState.toLowerCase() as keyof typeof usStates]
+    ) {
+      setStateCode(initialState.toLowerCase());
+      setResult(null);
     }
   }, [initialState]);
+
+  const handleCalculate = (noticeDate: string) => {
+    const calcResult = calculateEvictionTimeline(stateCode, noticeDate);
+    setResult(calcResult);
+  };
+
+  const stateName = stateInfo?.name || stateCode.toUpperCase();
 
   return (
     <div className="space-y-8">
       <LCSection
-        title="US Eviction Timeline Calculator"
-        description="Select a state to view eviction timeline rules and calculate deadlines."
+        title="Eviction Timeline Calculator"
+        description={`Calculate eviction deadlines and court timelines for ${stateName}. Enter the date the notice was served to see the earliest filing date, estimated hearing, and lockout schedule.`}
         icon={CalculatorIcon}
         theme={theme}
       />
 
-      <LCCard theme={theme} className="space-y-6">
-        <LCField label="State" theme={theme}>
-          <select
-            className="w-full border rounded-lg px-3 py-2 text-sm bg-white"
-            value={stateCode}
-            onChange={(e) => setStateCode(e.target.value as StateKey)}
-          >
-            {Object.entries(usStates).map(([key, state]) => (
-              <option key={key} value={key}>
-                {state.name}
-              </option>
-            ))}
-          </select>
-        </LCField>
-
-        <LCNotice
-          label="Status"
-          value="Calculator logic coming soon."
-          icon={ExclamationTriangleIcon}
-          theme={theme}
-        />
-
-        <Link href={`/calculators/us/${stateCode}/eviction-timeline`}>
-          <LCButton variant="primary" theme={theme}>
-            <ArrowRightCircleIcon className="w-4 h-4" />
-            View State-Specific Eviction Timeline Calculator
-          </LCButton>
-        </Link>
-      </LCCard>
+      <EvictionTimelineForm
+        theme={theme}
+        stateName={stateName}
+        onCalculate={handleCalculate}
+        result={result}
+      />
     </div>
   );
 }

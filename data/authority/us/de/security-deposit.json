@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "de"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 20,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Del. Code Ann. tit. 25, § 5514",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Security deposit cannot exceed one month's rent.",
+        "Landlord must provide itemized statement within 20 days."
+      ]
+    }
+  }
+}

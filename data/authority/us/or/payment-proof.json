@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "or"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order stub",
+        "cash receipt",
+        "email confirmation"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": true,
+      "acknowledgementTimeframe": "Upon request",
+      "burdenOfProofRule": "Landlord must prove nonpayment before eviction"
+    },
+    "citations": [
+      {
+        "statute": "Or. Rev. Stat. § 90.100",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide receipt for cash payments upon request.",
+        "Digital proof accepted in court proceedings."
+      ]
+    }
+  }
+}

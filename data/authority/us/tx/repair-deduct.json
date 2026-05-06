@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tx"
+  },
+  "topic": "repair-deduct",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "maxDeduction": null,
+      "frequencyLimit": null,
+      "noticeRequirementDays": 7,
+      "emergencyAllowed": true
+    },
+    "citations": [
+      {
+        "statute": "Tex. Prop. Code § 92.0561",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant must follow specific procedures including notice to landlord and deducting from rent."
+      ]
+    }
+  }
+}

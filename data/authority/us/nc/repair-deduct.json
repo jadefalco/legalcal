@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nc"
+  },
+  "topic": "repair-deduct",
+  "rule": {
+    "data": {
+      "allowed": false,
+      "maxDeduction": null,
+      "frequencyLimit": null,
+      "noticeRequirementDays": 0,
+      "emergencyAllowed": false
+    },
+    "citations": [
+      {
+        "statute": "N.C. Gen. Stat. § 42-42",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "North Carolina does not have a statutory repair-and-deduct remedy for residential tenants."
+      ]
+    }
+  }
+}

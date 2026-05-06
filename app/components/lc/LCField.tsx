@@ -1,5 +1,3 @@
-"use client";
-
 import type { LCFieldProps } from "./types";
 
 export const LCField = ({

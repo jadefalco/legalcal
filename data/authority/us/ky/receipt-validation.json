@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ky"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [],
+      "digitalAllowed": true,
+      "signatureRequired": false,
+      "itemizationRequired": false
+    },
+    "citations": [
+      {
+        "statute": "Ky. Rev. Stat. Ann. § 383.565",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory receipt content requirements."
+      ]
+    }
+  }
+}

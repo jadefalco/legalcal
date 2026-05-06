@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "mo"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": null,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": true,
+      "returnDeadlineDays": 30,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": 2
+    },
+    "citations": [
+      {
+        "statute": "Mo. Rev. Stat. § 535.300",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No cap on security deposit amount.",
+        "Willful failure to return deposit may result in double damages."
+      ]
+    }
+  }
+}

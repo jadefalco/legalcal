@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tn"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 30,
+        "special": [
+          "7 days to inspect and provide notice of damages"
+        ]
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover amount wrongfully withheld"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Tenn. Code § 66-28-301",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide itemized statement within 30 days and notify tenant of right to inspect."
+      ]
+    }
+  }
+}

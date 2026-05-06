@@ -1,0 +1,46 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "90 days for mobile homes",
+          "No notice required if lease has definite end date"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Civil penalties for improper notice",
+        "Tenant may recover damages"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. § 2A:18-56",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Anti-Eviction Act provides strong tenant protections.",
+        "Victims of domestic violence may terminate early."
+      ]
+    }
+  }
+}

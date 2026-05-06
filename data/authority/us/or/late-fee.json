@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "or"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 4,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Or. Rev. Stat. § 90.260",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Oregon requires a 4-day grace period before charging a late fee.",
+        "Fee must be disclosed in the lease."
+      ]
+    }
+  }
+}

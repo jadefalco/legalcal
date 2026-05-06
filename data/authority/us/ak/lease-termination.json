@@ -1,0 +1,51 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ak"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "14 days for week-to-week tenancies"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "landlord failure to maintain habitable premises",
+        "domestic violence"
+      ],
+      "penalties": [
+        "Early termination may require payment of remaining rent unless landlord mitigates"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Alaska Stat. § 34.03.290",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "Alaska Stat. § 34.03.300",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Victims of domestic violence may terminate with 30 days notice and protective order."
+      ]
+    }
+  }
+}

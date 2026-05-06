@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": 30,
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1314",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Arizona prohibits cities from enacting rent control."
+      ]
+    }
+  }
+}

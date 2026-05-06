@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1.5,
+      "separatePetDepositAllowed": true,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 14,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1321",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Security deposit cannot exceed one and one-half month's rent.",
+        "Nonrefundable fees must be stated in writing."
+      ]
+    }
+  }
+}

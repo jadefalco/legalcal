@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wy"
+  },
+  "topic": "rent-receipt",
+  "rule": {
+    "data": {
+      "required": false,
+      "requiredWhenCash": false,
+      "requiredWhenRequested": false,
+      "deliveryMethods": [
+        "paper"
+      ],
+      "timeframe": "Varies by lease"
+    },
+    "citations": [
+      {
+        "statute": "Wyo. Stat. § 1-21-1205",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Wyoming has no statutory rent receipt requirement."
+      ]
+    }
+  }
+}

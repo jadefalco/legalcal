@@ -1,0 +1,47 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": {
+        "standard": 30,
+        "special": [
+          "90 days if increase is greater than 10%"
+        ]
+      },
+      "maxIncreasePercent": 10,
+      "rentControl": true,
+      "frequencyLimit": "Once every 12 months"
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 827",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "AB 1482 (Tenant Protection Act)",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Statewide rent cap of 5% plus CPI (max 10%) applies to most properties.",
+        "Local rent control ordinances may impose stricter limits in some cities."
+      ]
+    }
+  }
+}

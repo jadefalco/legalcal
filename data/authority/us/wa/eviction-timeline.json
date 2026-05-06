@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wa"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 14,
+        "special": [
+          "10 days for lease violations",
+          "20 days for month-to-month no-cause",
+          "Seattle has just cause requirements"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Wash. Rev. Code § 59.12.030",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Washington requires a 14-day notice for nonpayment of rent.",
+        "Seattle has additional tenant protections."
+      ]
+    }
+  }
+}

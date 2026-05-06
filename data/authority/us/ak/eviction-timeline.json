@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ak"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 7,
+        "special": [
+          "10 days for lease violations other than nonpayment"
+        ]
+      },
+      "courtFilingDelay": 2,
+      "hearingSchedulingDelay": 10,
+      "sheriffLockoutDelay": 5
+    },
+    "citations": [
+      {
+        "statute": "Alaska Stat. § 09.45.090",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Alaska allows expedited hearings for nonpayment cases."
+      ]
+    }
+  }
+}

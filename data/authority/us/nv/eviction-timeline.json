@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nv"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 5,
+        "special": [
+          "5-day notice to perform or quit for lease violations",
+          "30 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 10,
+      "sheriffLockoutDelay": 5
+    },
+    "citations": [
+      {
+        "statute": "Nev. Rev. Stat. § 40.2512",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Nevada requires a 5-day notice for nonpayment before filing for eviction."
+      ]
+    }
+  }
+}

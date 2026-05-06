@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 24,
+      "allowedReasons": [
+        "Repairs",
+        "Inspections",
+        "Showings",
+        "Emergencies"
+      ],
+      "emergencyAllowed": true,
+      "weekendRules": []
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. § 46:8-28",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Reasonable notice required except in emergencies."
+      ]
+    }
+  }
+}

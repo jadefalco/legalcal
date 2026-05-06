@@ -1,0 +1,37 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1,
+      "separatePetDepositAllowed": false,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 14,
+      "itemizedStatementRequired": true,
+      "penaltyMultiple": null
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Gen. Oblig. Law § 7-108",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Security deposit strictly capped at one month's rent.",
+        "Landlord must return deposit within 14 days.",
+        "Itemized statement required for any deductions."
+      ]
+    }
+  }
+}

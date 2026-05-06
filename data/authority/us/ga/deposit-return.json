@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ga"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": 30,
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may sue for amount wrongfully withheld"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear",
+        "Abandonment damages"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ga. Code § 44-7-34",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory requirement for itemized statement, but strongly recommended."
+      ]
+    }
+  }
+}

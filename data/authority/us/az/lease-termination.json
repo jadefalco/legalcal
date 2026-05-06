@@ -1,0 +1,46 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "landlord failure to maintain premises"
+      ],
+      "penalties": [
+        "Tenant remains liable for rent until landlord mitigates damages"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1375",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1318",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Notice must be given at least 30 days prior to the periodic rental date."
+      ]
+    }
+  }
+}

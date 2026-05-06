@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ut"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 30,
+        "special": [
+          "15 days if tenant provides forwarding address"
+        ]
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover amount wrongfully withheld plus $100"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Utah Code § 57-17-3",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Deposit must be returned within 15 days if tenant provides forwarding address."
+      ]
+    }
+  }
+}

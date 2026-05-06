@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "la"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 10,
+        "special": [
+          "5 days for week-to-week"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant may owe rent for remainder of lease"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "La. Civ. Code art. 2728",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Louisiana has one of the shortest notice periods in the country."
+      ]
+    }
+  }
+}

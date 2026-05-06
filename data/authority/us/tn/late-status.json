@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tn"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 0,
+      "weekendExtension": false,
+      "holidayExtension": false,
+      "lateFeeStartAfterGrace": false
+    },
+    "citations": [
+      {
+        "statute": "Tenn. Code Ann. § 66-28-201",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "No statutory grace period. Late fees governed by lease agreement."
+      ]
+    }
+  }
+}

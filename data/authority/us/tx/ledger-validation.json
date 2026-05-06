@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tx"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "late fees",
+        "utilities",
+        "other charges"
+      ],
+      "illegalFees": [],
+      "lateFeeRules": "Late fees allowed after 2-day grace period",
+      "partialPaymentRules": "Landlord may refuse partial payments"
+    },
+    "citations": [
+      {
+        "statute": "Tex. Prop. Code § 92.019",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must be specified in the lease and reasonable.",
+        "Texas applies late fees before utilities in payment order."
+      ]
+    }
+  }
+}

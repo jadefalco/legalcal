@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": false,
+      "noticeRequirementDays": 14,
+      "severityThreshold": "Serious habitability issues",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Law § 235-b",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may withhold rent under the warranty of habitability.",
+        "NYC has additional procedures through HPD."
+      ]
+    }
+  }
+}

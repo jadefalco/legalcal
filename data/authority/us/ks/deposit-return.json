@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ks"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": 30,
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover 1.5x the amount wrongfully withheld"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Kan. Stat. § 58-2550",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide written notice of deductions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ia"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order stub",
+        "cash receipt"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": false,
+      "acknowledgementTimeframe": "Not required",
+      "burdenOfProofRule": "Tenant must prove payment"
+    },
+    "citations": [
+      {
+        "statute": "Iowa Code § 562A.9",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Electronic transfer records are generally accepted as proof."
+      ]
+    }
+  }
+}

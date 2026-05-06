@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "or"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 72,
+        "special": [
+          "144 hours for week-to-week",
+          "30 days for month-to-month no-cause"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 14,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "Or. Rev. Stat. § 90.394",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Oregon measures notice in hours: 72 hours (3 days) for nonpayment.",
+        "Portland has additional tenant protections."
+      ]
+    }
+  }
+}

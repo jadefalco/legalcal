@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "va"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 5,
+      "weekendExtension": false,
+      "holidayExtension": false,
+      "lateFeeStartAfterGrace": true
+    },
+    "citations": [
+      {
+        "statute": "Va. Code Ann. § 55.1-1200",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "5-day grace period before late fees may be assessed."
+      ]
+    }
+  }
+}

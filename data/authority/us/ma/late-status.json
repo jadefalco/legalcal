@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 30,
+      "weekendExtension": true,
+      "holidayExtension": true,
+      "lateFeeStartAfterGrace": true
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "30-day grace period for late fees in certain subsidized housing.",
+        "If due date falls on a weekend or holiday, next business day applies."
+      ]
+    }
+  }
+}

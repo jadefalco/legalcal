@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": true,
+      "landlordMustProvide": true,
+      "timeframe": "Within a reasonable time",
+      "allowedFee": 0,
+      "requiredFields": [
+        "amount paid",
+        "date",
+        "tenant name",
+        "property address",
+        "period covered"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords must provide duplicate receipts upon tenant request at no charge."
+      ]
+    }
+  }
+}

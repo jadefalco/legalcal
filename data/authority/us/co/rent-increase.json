@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": {
+        "standard": 21,
+        "special": [
+          "30 days for mobile home parks"
+        ]
+      },
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 38-12-701",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Colorado requires 21 days notice for month-to-month tenancies.",
+        "Local rent control is prohibited by state law."
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: "Widget embed load"
+
+scenarios:
+  - name: "Load embed iframe"
+    requests:
+      - get:
+          url: "/embed/security-deposit?state=ca&theme=light"
+
+  - name: "Load embed script"
+    requests:
+      - get:
+          url: "/embed.js"

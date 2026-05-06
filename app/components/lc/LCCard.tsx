@@ -1,4 +1,4 @@
-"use client";
+
 
 import type { LCCardProps } from "./types";
 

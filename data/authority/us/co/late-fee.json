@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "co"
+  },
+  "topic": "late-fee",
+  "rule": {
+    "data": {
+      "maxLateFee": null,
+      "dailyLateFee": null,
+      "gracePeriodDays": 7,
+      "percentageCap": null
+    },
+    "citations": [
+      {
+        "statute": "Colo. Rev. Stat. § 38-12-105",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Colorado requires a 7-day grace period before a landlord can charge a late fee.",
+        "Fee must be disclosed in the lease."
+      ]
+    }
+  }
+}

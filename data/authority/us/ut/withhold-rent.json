@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ut"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 10,
+      "severityThreshold": "Serious habitability issues",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Utah Code § 57-22-6",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may escrow rent with the court after proper notice."
+      ]
+    }
+  }
+}

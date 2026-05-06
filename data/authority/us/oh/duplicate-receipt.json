@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "oh"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": true,
+      "landlordMustProvide": true,
+      "timeframe": "Within a reasonable time",
+      "allowedFee": 0,
+      "requiredFields": [
+        "amount paid",
+        "date",
+        "tenant name"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ohio Rev. Code § 5321.04",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Duplicate receipts should be provided upon tenant request without fee."
+      ]
+    }
+  }
+}

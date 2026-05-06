@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 24,
+      "allowedReasons": [
+        "Repairs",
+        "Inspections",
+        "Showings",
+        "Emergencies"
+      ],
+      "emergencyAllowed": true,
+      "weekendRules": [
+        "24-hour notice applies even on weekends"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord may only enter at reasonable times with reasonable notice."
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ma"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order receipt",
+        "cash receipt",
+        "Zelle/Venmo screenshot",
+        "PayPal receipt"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": true,
+      "acknowledgementTimeframe": "Within 30 days of request",
+      "burdenOfProofRule": "Landlord must prove nonpayment before eviction"
+    },
+    "citations": [
+      {
+        "statute": "Mass. Gen. Laws ch. 186, § 15B",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Digital proof widely accepted in Massachusetts courts.",
+        "Landlord must provide receipt for all rent payments."
+      ]
+    }
+  }
+}

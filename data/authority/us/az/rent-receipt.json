@@ -1,0 +1,37 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "rent-receipt",
+  "rule": {
+    "data": {
+      "required": false,
+      "requiredWhenCash": true,
+      "requiredWhenRequested": true,
+      "deliveryMethods": [
+        "paper",
+        "email"
+      ],
+      "timeframe": "Immediately upon payment"
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1314",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords must provide receipts for cash payments upon request."
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "az"
+  },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 48,
+      "allowedReasons": [
+        "Repairs",
+        "Inspections",
+        "Showings",
+        "Emergencies"
+      ],
+      "emergencyAllowed": true,
+      "weekendRules": []
+    },
+    "citations": [
+      {
+        "statute": "Ariz. Rev. Stat. § 33-1343",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must give 2 days notice except in emergencies."
+      ]
+    }
+  }
+}

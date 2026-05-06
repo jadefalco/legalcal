@@ -1,0 +1,37 @@
+import { StateData } from "@/types/stateData"
+
+const data: StateData = {
+  state: "{{STATE_NAME}}",
+  code: "{{STATE_CODE_UPPER}}",
+  country: "{{COUNTRY_UPPER}}",
+
+  noticePeriods: {
+    monthToMonth: {{NOTICE_MTM}},
+    weekToWeek: {{NOTICE_WTW}},
+    yearToYear: {{NOTICE_YTY}}
+  },
+
+  rules: {
+    specialCases: [
+      {{SPECIAL_CASES}}
+    ],
+    landlordRequirements: [
+      {{LANDLORD_REQS}}
+    ],
+    tenantRequirements: [
+      {{TENANT_REQS}}
+    ]
+  },
+
+  citations: [
+    {{CITATIONS}}
+  ],
+
+  metadata: {
+    lastUpdated: "{{LAST_UPDATED}}",
+    source: "{{SOURCE}}",
+    editorNotes: "{{EDITOR_NOTES}}"
+  }
+}
+
+export default data

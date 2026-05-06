@@ -1,0 +1,33 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "al"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 0,
+      "weekendExtension": false,
+      "holidayExtension": false,
+      "lateFeeStartAfterGrace": false
+    },
+    "citations": [
+      {
+        "statute": "Ala. Code § 35-9A-401",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Rent is due on the date specified in the lease. No statutory grace period."
+      ]
+    }
+  }
+}

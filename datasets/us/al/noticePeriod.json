@@ -1,0 +1,14 @@
+{
+  "state": "Alabama",
+  "code": "AL",
+  "statutes": {
+    "monthToMonth": {
+      "noticeDays": 30,
+      "citation": "Ala. Code § 35-9A-441(b)"
+    },
+    "weekToWeek": {
+      "noticeDays": 7,
+      "citation": "Ala. Code § 35-9A-441(a)"
+    }
+  }
+}

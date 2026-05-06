@@ -1,0 +1,49 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term",
+        "owner occupancy"
+      ],
+      "penalties": [
+        "Civil penalties for improper notice",
+        "Attorney fees may be awarded"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Law § 232-a",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "N.Y. Real Prop. Law § 232-b",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "NYC has extensive rent stabilization and rent control laws.",
+        "Victims of domestic violence may terminate early."
+      ]
+    }
+  }
+}

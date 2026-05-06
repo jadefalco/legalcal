@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 14,
+      "severityThreshold": "Material noncompliance affecting health or safety",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "765 ILCS 742/5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant must deposit rent with the clerk of court in many jurisdictions.",
+        "Chicago Residential Landlord and Tenant Ordinance provides additional protections."
+      ]
+    }
+  }
+}

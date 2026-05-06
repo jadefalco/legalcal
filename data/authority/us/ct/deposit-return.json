@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 30,
+        "special": [
+          "15 days for interest-only return if no deductions"
+        ]
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Double damages for improper withholding"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Conn. Gen. Stat. § 47a-21",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must pay interest on deposits held more than 1 year in some municipalities."
+      ]
+    }
+  }
+}

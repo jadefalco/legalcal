@@ -1,0 +1,22 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      name: "Sustained load"
+  defaults:
+    headers:
+      Accept: "application/json"
+
+scenarios:
+  - name: "Authority API - State Rule"
+    weight: 70
+    requests:
+      - get:
+          url: "/api/authority/us/ca/security-deposit"
+
+  - name: "Authority API - City Override"
+    weight: 30
+    requests:
+      - get:
+          url: "/api/authority/us/ca/los-angeles/security-deposit"

@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "il"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order stub",
+        "cash receipt",
+        "Zelle/Venmo screenshot"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": true,
+      "acknowledgementTimeframe": "Upon request",
+      "burdenOfProofRule": "Tenant must show payment; landlord must show nonpayment if disputed"
+    },
+    "citations": [
+      {
+        "statute": "765 Ill. Comp. Stat. 705/5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide receipt for cash payments upon request.",
+        "Digital proof widely accepted in Illinois courts."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ia"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 7,
+      "severityThreshold": "Serious habitability issues",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Iowa Code § 562A.24",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may escrow rent with the court after proper notice."
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 30,
+        "special": [
+          "60 days if tenant has occupied for more than 1 year"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "owner move-in",
+        "substantial remodel",
+        "withdrawal from rental market"
+      ],
+      "penalties": [
+        "Civil penalties for improper notice",
+        "Relocation assistance required for no-fault terminations in some cities"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1946",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      },
+      {
+        "statute": "Cal. Civ. Code § 1946.1",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Local rent control ordinances may override state rules and require just cause.",
+        "Relocation assistance payments may be required for no-fault evictions."
+      ]
+    }
+  }
+}

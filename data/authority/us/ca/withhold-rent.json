@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": false,
+      "noticeRequirementDays": 30,
+      "severityThreshold": "Serious habitability issues",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1942.5",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant must allow reasonable time for repairs before withholding.",
+        "Retaliation by landlord is prohibited."
+      ]
+    }
+  }
+}

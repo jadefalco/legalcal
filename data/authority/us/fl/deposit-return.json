@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "fl"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": {
+        "standard": 15,
+        "special": [
+          "30 days if landlord intends to impose a claim"
+        ]
+      },
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may recover amount wrongfully withheld plus court costs and attorney fees"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond normal wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Fla. Stat. § 83.49",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "If landlord fails to provide notice within 30 days, they forfeit right to claim deductions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tx"
+  },
+  "topic": "late-status",
+  "rule": {
+    "data": {
+      "gracePeriodDays": 2,
+      "weekendExtension": false,
+      "holidayExtension": false,
+      "lateFeeStartAfterGrace": true
+    },
+    "citations": [
+      {
+        "statute": "Tex. Prop. Code § 92.019",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "2-day grace period applies only to late fees, not to 'late' status.",
+        "Rent is considered late immediately after the due date."
+      ]
+    }
+  }
+}

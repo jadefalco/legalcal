@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nv"
+  },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "noticeDays": {
+        "standard": 30,
+        "special": [
+          "60 days for tenants over 62 or disabled"
+        ]
+      },
+      "maxIncreasePercent": null,
+      "rentControl": false,
+      "frequencyLimit": null
+    },
+    "citations": [
+      {
+        "statute": "Nev. Rev. Stat. § 118A.300",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Nevada requires 30 days notice for rent increases.",
+        "Las Vegas and Reno do not have rent control."
+      ]
+    }
+  }
+}

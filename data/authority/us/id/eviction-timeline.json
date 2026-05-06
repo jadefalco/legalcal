@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "id"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 3,
+        "special": [
+          "10 days for lease violations"
+        ]
+      },
+      "courtFilingDelay": 3,
+      "hearingSchedulingDelay": 10,
+      "sheriffLockoutDelay": 5
+    },
+    "citations": [
+      {
+        "statute": "Idaho Code § 6-303",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "3-day notice for nonpayment of rent."
+      ]
+    }
+  }
+}

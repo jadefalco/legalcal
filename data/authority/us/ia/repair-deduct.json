@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ia"
+  },
+  "topic": "repair-deduct",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "maxDeduction": null,
+      "frequencyLimit": null,
+      "noticeRequirementDays": 7,
+      "emergencyAllowed": true
+    },
+    "citations": [
+      {
+        "statute": "Iowa Code § 562A.23",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may repair and deduct after written notice and reasonable time."
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "receipt-validation",
+  "rule": {
+    "data": {
+      "requiredFields": [
+        "amount paid",
+        "date of payment",
+        "property address",
+        "payment period",
+        "landlord name"
+      ],
+      "digitalAllowed": false,
+      "signatureRequired": true,
+      "itemizationRequired": true
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Law § 235-e",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Strict formatting rules apply.",
+        "Digital receipts not permitted unless tenant explicitly agrees in writing.",
+        "Itemized breakdown of charges required on receipts."
+      ]
+    }
+  }
+}

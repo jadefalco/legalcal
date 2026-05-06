@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 30,
+        "special": [
+          "3-day notice for disorderly conduct",
+          "Immediate for certain criminal activity"
+        ]
+      },
+      "courtFilingDelay": 5,
+      "hearingSchedulingDelay": 21,
+      "sheriffLockoutDelay": 7
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. § 2A:18-61.2",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "New Jersey has strong tenant protections; 30-day notice common for nonpayment.",
+        "Anti-Eviction Act applies to most residential tenancies."
+      ]
+    }
+  }
+}

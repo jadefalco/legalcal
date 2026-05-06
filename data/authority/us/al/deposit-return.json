@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "al"
+  },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadline": 60,
+      "interestRequired": false,
+      "interestRate": null,
+      "penalties": [
+        "Tenant may sue for damages if deposit not returned on time"
+      ],
+      "allowableDeductions": [
+        "Unpaid rent",
+        "Damage beyond ordinary wear and tear"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Ala. Code § 35-9A-201",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide written itemized list of deductions."
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "tx"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "any reason not prohibited by law",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": []
+    },
+    "citations": [
+      {
+        "statute": "Tex. Prop. Code § 91.001",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Texas law does not require landlords to have a reason to terminate month-to-month leases."
+      ]
+    }
+  }
+}

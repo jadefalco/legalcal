@@ -1,4 +1,4 @@
-"use client";
+
 
 import type { LCNoticeProps } from "./types";
 

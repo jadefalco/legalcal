@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "hi"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": true,
+      "landlordMustProvide": true,
+      "timeframe": "Immediately upon request",
+      "allowedFee": 0,
+      "requiredFields": [
+        "amount paid",
+        "date",
+        "tenant name",
+        "property address",
+        "period covered"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Haw. Rev. Stat. § 521-21",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlords must provide duplicate receipts promptly upon tenant request."
+      ]
+    }
+  }
+}

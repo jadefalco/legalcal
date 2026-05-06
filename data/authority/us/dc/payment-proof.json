@@ -1,0 +1,48 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "dc"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order receipt",
+        "cash receipt",
+        "Zelle/Venmo screenshot",
+        "PayPal receipt",
+        "email confirmation"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": true,
+      "acknowledgementTimeframe": "Immediately upon request",
+      "burdenOfProofRule": "Landlord must prove nonpayment before eviction"
+    },
+    "citations": [
+      {
+        "statute": "D.C. Code § 42-3505.31",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Digital proof widely accepted in DC housing court.",
+        "Landlord must provide receipt for all rent payments.",
+        "Strong tenant protections require landlord to prove nonpayment."
+      ]
+    }
+  }
+}

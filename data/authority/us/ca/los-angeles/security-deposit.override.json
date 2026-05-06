@@ -1,0 +1,25 @@
+{
+  "jurisdiction": { "country": "us", "state": "ca", "city": "los-angeles" },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxMonthsRent": 1.0
+    },
+    "citations": [
+      {
+        "statute": "LA Municipal Code § 151.06",
+        "url": "https://codelibrary.amlegal.com/",
+        "excerpt": "Security deposits shall not exceed one month's rent for rent-controlled units.",
+        "sourceType": "municipal-code",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.02",
+      "effectiveDate": "2025-02-01",
+      "supersedes": "2025.01",
+      "notes": ["LA override for rent-controlled units"]
+    }
+  }
+}

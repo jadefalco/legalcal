@@ -1,0 +1,46 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "payment-proof",
+  "rule": {
+    "data": {
+      "acceptedProof": [
+        "bank statement",
+        "cancelled check",
+        "money order receipt",
+        "Zelle/Venmo screenshot",
+        "PayPal receipt",
+        "cash receipt"
+      ],
+      "rejectedProof": [
+        "verbal confirmation only",
+        "uncorroborated text message"
+      ],
+      "digitalProofAllowed": true,
+      "landlordMustAcknowledge": true,
+      "acknowledgementTimeframe": "Reasonable time",
+      "burdenOfProofRule": "Tenant must show payment; landlord must show nonpayment if disputed"
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1499",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Digital proof widely accepted in California courts.",
+        "Landlord must provide receipt upon request for cash payments."
+      ]
+    }
+  }
+}

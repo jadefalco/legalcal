@@ -1,0 +1,38 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nv"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": 30,
+      "allowedReasons": [
+        "no-fault",
+        "domestic violence",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant liable for unpaid rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Nev. Rev. Stat. § 40.251",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Victims of domestic violence may terminate early with appropriate documentation."
+      ]
+    }
+  }
+}

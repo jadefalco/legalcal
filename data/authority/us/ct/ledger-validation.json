@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "online payment fees"
+      ],
+      "lateFeeRules": "Late fees prohibited until after 9-day grace period",
+      "partialPaymentRules": "Landlord must accept partial payments in some cases"
+    },
+    "citations": [
+      {
+        "statute": "Conn. Gen. Stat. § 47a-15a",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must be reasonable.",
+        "Certain fees are prohibited in residential tenancies."
+      ]
+    }
+  }
+}

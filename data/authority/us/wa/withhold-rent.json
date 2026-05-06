@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wa"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": false,
+      "noticeRequirementDays": 10,
+      "severityThreshold": "Serious habitability issues",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Wash. Rev. Code § 59.18.110",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may withhold rent after proper notice, but should document all issues carefully."
+      ]
+    }
+  }
+}

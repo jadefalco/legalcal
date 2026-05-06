@@ -1,0 +1,40 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "duplicate-receipt",
+  "rule": {
+    "data": {
+      "tenantRightToCopy": true,
+      "landlordMustProvide": true,
+      "timeframe": "Within a reasonable time",
+      "allowedFee": 0,
+      "requiredFields": [
+        "amount paid",
+        "date",
+        "tenant name",
+        "payment method",
+        "property address"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1499",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "California requires landlords to provide duplicate receipts upon request at no charge."
+      ]
+    }
+  }
+}

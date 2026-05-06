@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "pa"
+  },
+  "topic": "lease-termination",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "fixed": 15,
+        "special": [
+          "30 days for leases longer than 1 year"
+        ]
+      },
+      "allowedReasons": [
+        "no-fault",
+        "lease violation",
+        "end of lease term"
+      ],
+      "penalties": [
+        "Tenant liable for unpaid rent"
+      ]
+    },
+    "citations": [
+      {
+        "statute": "68 Pa. Cons. Stat. § 250.501",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Philadelphia has additional tenant protections."
+      ]
+    }
+  }
+}

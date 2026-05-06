@@ -1,0 +1,35 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ca"
+  },
+  "topic": "repair-deduct",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "maxDeduction": null,
+      "frequencyLimit": "Twice per 12-month period",
+      "noticeRequirementDays": 30,
+      "emergencyAllowed": true
+    },
+    "citations": [
+      {
+        "statute": "Cal. Civ. Code § 1942",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Deduction is capped at one month's rent.",
+        "Tenant must notify landlord in writing and allow a reasonable time for repair."
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ak"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "notice posting fees"
+      ],
+      "lateFeeRules": "Late fees must be reasonable",
+      "partialPaymentRules": "Landlord may accept or refuse unless lease states otherwise"
+    },
+    "citations": [
+      {
+        "statute": "Alaska Stat. § 34.03.020",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Landlord must provide written notice of any fees."
+      ]
+    }
+  }
+}

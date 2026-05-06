@@ -1,0 +1,37 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "wi"
+  },
+  "topic": "rent-receipt",
+  "rule": {
+    "data": {
+      "required": false,
+      "requiredWhenCash": true,
+      "requiredWhenRequested": true,
+      "deliveryMethods": [
+        "paper",
+        "email"
+      ],
+      "timeframe": "Within a reasonable time"
+    },
+    "citations": [
+      {
+        "statute": "Wis. Stat. § 704.19",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Receipts for cash payments are recommended upon tenant request."
+      ]
+    }
+  }
+}

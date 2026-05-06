@@ -1,0 +1,44 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "nj"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "notice posting fees",
+        "administrative fees"
+      ],
+      "lateFeeRules": "Late fees prohibited until after 5-business-day grace period",
+      "partialPaymentRules": "Landlord must accept partial payments in some cases"
+    },
+    "citations": [
+      {
+        "statute": "N.J. Stat. Ann. § 46:8-29",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must be reasonable and specified in the lease.",
+        "Anti-eviction protections may limit fee collection."
+      ]
+    }
+  }
+}

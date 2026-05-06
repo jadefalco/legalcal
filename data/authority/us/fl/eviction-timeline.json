@@ -1,0 +1,39 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "fl"
+  },
+  "topic": "eviction-timeline",
+  "rule": {
+    "data": {
+      "noticePeriod": {
+        "standard": 3,
+        "special": [
+          "7 days for lease violations",
+          "15 days for month-to-month"
+        ]
+      },
+      "courtFilingDelay": 2,
+      "hearingSchedulingDelay": 7,
+      "sheriffLockoutDelay": 5
+    },
+    "citations": [
+      {
+        "statute": "Fla. Stat. § 83.56",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Florida allows for very fast evictions; 3-day notice is common for nonpayment."
+      ]
+    }
+  }
+}

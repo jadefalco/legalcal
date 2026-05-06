@@ -68,7 +68,7 @@ export default function USIndexPage() {
           {states.map((state) => (
             <Link
               key={state.slug}
-              href={`/calculators/us/${state.slug}`}
+              href={`/us/states/${state.slug}`}
               className="group block bg-white rounded-xl shadow-sm border border-gray-100 p-6 transition-all hover:shadow-md hover:border-gray-200"
             >
               <div className="flex items-center gap-4">

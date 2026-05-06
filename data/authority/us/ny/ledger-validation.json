@@ -1,0 +1,45 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ny"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "online payment fees",
+        "notice posting fees"
+      ],
+      "lateFeeRules": "Late fees prohibited until after 5-day grace period",
+      "partialPaymentRules": "Landlord must accept partial payments"
+    },
+    "citations": [
+      {
+        "statute": "N.Y. Real Prop. Law § 238-a",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Strict fee prohibitions apply in New York.",
+        "Many fees are unlawful in residential tenancies.",
+        "Late fees must be reasonable and tied to actual costs."
+      ]
+    }
+  }
+}

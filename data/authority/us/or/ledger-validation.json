@@ -1,0 +1,43 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "or"
+  },
+  "topic": "ledger-validation",
+  "rule": {
+    "data": {
+      "paymentApplicationOrder": [
+        "rent",
+        "utilities",
+        "late fees",
+        "other charges"
+      ],
+      "illegalFees": [
+        "convenience fees",
+        "processing fees",
+        "notice posting fees"
+      ],
+      "lateFeeRules": "Late fees prohibited until after 4-day grace period",
+      "partialPaymentRules": "Landlord may accept or refuse unless lease states otherwise"
+    },
+    "citations": [
+      {
+        "statute": "Or. Rev. Stat. § 90.100",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Late fees must be reasonable.",
+        "Landlord must provide receipt for cash payments upon request."
+      ]
+    }
+  }
+}

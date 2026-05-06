@@ -1,0 +1,34 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "oh"
+  },
+  "topic": "withhold-rent",
+  "rule": {
+    "data": {
+      "allowed": true,
+      "escrowRequired": true,
+      "noticeRequirementDays": 30,
+      "severityThreshold": "Serious health or safety violations",
+      "retaliationProtection": true
+    },
+    "citations": [
+      {
+        "statute": "Ohio Rev. Code § 5321.07",
+        "url": "",
+        "excerpt": "",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.8
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": [
+        "Tenant may deposit rent with the clerk of courts in some cases."
+      ]
+    }
+  }
+}
