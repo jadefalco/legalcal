@@ -1,0 +1,25 @@
+{
+  "jurisdiction": {
+    "country": "us",
+    "state": "ct"
+  },
+  "topic": "utilities",
+  "rule": {
+    "data": {
+      "description": "Placeholder rule for utilities in CT.",
+      "fields": {},
+      "notes": [
+        "This is a placeholder rule. Replace with actual regulatory data."
+      ]
+    },
+    "citations": [],
+    "version": {
+      "version": "0.0",
+      "effectiveDate": "2026-01-01",
+      "supersedes": null,
+      "notes": [
+        "Placeholder auto-generated"
+      ]
+    }
+  }
+}

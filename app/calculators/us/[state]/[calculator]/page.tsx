@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import RuleFreshnessBanner from "@/components/RuleFreshnessBanner";
 
 import { usStates } from "@/app/config/usStates";
 import { calculators as configCalculators } from "@/app/config/calculators";
@@ -303,8 +304,37 @@ export default function Page({
   const state = usStates[stateCode as keyof typeof usStates];
   const CalculatorComponent = calculatorComponents[calcSlug];
 
-  if (!state || !CalculatorComponent) {
+  if (!state) {
     return notFound();
+  }
+
+  if (!CalculatorComponent) {
+    const calcName = calcSlug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    return (
+      <main className="min-h-screen bg-slate-50">
+        <div className="px-4 py-12 max-w-4xl mx-auto space-y-6">
+          <RuleFreshnessBanner topic={calcSlug} jurisdiction={stateCode} />
+          <div className="rounded-lg border border-slate-200 bg-white p-8 text-center space-y-4">
+            <h1 className="text-2xl font-bold text-slate-900">{calcName}</h1>
+            <p className="text-slate-600">
+              This calculator is not yet available for{" "}
+              <strong>{state.name}</strong>.
+            </p>
+            <p className="text-sm text-slate-500">
+              We are working on adding jurisdiction-specific rules. Check back soon.
+            </p>
+            <div className="pt-2">
+              <Link
+                href={`/admin/rules/${calcSlug}/${stateCode}`}
+                className="inline-flex items-center gap-1 text-sm font-medium text-blue-700 hover:underline"
+              >
+                View Admin Rule Detail →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </main>
+    );
   }
 
   const theme = getTheme("us", stateCode);

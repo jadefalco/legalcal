@@ -1,0 +1,44 @@
+{
+  "topic": "rent-increase",
+  "jurisdiction": "bc",
+  "predictedStructuralRisk": "high",
+  "predictedProceduralRisk": "high",
+  "predictedDocumentationRisk": "high",
+  "predictedOverallRisk": "high",
+  "confidence": {
+    "structural": 0.92,
+    "procedural": 0.92,
+    "documentation": 0.92,
+    "overall": 0.92
+  },
+  "drivers": [
+    "High volatility detected (0.33)",
+    "Rule changed 2 time(s) across 3 snapshots",
+    "Cluster movement: stable within cluster"
+  ],
+  "volatility": 0.33,
+  "similarityShift": 0,
+  "clusterMovement": "stable within cluster",
+  "lastSnapshot": {
+    "topic": "rent-increase",
+    "jurisdiction": "bc",
+    "timestamp": "2026-05-15T16:31:43.901Z",
+    "structuralRisk": "high",
+    "proceduralRisk": "high",
+    "documentationRisk": "high",
+    "overallRisk": "high",
+    "similarityVector": [
+      0.16666666666666666,
+      0.3333333333333333,
+      0.5,
+      1,
+      0.5,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.13333333333333333,
+      1,
+      0.2465753424657534
+    ],
+    "ruleVersion": "2025.01"
+  }
+}

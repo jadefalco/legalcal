@@ -113,16 +113,18 @@ export default function CalculatorsIndexPage() {
           </Link>
         </LCCard>
 
-        {/* Canada Placeholder */}
-        <LCCard theme={theme} className="p-6 space-y-4 opacity-50 cursor-not-allowed">
-          <GlobeAmericasIcon className="w-8 h-8 text-slate-400" />
-          <h3 className="font-semibold text-slate-500 text-lg">
-            Canada Calculators
-          </h3>
-          <p className="text-sm text-slate-500">
-            Provincial calculators coming soon.
-          </p>
-        </LCCard>
+        {/* Canada */}
+        <Link href="/calculators/ca/bc" className="block">
+          <LCCard theme={theme} className="p-6 space-y-4 hover:border-blue-300 transition-colors h-full">
+            <GlobeAmericasIcon className="w-8 h-8 text-blue-600" />
+            <h3 className="font-semibold text-slate-800 text-lg">
+              Canada Calculators
+            </h3>
+            <p className="text-sm text-slate-600">
+              British Columbia calculators now available. More provinces coming soon.
+            </p>
+          </LCCard>
+        </Link>
 
       </section>
 

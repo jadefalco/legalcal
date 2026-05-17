@@ -1,0 +1,2218 @@
+{
+  "type": "annual",
+  "year": 2026,
+  "generatedAt": "2026-05-15T21:20:17.503Z",
+  "topics": [
+    {
+      "topic": "rent-increase",
+      "riskTrends": {
+        "topic": "rent-increase",
+        "jurisdictions": [
+          {
+            "jurisdiction": "bc",
+            "name": "British Columbia",
+            "country": "CA",
+            "deltaStructural": 0,
+            "deltaProcedural": 0,
+            "deltaDocumentation": 0,
+            "deltaOverall": 0,
+            "previousRisk": "high",
+            "currentRisk": "high"
+          }
+        ]
+      },
+      "volatilityRanking": [
+        {
+          "jurisdiction": "bc",
+          "name": "British Columbia",
+          "country": "ca",
+          "volatilityScore": 0.33,
+          "rank": 1
+        },
+        {
+          "jurisdiction": "al",
+          "name": "Alabama",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 2
+        },
+        {
+          "jurisdiction": "ak",
+          "name": "Alaska",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 3
+        },
+        {
+          "jurisdiction": "az",
+          "name": "Arizona",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 4
+        },
+        {
+          "jurisdiction": "ar",
+          "name": "Arkansas",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 5
+        },
+        {
+          "jurisdiction": "co",
+          "name": "Colorado",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 6
+        },
+        {
+          "jurisdiction": "ct",
+          "name": "Connecticut",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 7
+        },
+        {
+          "jurisdiction": "de",
+          "name": "Delaware",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 8
+        },
+        {
+          "jurisdiction": "fl",
+          "name": "Florida",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 9
+        },
+        {
+          "jurisdiction": "ga",
+          "name": "Georgia",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 10
+        },
+        {
+          "jurisdiction": "hi",
+          "name": "Hawaii",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 11
+        },
+        {
+          "jurisdiction": "id",
+          "name": "Idaho",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 12
+        },
+        {
+          "jurisdiction": "il",
+          "name": "Illinois",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 13
+        },
+        {
+          "jurisdiction": "in",
+          "name": "Indiana",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 14
+        },
+        {
+          "jurisdiction": "ia",
+          "name": "Iowa",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 15
+        },
+        {
+          "jurisdiction": "ks",
+          "name": "Kansas",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 16
+        },
+        {
+          "jurisdiction": "ky",
+          "name": "Kentucky",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 17
+        },
+        {
+          "jurisdiction": "la",
+          "name": "Louisiana",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 18
+        },
+        {
+          "jurisdiction": "me",
+          "name": "Maine",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 19
+        },
+        {
+          "jurisdiction": "md",
+          "name": "Maryland",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 20
+        },
+        {
+          "jurisdiction": "ma",
+          "name": "Massachusetts",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 21
+        },
+        {
+          "jurisdiction": "mi",
+          "name": "Michigan",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 22
+        },
+        {
+          "jurisdiction": "mn",
+          "name": "Minnesota",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 23
+        },
+        {
+          "jurisdiction": "ms",
+          "name": "Mississippi",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 24
+        },
+        {
+          "jurisdiction": "mo",
+          "name": "Missouri",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 25
+        },
+        {
+          "jurisdiction": "mt",
+          "name": "Montana",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 26
+        },
+        {
+          "jurisdiction": "ne",
+          "name": "Nebraska",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 27
+        },
+        {
+          "jurisdiction": "nv",
+          "name": "Nevada",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 28
+        },
+        {
+          "jurisdiction": "nh",
+          "name": "New Hampshire",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 29
+        },
+        {
+          "jurisdiction": "nj",
+          "name": "New Jersey",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 30
+        },
+        {
+          "jurisdiction": "nm",
+          "name": "New Mexico",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 31
+        },
+        {
+          "jurisdiction": "ny",
+          "name": "New York",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 32
+        },
+        {
+          "jurisdiction": "nc",
+          "name": "North Carolina",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 33
+        },
+        {
+          "jurisdiction": "nd",
+          "name": "North Dakota",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 34
+        },
+        {
+          "jurisdiction": "oh",
+          "name": "Ohio",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 35
+        },
+        {
+          "jurisdiction": "ok",
+          "name": "Oklahoma",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 36
+        },
+        {
+          "jurisdiction": "pa",
+          "name": "Pennsylvania",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 37
+        },
+        {
+          "jurisdiction": "ri",
+          "name": "Rhode Island",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 38
+        },
+        {
+          "jurisdiction": "sc",
+          "name": "South Carolina",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 39
+        },
+        {
+          "jurisdiction": "sd",
+          "name": "South Dakota",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 40
+        },
+        {
+          "jurisdiction": "tn",
+          "name": "Tennessee",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 41
+        },
+        {
+          "jurisdiction": "tx",
+          "name": "Texas",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 42
+        },
+        {
+          "jurisdiction": "ut",
+          "name": "Utah",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 43
+        },
+        {
+          "jurisdiction": "vt",
+          "name": "Vermont",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 44
+        },
+        {
+          "jurisdiction": "va",
+          "name": "Virginia",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 45
+        },
+        {
+          "jurisdiction": "wa",
+          "name": "Washington",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 46
+        },
+        {
+          "jurisdiction": "wv",
+          "name": "West Virginia",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 47
+        },
+        {
+          "jurisdiction": "wi",
+          "name": "Wisconsin",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 48
+        },
+        {
+          "jurisdiction": "wy",
+          "name": "Wyoming",
+          "country": "us",
+          "volatilityScore": 0.25,
+          "rank": 49
+        },
+        {
+          "jurisdiction": "ca",
+          "name": "California",
+          "country": "us",
+          "volatilityScore": 0.06,
+          "rank": 50
+        },
+        {
+          "jurisdiction": "or",
+          "name": "Oregon",
+          "country": "us",
+          "volatilityScore": 0.06,
+          "rank": 51
+        },
+        {
+          "jurisdiction": "ab",
+          "name": "Alberta",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 52
+        },
+        {
+          "jurisdiction": "sk",
+          "name": "Saskatchewan",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 53
+        },
+        {
+          "jurisdiction": "mb",
+          "name": "Manitoba",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 54
+        },
+        {
+          "jurisdiction": "on",
+          "name": "Ontario",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 55
+        },
+        {
+          "jurisdiction": "qc",
+          "name": "Quebec",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 56
+        },
+        {
+          "jurisdiction": "nb",
+          "name": "New Brunswick",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 57
+        },
+        {
+          "jurisdiction": "ns",
+          "name": "Nova Scotia",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 58
+        },
+        {
+          "jurisdiction": "pe",
+          "name": "Prince Edward Island",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 59
+        },
+        {
+          "jurisdiction": "nl",
+          "name": "Newfoundland and Labrador",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 60
+        },
+        {
+          "jurisdiction": "yt",
+          "name": "Yukon",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 61
+        },
+        {
+          "jurisdiction": "nt",
+          "name": "Northwest Territories",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 62
+        },
+        {
+          "jurisdiction": "nu",
+          "name": "Nunavut",
+          "country": "ca",
+          "volatilityScore": 0,
+          "rank": 63
+        },
+        {
+          "jurisdiction": "dc",
+          "name": "District of Columbia",
+          "country": "us",
+          "volatilityScore": 0,
+          "rank": 64
+        }
+      ],
+      "clusterMovement": [
+        {
+          "jurisdiction": "bc",
+          "name": "British Columbia",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "al",
+          "name": "Alabama",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ak",
+          "name": "Alaska",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "az",
+          "name": "Arizona",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ar",
+          "name": "Arkansas",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "co",
+          "name": "Colorado",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ct",
+          "name": "Connecticut",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "de",
+          "name": "Delaware",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "fl",
+          "name": "Florida",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ga",
+          "name": "Georgia",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "hi",
+          "name": "Hawaii",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "id",
+          "name": "Idaho",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "il",
+          "name": "Illinois",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "in",
+          "name": "Indiana",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ia",
+          "name": "Iowa",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ks",
+          "name": "Kansas",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ky",
+          "name": "Kentucky",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "la",
+          "name": "Louisiana",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "me",
+          "name": "Maine",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "md",
+          "name": "Maryland",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ma",
+          "name": "Massachusetts",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "mi",
+          "name": "Michigan",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "mn",
+          "name": "Minnesota",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ms",
+          "name": "Mississippi",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "mo",
+          "name": "Missouri",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "mt",
+          "name": "Montana",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ne",
+          "name": "Nebraska",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nv",
+          "name": "Nevada",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nh",
+          "name": "New Hampshire",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nj",
+          "name": "New Jersey",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nm",
+          "name": "New Mexico",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ny",
+          "name": "New York",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nc",
+          "name": "North Carolina",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nd",
+          "name": "North Dakota",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "oh",
+          "name": "Ohio",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ok",
+          "name": "Oklahoma",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "pa",
+          "name": "Pennsylvania",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ri",
+          "name": "Rhode Island",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "sc",
+          "name": "South Carolina",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "sd",
+          "name": "South Dakota",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "tn",
+          "name": "Tennessee",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "tx",
+          "name": "Texas",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ut",
+          "name": "Utah",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "vt",
+          "name": "Vermont",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "va",
+          "name": "Virginia",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "wa",
+          "name": "Washington",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "wv",
+          "name": "West Virginia",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "wi",
+          "name": "Wisconsin",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "wy",
+          "name": "Wyoming",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ca",
+          "name": "California",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "or",
+          "name": "Oregon",
+          "country": "us",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ab",
+          "name": "Alberta",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "sk",
+          "name": "Saskatchewan",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "mb",
+          "name": "Manitoba",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "on",
+          "name": "Ontario",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "qc",
+          "name": "Quebec",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nb",
+          "name": "New Brunswick",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "ns",
+          "name": "Nova Scotia",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "pe",
+          "name": "Prince Edward Island",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nl",
+          "name": "Newfoundland and Labrador",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "yt",
+          "name": "Yukon",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nt",
+          "name": "Northwest Territories",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "nu",
+          "name": "Nunavut",
+          "country": "ca",
+          "movement": "stable within cluster"
+        },
+        {
+          "jurisdiction": "dc",
+          "name": "District of Columbia",
+          "country": "us",
+          "movement": "stable within cluster"
+        }
+      ],
+      "forecastOutlook": {
+        "topic": "rent-increase",
+        "jurisdictions": [
+          {
+            "jurisdiction": "bc",
+            "name": "British Columbia",
+            "country": "ca",
+            "outlook": "high",
+            "confidence": 0.92,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "al",
+            "name": "Alabama",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ak",
+            "name": "Alaska",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "az",
+            "name": "Arizona",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ar",
+            "name": "Arkansas",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "co",
+            "name": "Colorado",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ct",
+            "name": "Connecticut",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "de",
+            "name": "Delaware",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "fl",
+            "name": "Florida",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ga",
+            "name": "Georgia",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "hi",
+            "name": "Hawaii",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "id",
+            "name": "Idaho",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "il",
+            "name": "Illinois",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "in",
+            "name": "Indiana",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ia",
+            "name": "Iowa",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ks",
+            "name": "Kansas",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ky",
+            "name": "Kentucky",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "la",
+            "name": "Louisiana",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "me",
+            "name": "Maine",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "md",
+            "name": "Maryland",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ma",
+            "name": "Massachusetts",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "mi",
+            "name": "Michigan",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "mn",
+            "name": "Minnesota",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ms",
+            "name": "Mississippi",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "mo",
+            "name": "Missouri",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "mt",
+            "name": "Montana",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ne",
+            "name": "Nebraska",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nv",
+            "name": "Nevada",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nh",
+            "name": "New Hampshire",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nj",
+            "name": "New Jersey",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nm",
+            "name": "New Mexico",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ny",
+            "name": "New York",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nc",
+            "name": "North Carolina",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nd",
+            "name": "North Dakota",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "oh",
+            "name": "Ohio",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ok",
+            "name": "Oklahoma",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "pa",
+            "name": "Pennsylvania",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ri",
+            "name": "Rhode Island",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "sc",
+            "name": "South Carolina",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "sd",
+            "name": "South Dakota",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "tn",
+            "name": "Tennessee",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "tx",
+            "name": "Texas",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ut",
+            "name": "Utah",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "vt",
+            "name": "Vermont",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "va",
+            "name": "Virginia",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "wa",
+            "name": "Washington",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "wv",
+            "name": "West Virginia",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "wi",
+            "name": "Wisconsin",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "wy",
+            "name": "Wyoming",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ca",
+            "name": "California",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "or",
+            "name": "Oregon",
+            "country": "us",
+            "outlook": "high",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ab",
+            "name": "Alberta",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "sk",
+            "name": "Saskatchewan",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "mb",
+            "name": "Manitoba",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "on",
+            "name": "Ontario",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "qc",
+            "name": "Quebec",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nb",
+            "name": "New Brunswick",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "ns",
+            "name": "Nova Scotia",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "pe",
+            "name": "Prince Edward Island",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nl",
+            "name": "Newfoundland and Labrador",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "yt",
+            "name": "Yukon",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nt",
+            "name": "Northwest Territories",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "nu",
+            "name": "Nunavut",
+            "country": "ca",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          },
+          {
+            "jurisdiction": "dc",
+            "name": "District of Columbia",
+            "country": "us",
+            "outlook": "low",
+            "confidence": 1,
+            "trendDirection": "stable"
+          }
+        ]
+      },
+      "nationalHeatmap": {
+        "topic": "rent-increase",
+        "scenario": "Proposed rent increase of 5% with 30 days' notice.",
+        "results": [
+          {
+            "jurisdiction": "ab",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Alberta"
+          },
+          {
+            "jurisdiction": "bc",
+            "country": "CA",
+            "overallRisk": "high",
+            "structuralRisk": "high",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "British Columbia"
+          },
+          {
+            "jurisdiction": "mb",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Manitoba"
+          },
+          {
+            "jurisdiction": "nb",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "New Brunswick"
+          },
+          {
+            "jurisdiction": "nl",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Newfoundland and Labrador"
+          },
+          {
+            "jurisdiction": "ns",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Nova Scotia"
+          },
+          {
+            "jurisdiction": "nt",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Northwest Territories"
+          },
+          {
+            "jurisdiction": "nu",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Nunavut"
+          },
+          {
+            "jurisdiction": "on",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Ontario"
+          },
+          {
+            "jurisdiction": "pe",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Prince Edward Island"
+          },
+          {
+            "jurisdiction": "qc",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Quebec"
+          },
+          {
+            "jurisdiction": "sk",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Saskatchewan"
+          },
+          {
+            "jurisdiction": "yt",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Yukon"
+          },
+          {
+            "jurisdiction": "ak",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Alaska"
+          },
+          {
+            "jurisdiction": "al",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Alabama"
+          },
+          {
+            "jurisdiction": "ar",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Arkansas"
+          },
+          {
+            "jurisdiction": "az",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Arizona"
+          },
+          {
+            "jurisdiction": "ca",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "California"
+          },
+          {
+            "jurisdiction": "co",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Colorado"
+          },
+          {
+            "jurisdiction": "ct",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Connecticut"
+          },
+          {
+            "jurisdiction": "dc",
+            "country": "US",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "District of Columbia"
+          },
+          {
+            "jurisdiction": "de",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Delaware"
+          },
+          {
+            "jurisdiction": "fl",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Florida"
+          },
+          {
+            "jurisdiction": "ga",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Georgia"
+          },
+          {
+            "jurisdiction": "hi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Hawaii"
+          },
+          {
+            "jurisdiction": "ia",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Iowa"
+          },
+          {
+            "jurisdiction": "id",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Idaho"
+          },
+          {
+            "jurisdiction": "il",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Illinois"
+          },
+          {
+            "jurisdiction": "in",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Indiana"
+          },
+          {
+            "jurisdiction": "ks",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Kansas"
+          },
+          {
+            "jurisdiction": "ky",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Kentucky"
+          },
+          {
+            "jurisdiction": "la",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Louisiana"
+          },
+          {
+            "jurisdiction": "ma",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Massachusetts"
+          },
+          {
+            "jurisdiction": "md",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Maryland"
+          },
+          {
+            "jurisdiction": "me",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Maine"
+          },
+          {
+            "jurisdiction": "mi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Michigan"
+          },
+          {
+            "jurisdiction": "mn",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Minnesota"
+          },
+          {
+            "jurisdiction": "mo",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Missouri"
+          },
+          {
+            "jurisdiction": "ms",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Mississippi"
+          },
+          {
+            "jurisdiction": "mt",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Montana"
+          },
+          {
+            "jurisdiction": "nc",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "North Carolina"
+          },
+          {
+            "jurisdiction": "nd",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "North Dakota"
+          },
+          {
+            "jurisdiction": "ne",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Nebraska"
+          },
+          {
+            "jurisdiction": "nh",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Hampshire"
+          },
+          {
+            "jurisdiction": "nj",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Jersey"
+          },
+          {
+            "jurisdiction": "nm",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Mexico"
+          },
+          {
+            "jurisdiction": "nv",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Nevada"
+          },
+          {
+            "jurisdiction": "ny",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New York"
+          },
+          {
+            "jurisdiction": "oh",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Ohio"
+          },
+          {
+            "jurisdiction": "ok",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Oklahoma"
+          },
+          {
+            "jurisdiction": "or",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Oregon"
+          },
+          {
+            "jurisdiction": "pa",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Pennsylvania"
+          },
+          {
+            "jurisdiction": "ri",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Rhode Island"
+          },
+          {
+            "jurisdiction": "sc",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "South Carolina"
+          },
+          {
+            "jurisdiction": "sd",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "South Dakota"
+          },
+          {
+            "jurisdiction": "tn",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Tennessee"
+          },
+          {
+            "jurisdiction": "tx",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Texas"
+          },
+          {
+            "jurisdiction": "ut",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Utah"
+          },
+          {
+            "jurisdiction": "va",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Virginia"
+          },
+          {
+            "jurisdiction": "vt",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Vermont"
+          },
+          {
+            "jurisdiction": "wa",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Washington"
+          },
+          {
+            "jurisdiction": "wi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Wisconsin"
+          },
+          {
+            "jurisdiction": "wv",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "West Virginia"
+          },
+          {
+            "jurisdiction": "wy",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Wyoming"
+          }
+        ]
+      },
+      "nationalSimilarity": {
+        "topClusters": [
+          {
+            "clusterId": 0,
+            "members": [
+              "bc",
+              "ak",
+              "al",
+              "ar",
+              "az",
+              "ca",
+              "co",
+              "ct",
+              "de",
+              "fl",
+              "ga",
+              "hi",
+              "ia",
+              "id",
+              "il",
+              "in",
+              "ks",
+              "ky",
+              "la",
+              "ma",
+              "md",
+              "me",
+              "mi",
+              "mn",
+              "mo",
+              "ms",
+              "mt",
+              "nc",
+              "nd",
+              "ne",
+              "nh",
+              "nj",
+              "nm",
+              "nv",
+              "ny",
+              "oh",
+              "ok",
+              "or",
+              "pa",
+              "ri",
+              "sc",
+              "sd",
+              "tn",
+              "tx",
+              "ut",
+              "va",
+              "vt",
+              "wa",
+              "wi",
+              "wv",
+              "wy"
+            ]
+          },
+          {
+            "clusterId": 1,
+            "members": []
+          },
+          {
+            "clusterId": 2,
+            "members": []
+          }
+        ],
+        "outliers": [
+          "ab",
+          "bc",
+          "mb",
+          "nb",
+          "nl",
+          "ns",
+          "nt",
+          "nu",
+          "on",
+          "pe",
+          "qc",
+          "sk",
+          "yt",
+          "ak",
+          "al",
+          "ar",
+          "az",
+          "ca",
+          "co",
+          "ct",
+          "dc",
+          "de",
+          "fl",
+          "ga",
+          "hi",
+          "ia",
+          "id",
+          "il",
+          "in",
+          "ks",
+          "ky",
+          "la",
+          "ma",
+          "md",
+          "me",
+          "mi",
+          "mn",
+          "mo",
+          "ms",
+          "mt",
+          "nc",
+          "nd",
+          "ne",
+          "nh",
+          "nj",
+          "nm",
+          "nv",
+          "ny",
+          "oh",
+          "ok",
+          "or",
+          "pa",
+          "ri",
+          "sc",
+          "sd",
+          "tn",
+          "tx",
+          "ut",
+          "va",
+          "vt",
+          "wa",
+          "wi",
+          "wv",
+          "wy"
+        ],
+        "strongestPairs": [
+          {
+            "a": "ca",
+            "b": "or",
+            "score": 1
+          },
+          {
+            "a": "ak",
+            "b": "al",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ar",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "az",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "co",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ct",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "de",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "fl",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ga",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "hi",
+            "score": 0.9999999999999999
+          }
+        ]
+      },
+      "coverage": {
+        "total": 64,
+        "placeholder": 13,
+        "real": 51,
+        "coveragePercent": 80
+      },
+      "ruleChanges": []
+    }
+  ]
+}

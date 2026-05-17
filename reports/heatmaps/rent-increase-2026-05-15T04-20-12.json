@@ -1,0 +1,646 @@
+{
+  "topic": "rent-increase",
+  "scenario": "Proposed rent increase of 5% with 30 days notice.",
+  "results": [
+    {
+      "jurisdiction": "ab",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Alberta"
+    },
+    {
+      "jurisdiction": "bc",
+      "country": "CA",
+      "overallRisk": "high",
+      "structuralRisk": "high",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "British Columbia"
+    },
+    {
+      "jurisdiction": "mb",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Manitoba"
+    },
+    {
+      "jurisdiction": "nb",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "New Brunswick"
+    },
+    {
+      "jurisdiction": "nl",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Newfoundland and Labrador"
+    },
+    {
+      "jurisdiction": "ns",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Nova Scotia"
+    },
+    {
+      "jurisdiction": "nt",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Northwest Territories"
+    },
+    {
+      "jurisdiction": "nu",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Nunavut"
+    },
+    {
+      "jurisdiction": "on",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Ontario"
+    },
+    {
+      "jurisdiction": "pe",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Prince Edward Island"
+    },
+    {
+      "jurisdiction": "qc",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Quebec"
+    },
+    {
+      "jurisdiction": "sk",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Saskatchewan"
+    },
+    {
+      "jurisdiction": "yt",
+      "country": "CA",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "Yukon"
+    },
+    {
+      "jurisdiction": "ak",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Alaska"
+    },
+    {
+      "jurisdiction": "al",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Alabama"
+    },
+    {
+      "jurisdiction": "ar",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Arkansas"
+    },
+    {
+      "jurisdiction": "az",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Arizona"
+    },
+    {
+      "jurisdiction": "ca",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "medium",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "California"
+    },
+    {
+      "jurisdiction": "co",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Colorado"
+    },
+    {
+      "jurisdiction": "ct",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Connecticut"
+    },
+    {
+      "jurisdiction": "dc",
+      "country": "US",
+      "overallRisk": "low",
+      "structuralRisk": "low",
+      "proceduralRisk": "low",
+      "documentationRisk": "low",
+      "isPlaceholder": true,
+      "name": "District of Columbia"
+    },
+    {
+      "jurisdiction": "de",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Delaware"
+    },
+    {
+      "jurisdiction": "fl",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Florida"
+    },
+    {
+      "jurisdiction": "ga",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Georgia"
+    },
+    {
+      "jurisdiction": "hi",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Hawaii"
+    },
+    {
+      "jurisdiction": "ia",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Iowa"
+    },
+    {
+      "jurisdiction": "id",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Idaho"
+    },
+    {
+      "jurisdiction": "il",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Illinois"
+    },
+    {
+      "jurisdiction": "in",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Indiana"
+    },
+    {
+      "jurisdiction": "ks",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Kansas"
+    },
+    {
+      "jurisdiction": "ky",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Kentucky"
+    },
+    {
+      "jurisdiction": "la",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Louisiana"
+    },
+    {
+      "jurisdiction": "ma",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Massachusetts"
+    },
+    {
+      "jurisdiction": "md",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Maryland"
+    },
+    {
+      "jurisdiction": "me",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Maine"
+    },
+    {
+      "jurisdiction": "mi",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Michigan"
+    },
+    {
+      "jurisdiction": "mn",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Minnesota"
+    },
+    {
+      "jurisdiction": "mo",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Missouri"
+    },
+    {
+      "jurisdiction": "ms",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Mississippi"
+    },
+    {
+      "jurisdiction": "mt",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Montana"
+    },
+    {
+      "jurisdiction": "nc",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "North Carolina"
+    },
+    {
+      "jurisdiction": "nd",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "North Dakota"
+    },
+    {
+      "jurisdiction": "ne",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Nebraska"
+    },
+    {
+      "jurisdiction": "nh",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "New Hampshire"
+    },
+    {
+      "jurisdiction": "nj",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "New Jersey"
+    },
+    {
+      "jurisdiction": "nm",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "New Mexico"
+    },
+    {
+      "jurisdiction": "nv",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Nevada"
+    },
+    {
+      "jurisdiction": "ny",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "New York"
+    },
+    {
+      "jurisdiction": "oh",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Ohio"
+    },
+    {
+      "jurisdiction": "ok",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Oklahoma"
+    },
+    {
+      "jurisdiction": "or",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "medium",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Oregon"
+    },
+    {
+      "jurisdiction": "pa",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Pennsylvania"
+    },
+    {
+      "jurisdiction": "ri",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Rhode Island"
+    },
+    {
+      "jurisdiction": "sc",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "South Carolina"
+    },
+    {
+      "jurisdiction": "sd",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "South Dakota"
+    },
+    {
+      "jurisdiction": "tn",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Tennessee"
+    },
+    {
+      "jurisdiction": "tx",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Texas"
+    },
+    {
+      "jurisdiction": "ut",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Utah"
+    },
+    {
+      "jurisdiction": "va",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Virginia"
+    },
+    {
+      "jurisdiction": "vt",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Vermont"
+    },
+    {
+      "jurisdiction": "wa",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Washington"
+    },
+    {
+      "jurisdiction": "wi",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Wisconsin"
+    },
+    {
+      "jurisdiction": "wv",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "West Virginia"
+    },
+    {
+      "jurisdiction": "wy",
+      "country": "US",
+      "overallRisk": "high",
+      "structuralRisk": "low",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "isPlaceholder": false,
+      "name": "Wyoming"
+    }
+  ]
+}

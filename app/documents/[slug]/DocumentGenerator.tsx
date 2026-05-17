@@ -7,9 +7,27 @@ interface DocumentGeneratorProps {
   template: DocumentTemplate;
 }
 
+function getDefaultJurisdiction(template: DocumentTemplate): string {
+  if (template.jurisdictionScopes.includes("ca-bc")) return "ca-bc";
+  if (template.jurisdictionScopes.length > 0) return template.jurisdictionScopes[0];
+  return "us-ca";
+}
+
+function getDefaultTopic(slug: string): string {
+  const topicMap: Record<string, string> = {
+    "bc-notice-to-enter": "entry-notice",
+    "bc-rent-increase-notice": "rent-increase",
+    "bc-condition-inspection-report": "condition-inspection",
+    "bc-deposit-return-letter": "deposit-return",
+    "bc-repair-request-letter": "repair-request",
+    "bc-notice-to-end-tenancy": "ending-tenancy",
+  };
+  return topicMap[slug] || "entry-notice";
+}
+
 export function DocumentGenerator({ template }: DocumentGeneratorProps) {
-  const [jurisdiction, setJurisdiction] = useState("us-ca");
-  const [topic, setTopic] = useState("entry-notice");
+  const [jurisdiction, setJurisdiction] = useState(getDefaultJurisdiction(template));
+  const [topic, setTopic] = useState(getDefaultTopic(template.slug));
   const [userInput, setUserInput] = useState<Record<string, string>>({});
   const [result, setResult] = useState<{ html: string; variablesUsed: string[] } | null>(null);
   const [loading, setLoading] = useState(false);

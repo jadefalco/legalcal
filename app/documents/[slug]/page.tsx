@@ -16,7 +16,7 @@ export default async function DocumentPage({ params }: DocumentPageProps) {
       <div className="max-w-3xl mx-auto px-6 py-12 space-y-8">
         <div>
           <Link
-            href="/us/calculators"
+            href={params.slug.startsWith("bc-") ? "/calculators/ca/bc" : "/us/calculators"}
             className="text-sm text-blue-600 hover:text-blue-500"
           >
             ← Back to Calculators

@@ -1,0 +1,581 @@
+{
+  "topic": "rent-increase",
+  "jurisdictions": [
+    {
+      "jurisdiction": "bc",
+      "name": "British Columbia",
+      "country": "ca",
+      "volatilityScore": 0.33,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "al",
+      "name": "Alabama",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ak",
+      "name": "Alaska",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "az",
+      "name": "Arizona",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ar",
+      "name": "Arkansas",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "co",
+      "name": "Colorado",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ct",
+      "name": "Connecticut",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "de",
+      "name": "Delaware",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "fl",
+      "name": "Florida",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ga",
+      "name": "Georgia",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "hi",
+      "name": "Hawaii",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "id",
+      "name": "Idaho",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "il",
+      "name": "Illinois",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "in",
+      "name": "Indiana",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ia",
+      "name": "Iowa",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ks",
+      "name": "Kansas",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ky",
+      "name": "Kentucky",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "la",
+      "name": "Louisiana",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "me",
+      "name": "Maine",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "md",
+      "name": "Maryland",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ma",
+      "name": "Massachusetts",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "mi",
+      "name": "Michigan",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "mn",
+      "name": "Minnesota",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ms",
+      "name": "Mississippi",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "mo",
+      "name": "Missouri",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "mt",
+      "name": "Montana",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ne",
+      "name": "Nebraska",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nv",
+      "name": "Nevada",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nh",
+      "name": "New Hampshire",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nj",
+      "name": "New Jersey",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nm",
+      "name": "New Mexico",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ny",
+      "name": "New York",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nc",
+      "name": "North Carolina",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "nd",
+      "name": "North Dakota",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "oh",
+      "name": "Ohio",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ok",
+      "name": "Oklahoma",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "pa",
+      "name": "Pennsylvania",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ri",
+      "name": "Rhode Island",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "sc",
+      "name": "South Carolina",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "sd",
+      "name": "South Dakota",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "tn",
+      "name": "Tennessee",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "tx",
+      "name": "Texas",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ut",
+      "name": "Utah",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "vt",
+      "name": "Vermont",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "va",
+      "name": "Virginia",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "wa",
+      "name": "Washington",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "wv",
+      "name": "West Virginia",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "wi",
+      "name": "Wisconsin",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "wy",
+      "name": "Wyoming",
+      "country": "us",
+      "volatilityScore": 0.25,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ca",
+      "name": "California",
+      "country": "us",
+      "volatilityScore": 0.06,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "or",
+      "name": "Oregon",
+      "country": "us",
+      "volatilityScore": 0.06,
+      "trendDirection": "stable",
+      "lastRisk": "high",
+      "lastRuleVersion": "2025.01"
+    },
+    {
+      "jurisdiction": "ab",
+      "name": "Alberta",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "sk",
+      "name": "Saskatchewan",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "mb",
+      "name": "Manitoba",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "on",
+      "name": "Ontario",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "qc",
+      "name": "Quebec",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "nb",
+      "name": "New Brunswick",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "ns",
+      "name": "Nova Scotia",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "pe",
+      "name": "Prince Edward Island",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "nl",
+      "name": "Newfoundland and Labrador",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "yt",
+      "name": "Yukon",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "nt",
+      "name": "Northwest Territories",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "nu",
+      "name": "Nunavut",
+      "country": "ca",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    },
+    {
+      "jurisdiction": "dc",
+      "name": "District of Columbia",
+      "country": "us",
+      "volatilityScore": 0,
+      "trendDirection": "stable",
+      "lastRisk": "low",
+      "lastRuleVersion": "0.0"
+    }
+  ]
+}

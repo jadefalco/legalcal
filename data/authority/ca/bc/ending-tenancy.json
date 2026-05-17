@@ -1,0 +1,52 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "ending-tenancy",
+  "rule": {
+    "data": {
+      "landlordNoticePeriodDays": 30,
+      "tenantNoticePeriodDays": 30,
+      "fixedTermEnd": "automatically ends on expiry date unless renewed",
+      "landlordValidReasons": [
+        "non-payment of rent",
+        "cause (repeated late rent, illegal activity, substantial damage)",
+        "landlord use (moving in, close family member, selling with vacant possession)",
+        "renovation or demolition"
+      ],
+      "tenantValidReasons": [
+        "end of fixed term",
+        "month-to-month with proper notice",
+        "family violence",
+        "landlord breach of material term"
+      ],
+      "notes": [
+        "Landlords must use the correct RTB notice form for the reason.",
+        "Tenants can end a month-to-month tenancy by giving one full rental month's notice.",
+        "Some notices require dispute resolution if the tenant does not agree."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 44",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A tenancy ends on the expiry date of a fixed term tenancy agreement.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      },
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 45",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A tenant may end a month-to-month tenancy by giving the landlord at least one month's notice.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder values for calculator use. Verify with RTB."]
+    }
+  }
+}

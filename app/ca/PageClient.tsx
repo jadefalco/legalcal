@@ -89,11 +89,17 @@ export default function PageClient({ provinces, theme }: Props) {
                 </LCButton>
               </Link>
 
-              <Link href={`/calculators/ca/${province.code}`}>
-                <LCButton variant="primary" className="w-full" theme={theme}>
-                  Calculators
+              {province.code === "bc" ? (
+                <Link href={`/calculators/ca/${province.code}`}>
+                  <LCButton variant="primary" className="w-full" theme={theme}>
+                    Calculators
+                  </LCButton>
+                </Link>
+              ) : (
+                <LCButton variant="ghost" className="w-full opacity-50 cursor-not-allowed" theme={theme} disabled>
+                  Calculators (soon)
                 </LCButton>
-              </Link>
+              )}
             </div>
           </LCCard>
         ))}

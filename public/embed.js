@@ -15,6 +15,8 @@
   function buildUrl(el) {
     var calculator = el.getAttribute("data-legalcals-calculator");
     var state = el.getAttribute("data-state") || "";
+    var province = el.getAttribute("data-province") || "";
+    var country = el.getAttribute("data-country") || "";
     var city = el.getAttribute("data-city") || "";
     var theme = el.getAttribute("data-theme") || "light";
     var autosize = el.getAttribute("data-autosize") !== "false";
@@ -22,6 +24,8 @@
     var url = ORIGIN + "/embed/" + encodeURIComponent(calculator);
     var params = [];
     if (state) params.push("state=" + encodeURIComponent(state));
+    if (province) params.push("province=" + encodeURIComponent(province));
+    if (country) params.push("country=" + encodeURIComponent(country));
     if (city) params.push("city=" + encodeURIComponent(city));
     if (theme) params.push("theme=" + encodeURIComponent(theme));
     if (autosize) params.push("autosize=1");
@@ -32,6 +36,8 @@
   function createIframe(el) {
     var calculator = el.getAttribute("data-legalcals-calculator");
     var state = el.getAttribute("data-state") || "";
+    var province = el.getAttribute("data-province") || "";
+    var country = el.getAttribute("data-country") || "";
     var city = el.getAttribute("data-city") || "";
 
     var shadow = el.attachShadow({ mode: "open" });
@@ -76,6 +82,8 @@
         sendAnalytics({
           calculator: calculator,
           state: state,
+          province: province,
+          country: country,
           city: city,
           eventType: data.name,
           payload: data.payload,
@@ -87,6 +95,8 @@
     sendAnalytics({
       calculator: calculator,
       state: state,
+      province: province,
+      country: country,
       city: city,
       eventType: "view",
     });
@@ -94,18 +104,27 @@
 
   function sendAnalytics(event) {
     try {
+      var payload = {
+        calculator: event.calculator,
+        country: event.country,
+        eventType: event.eventType,
+        metadata: event.payload || {},
+      };
+
+      if (event.country === "us" && event.state) {
+        payload.state = event.state;
+      }
+      if (event.country === "ca" && event.province) {
+        payload.province = event.province;
+      }
+      if (event.city) {
+        payload.city = event.city;
+      }
+
       var xhr = new XMLHttpRequest();
       xhr.open("POST", ORIGIN + "/api/widget/log", true);
       xhr.setRequestHeader("Content-Type", "application/json");
-      xhr.send(
-        JSON.stringify({
-          calculator: event.calculator,
-          state: event.state,
-          city: event.city || undefined,
-          eventType: event.eventType,
-          metadata: event.payload || {},
-        })
-      );
+      xhr.send(JSON.stringify(payload));
     } catch (e) {
       // Silently fail analytics on external sites
     }

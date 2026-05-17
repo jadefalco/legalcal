@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { calculators } from "@/app/config/calculators";
 import { usStates } from "@/app/config/usStates";
+import { caProvinces } from "@/app/config/caProvinces";
 import { defaultTheme } from "@/app/theme";
 
 import StateSectionHeader from "@/app/components/lc/StateSectionHeader";
@@ -57,8 +58,11 @@ export default function Page({
 
   // If state query param is present, redirect immediately
   if (searchParams.state) {
-    const stateCode = searchParams.state.toLowerCase();
-    redirect(`/calculators/us/${stateCode}/${calcSlug}`);
+    const code = searchParams.state.toLowerCase();
+    if (code in caProvinces) {
+      redirect(`/calculators/ca/${code}/${calcSlug}`);
+    }
+    redirect(`/calculators/us/${code}/${calcSlug}`);
   }
 
   const theme = defaultTheme;
@@ -87,27 +91,32 @@ export default function Page({
         </Link>
       </div>
 
-      {/* State Selector Form */}
+      {/* Jurisdiction Selector Form */}
       <LCCard theme={theme} className="space-y-5">
         <div className="flex items-center gap-2">
           <MapIcon className="w-5 h-5" style={{ color: theme.colors.primary }} />
-          <h2 className="font-semibold text-slate-800">Select Your State</h2>
+          <h2 className="font-semibold text-slate-800">Select Your Jurisdiction</h2>
         </div>
 
         <p className="text-sm text-slate-600">
-          Choose a state below to run the {calc.name.toLowerCase()} calculator
+          Choose a state or province below to run the {calc.name.toLowerCase()} calculator
           with jurisdiction-specific rules and deadlines.
         </p>
 
         <form method="GET" className="space-y-4">
-          <LCField label="State" theme={theme}>
+          <LCField label="State / Province" theme={theme}>
             <select name="state" required className={selectClass}>
-              <option value="">— Select a state —</option>
-              {stateList.map(([code, info]) => (
-                <option key={code} value={code}>
-                  {info.name}
-                </option>
-              ))}
+              <option value="">— Select a jurisdiction —</option>
+              <optgroup label="United States">
+                {stateList.map(([code, info]) => (
+                  <option key={code} value={code}>
+                    {info.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label="Canada">
+                <option value="bc">British Columbia</option>
+              </optgroup>
             </select>
           </LCField>
 
@@ -133,9 +142,11 @@ export default function Page({
 
       <StateContentDivider theme={theme} />
 
-      {/* Browse All States */}
+      {/* Browse All Jurisdictions */}
       <section className="space-y-4">
-        <h3 className="font-semibold text-slate-800">Or browse by state</h3>
+        <h3 className="font-semibold text-slate-800">Or browse by jurisdiction</h3>
+
+        <h4 className="text-sm font-medium text-slate-500 uppercase tracking-wide">United States</h4>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
           {stateList.map(([code, info]) => (
             <Link
@@ -153,6 +164,23 @@ export default function Page({
               </LCCard>
             </Link>
           ))}
+        </div>
+
+        <h4 className="text-sm font-medium text-slate-500 uppercase tracking-wide pt-4">Canada</h4>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <Link
+            href={`/calculators/ca/bc/${calcSlug}`}
+            className="block"
+          >
+            <LCCard
+              theme={theme}
+              className="text-center py-3 hover:shadow-md transition-shadow"
+            >
+              <span className="text-sm font-medium text-slate-700">
+                British Columbia
+              </span>
+            </LCCard>
+          </Link>
         </div>
       </section>
 

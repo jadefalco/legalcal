@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 
 import { usStates } from "@/app/config/usStates";
+import { caProvinces } from "@/app/config/caProvinces";
 import { getTheme } from "@/app/theme";
 
 // Calculator components
@@ -30,9 +31,18 @@ import PaymentProofCalculator from "@/app/us/calculators/payment-proof/PaymentPr
 import LedgerValidationCalculator from "@/app/us/calculators/ledger-validation/LedgerValidationCalculator";
 import SecurityDepositCalculator from "@/app/us/calculators/security-deposit/SecurityDepositCalculator";
 
+// BC calculators
+import BCSecurityDepositCalculator from "@/app/ca/calculators/bc/security-deposit/BCSecurityDepositCalculator";
+import BCRentIncreaseCalculator from "@/app/ca/calculators/bc/rent-increase/BCRentIncreaseCalculator";
+import BCEntryNoticeCalculator from "@/app/ca/calculators/bc/entry-notice/BCEntryNoticeCalculator";
+import BCRepairRequestCalculator from "@/app/ca/calculators/bc/repair-request/BCRepairRequestCalculator";
+import BCDepositReturnCalculator from "@/app/ca/calculators/bc/deposit-return/BCDepositReturnCalculator";
+import BCConditionInspectionCalculator from "@/app/ca/calculators/bc/condition-inspection/BCConditionInspectionCalculator";
+import BCEndingTenancyCalculator from "@/app/ca/calculators/bc/ending-tenancy/BCEndingTenancyCalculator";
+
 import { EmbedResizer } from "../components/EmbedResizer";
 
-const calculatorComponents: Record<string, React.ComponentType<{ initialState?: string }>> = {
+const calculatorComponents: Record<string, React.ComponentType<{ initialState?: string; initialProvince?: string }>> = {
   "eviction-timeline": EvictionTimelineCalculator,
   "eviction-notice": EvictionNoticeCalculator,
   "security-deposit-return": SecurityDepositReturnCalculator,
@@ -58,22 +68,39 @@ const calculatorComponents: Record<string, React.ComponentType<{ initialState?: 
   "payment-proof": PaymentProofCalculator,
   "ledger-validation": LedgerValidationCalculator,
   "security-deposit": SecurityDepositCalculator,
+  // BC
+  "bc-security-deposit": BCSecurityDepositCalculator,
+  "bc-rent-increase": BCRentIncreaseCalculator,
+  "bc-entry-notice": BCEntryNoticeCalculator,
+  "bc-repair-request": BCRepairRequestCalculator,
+  "bc-deposit-return": BCDepositReturnCalculator,
+  "bc-condition-inspection": BCConditionInspectionCalculator,
+  "bc-ending-tenancy": BCEndingTenancyCalculator,
 };
 
 interface EmbedPageProps {
   params: { calculator: string };
-  searchParams: { state?: string; city?: string; theme?: string };
+  searchParams: { state?: string; province?: string; country?: string; city?: string; theme?: string };
 }
 
 export default function EmbedPage({ params, searchParams }: EmbedPageProps) {
   const calcSlug = params.calculator.toLowerCase();
   const stateCode = (searchParams.state || "ca").toLowerCase();
+  const provinceCode = (searchParams.province || "").toLowerCase();
+  const countryCode = (searchParams.country || "us").toLowerCase();
   const themeParam = searchParams.theme || "light";
 
-  const state = usStates[stateCode as keyof typeof usStates];
   const CalculatorComponent = calculatorComponents[calcSlug];
 
-  if (!state || !CalculatorComponent) {
+  // Validate jurisdiction
+  let jurisdictionValid = false;
+  if (countryCode === "ca" && provinceCode) {
+    jurisdictionValid = !!caProvinces[provinceCode as keyof typeof caProvinces];
+  } else if (countryCode === "us" || !countryCode) {
+    jurisdictionValid = !!usStates[stateCode as keyof typeof usStates];
+  }
+
+  if (!CalculatorComponent || !jurisdictionValid) {
     return notFound();
   }
 
@@ -86,7 +113,10 @@ export default function EmbedPage({ params, searchParams }: EmbedPageProps) {
       }}
     >
       <EmbedResizer>
-        <CalculatorComponent initialState={stateCode} />
+        <CalculatorComponent
+          initialState={stateCode}
+          initialProvince={provinceCode}
+        />
       </EmbedResizer>
     </div>
   );

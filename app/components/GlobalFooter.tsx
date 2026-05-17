@@ -23,9 +23,9 @@ export default function GlobalFooter() {
             </Link>
           </div>
 
-          {/* States */}
+          {/* Jurisdictions */}
           <div className="space-y-3">
-            <h3 className="font-semibold text-slate-800">States</h3>
+            <h3 className="font-semibold text-slate-800">Jurisdictions</h3>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -49,6 +49,14 @@ export default function GlobalFooter() {
                   className="text-sm text-slate-600 hover:text-blue-600 transition"
                 >
                   Canada
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/calculators/ca/bc"
+                  className="text-sm text-slate-600 hover:text-blue-600 transition"
+                >
+                  British Columbia
                 </Link>
               </li>
             </ul>

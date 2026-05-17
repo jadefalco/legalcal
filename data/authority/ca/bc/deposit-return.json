@@ -1,0 +1,40 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "deposit-return",
+  "rule": {
+    "data": {
+      "returnDeadlineDays": 15,
+      "interestRequired": false,
+      "interestRate": null,
+      "itemizedStatementRequired": true,
+      "allowableDeductions": [
+        "unpaid rent",
+        "damage beyond normal wear and tear",
+        "costs of cleaning if tenant left unit unreasonably dirty"
+      ],
+      "penalties": [
+        "Tenant may apply for dispute resolution through RTB if deposit is not returned on time."
+      ],
+      "notes": [
+        "Landlord must return deposit within 15 days of tenant vacating.",
+        "An itemized statement of deductions is required if any amount is withheld."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 38(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord must return the security deposit to the tenant within 15 days after the tenant vacates.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder values for calculator use. Verify with RTB."]
+    }
+  }
+}

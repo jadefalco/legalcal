@@ -1,0 +1,2935 @@
+{
+  "topic": "rent-increase",
+  "scenario": "Proposed rent increase of 5% with 30 days notice.",
+  "results": [
+    {
+      "jurisdiction": "ab",
+      "country": "ca",
+      "name": "Alberta",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Alberta.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Alberta — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "bc",
+      "country": "ca",
+      "name": "British Columbia",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "rent increase limit: 3.5",
+          "notice period days: 90",
+          "frequency limit months: 12",
+          "exemptions: new construction, subsidized housing",
+          "calculator fields: [object Object]",
+          "notes: Landlords must give at least 3 full calendar months' notice (approx. 24 days minimum formal notice)., Annual rent increase is capped by the rate set by the BC government., Some properties are exempt from the cap."
+        ],
+        "potentialIssues": [
+          "Proposed increase (5%) exceeds the allowed cap (3.5%)."
+        ],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent.",
+          "Verify that written notice was provided at least 90 days in advance.",
+          "Confirm that the required 12-month interval between increases has elapsed.",
+          "Check whether the property qualifies for any exemptions (new construction, subsidized housing)."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Residential Tenancy Act, SBC 2002, c 78, s 42(1)",
+          "Residential Tenancy Regulation, BC Reg 477/2003, s 7"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure, one or more factors in the scenario appear to differ from the structured requirements. The outcome would depend on how those factors are resolved.",
+        "factors": [
+          "The proposed increase is 5%.",
+          "The rule structure allows a maximum increase of 3.5%.",
+          "The proposed increase appears to exceed the structural cap."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Consider a smaller increase within the allowed limit.",
+          "Check whether the property qualifies for an exemption."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "mb",
+      "country": "ca",
+      "name": "Manitoba",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Manitoba.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Manitoba — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nb",
+      "country": "ca",
+      "name": "New Brunswick",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for New Brunswick.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for New Brunswick — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nl",
+      "country": "ca",
+      "name": "Newfoundland and Labrador",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Newfoundland and Labrador.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Newfoundland and Labrador — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ns",
+      "country": "ca",
+      "name": "Nova Scotia",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Nova Scotia.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Nova Scotia — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nt",
+      "country": "ca",
+      "name": "Northwest Territories",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Northwest Territories.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Northwest Territories — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nu",
+      "country": "ca",
+      "name": "Nunavut",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Nunavut.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Nunavut — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "on",
+      "country": "ca",
+      "name": "Ontario",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Ontario.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Ontario — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "pe",
+      "country": "ca",
+      "name": "Prince Edward Island",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Prince Edward Island.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Prince Edward Island — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "qc",
+      "country": "ca",
+      "name": "Quebec",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Quebec.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Quebec — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "sk",
+      "country": "ca",
+      "name": "Saskatchewan",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Saskatchewan.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Saskatchewan — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "yt",
+      "country": "ca",
+      "name": "Yukon",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for Yukon.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for Yukon — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ak",
+      "country": "us",
+      "name": "Alaska",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Alaska Stat. § 34.03.160"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "al",
+      "country": "us",
+      "name": "Alabama",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ala. Code § 35-9A-161"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ar",
+      "country": "us",
+      "name": "Arkansas",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ark. Code § 18-17-704"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "az",
+      "country": "us",
+      "name": "Arizona",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ariz. Rev. Stat. § 33-1314"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ca",
+      "country": "us",
+      "name": "California",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: [object Object]",
+          "max increase percent: 10",
+          "rent control: yes",
+          "frequency limit: Once every 12 months"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent.",
+          "Compare the calculated increase to the maximum allowed (10%)."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Cal. Civ. Code § 827",
+          "AB 1482 (Tenant Protection Act)"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%.",
+          "The rule structure allows a maximum increase of 10%.",
+          "The proposed increase appears to be within the structural limit."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "co",
+      "country": "us",
+      "name": "Colorado",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: [object Object]",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Colo. Rev. Stat. § 38-12-701"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ct",
+      "country": "us",
+      "name": "Connecticut",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: [object Object]",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Conn. Gen. Stat. § 47a-15c"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "dc",
+      "country": "us",
+      "name": "District of Columbia",
+      "isPlaceholder": true,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "No structured rule data available for District of Columbia.",
+        "relevantRulePoints": [],
+        "potentialIssues": [
+          "This jurisdiction uses a placeholder rule. Structured analysis is not yet available."
+        ],
+        "missingInformation": []
+      },
+      "compliance": {
+        "steps": [
+          "Placeholder rule — no structured compliance steps available."
+        ],
+        "warnings": [
+          "This is a placeholder rule. Data has not been researched yet."
+        ],
+        "assumptions": [],
+        "citations": []
+      },
+      "outcome": {
+        "likelyOutcome": "No outcome reasoning available for District of Columbia — rule data is a placeholder.",
+        "factors": [],
+        "uncertainties": [
+          "Rule structure is incomplete."
+        ],
+        "alternativePaths": [
+          "Consult local statutes directly for this jurisdiction."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "de",
+      "country": "us",
+      "name": "Delaware",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 60",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Del. Code tit. 25, § 5107"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "fl",
+      "country": "us",
+      "name": "Florida",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Fla. Stat. § 83.46"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ga",
+      "country": "us",
+      "name": "Georgia",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 60",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ga. Code § 44-7-7"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "hi",
+      "country": "us",
+      "name": "Hawaii",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 45",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Haw. Rev. Stat. § 521-21"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ia",
+      "country": "us",
+      "name": "Iowa",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Iowa Code § 562A.13"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "id",
+      "country": "us",
+      "name": "Idaho",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Idaho Code § 55-307"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "il",
+      "country": "us",
+      "name": "Illinois",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "765 ILCS 705/0.01"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "in",
+      "country": "us",
+      "name": "Indiana",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ind. Code § 32-31-1-9"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ks",
+      "country": "us",
+      "name": "Kansas",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Kan. Stat. § 58-2570"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ky",
+      "country": "us",
+      "name": "Kentucky",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ky. Rev. Stat. § 383.190"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "la",
+      "country": "us",
+      "name": "Louisiana",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 10",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "La. Rev. Stat. § 9:3258"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ma",
+      "country": "us",
+      "name": "Massachusetts",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: yes",
+          "frequency limit: Once every 12 months"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Mass. Gen. Laws ch. 186, § 15B"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "md",
+      "country": "us",
+      "name": "Maryland",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Md. Code, Real Prop. § 8-208"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "me",
+      "country": "us",
+      "name": "Maine",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 45",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "14 Me. Rev. Stat. § 6015"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "mi",
+      "country": "us",
+      "name": "Michigan",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Mich. Comp. Laws § 554.134"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "mn",
+      "country": "us",
+      "name": "Minnesota",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Minn. Stat. § 504B.135"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "mo",
+      "country": "us",
+      "name": "Missouri",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Mo. Rev. Stat. § 441.060"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ms",
+      "country": "us",
+      "name": "Mississippi",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Miss. Code § 89-7-23"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "mt",
+      "country": "us",
+      "name": "Montana",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 15",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Mont. Code § 70-24-311"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nc",
+      "country": "us",
+      "name": "North Carolina",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.C. Gen. Stat. § 42-14"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nd",
+      "country": "us",
+      "name": "North Dakota",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.D. Cent. Code § 47-16-07"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ne",
+      "country": "us",
+      "name": "Nebraska",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Neb. Rev. Stat. § 76-1497"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nh",
+      "country": "us",
+      "name": "New Hampshire",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.H. Rev. Stat. § 540:2"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nj",
+      "country": "us",
+      "name": "New Jersey",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.J. Stat. § 46:8-28"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nm",
+      "country": "us",
+      "name": "New Mexico",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.M. Stat. § 47-8-15"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "nv",
+      "country": "us",
+      "name": "Nevada",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: [object Object]",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Nev. Rev. Stat. § 118A.300"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ny",
+      "country": "us",
+      "name": "New York",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: yes",
+          "frequency limit: Once every 12 months"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "N.Y. Real Prop. Law § 226-c"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "oh",
+      "country": "us",
+      "name": "Ohio",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Ohio Rev. Code § 5321.17"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ok",
+      "country": "us",
+      "name": "Oklahoma",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Okla. Stat. tit. 41, § 111"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "or",
+      "country": "us",
+      "name": "Oregon",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: [object Object]",
+          "max increase percent: 10",
+          "rent control: yes",
+          "frequency limit: Once every 12 months"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent.",
+          "Compare the calculated increase to the maximum allowed (10%)."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Or. Rev. Stat. § 90.323",
+          "Or. Rev. Stat. § 90.324"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%.",
+          "The rule structure allows a maximum increase of 10%.",
+          "The proposed increase appears to be within the structural limit."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "pa",
+      "country": "us",
+      "name": "Pennsylvania",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "68 Pa. Cons. Stat. § 250.501"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ri",
+      "country": "us",
+      "name": "Rhode Island",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "R.I. Gen. Laws § 34-18-16"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "sc",
+      "country": "us",
+      "name": "South Carolina",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "S.C. Code § 27-40-770"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "sd",
+      "country": "us",
+      "name": "South Dakota",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "S.D. Codified Laws § 43-32-13"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "tn",
+      "country": "us",
+      "name": "Tennessee",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Tenn. Code § 66-28-512"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "tx",
+      "country": "us",
+      "name": "Texas",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Tex. Prop. Code § 92.019"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "ut",
+      "country": "us",
+      "name": "Utah",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 15",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Utah Code § 57-22-4"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "va",
+      "country": "us",
+      "name": "Virginia",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Va. Code § 55.1-1204"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "vt",
+      "country": "us",
+      "name": "Vermont",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 60",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "9 Vt. Stat. § 4455"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "wa",
+      "country": "us",
+      "name": "Washington",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 60",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Wash. Rev. Code § 59.18.140"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "wi",
+      "country": "us",
+      "name": "Wisconsin",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 28",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Wis. Stat. § 704.19"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "wv",
+      "country": "us",
+      "name": "West Virginia",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "W. Va. Code § 37-6-5"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    },
+    {
+      "jurisdiction": "wy",
+      "country": "us",
+      "name": "Wyoming",
+      "isPlaceholder": false,
+      "hasRule": true,
+      "analysis": {
+        "scenarioSummary": "Scenario involves rent increase with elements of rent increase, notice.",
+        "relevantRulePoints": [
+          "notice days: 30",
+          "rent control: no"
+        ],
+        "potentialIssues": [],
+        "missingInformation": [
+          "Move-in date or tenancy start date not provided.",
+          "Scenario description appears brief; additional facts may improve the analysis."
+        ]
+      },
+      "compliance": {
+        "steps": [
+          "Identify the current rent amount and the proposed new rent amount.",
+          "Calculate the percentage increase from the current rent."
+        ],
+        "warnings": [
+          "This rule has an expired effective date. Verify the current rule before proceeding.",
+          "This rule may be outdated. Check for more recent amendments."
+        ],
+        "assumptions": [
+          "It is assumed the tenancy is covered by the standard residential rules."
+        ],
+        "citations": [
+          "Wyo. Stat. § 1-21-1207"
+        ]
+      },
+      "outcome": {
+        "likelyOutcome": "Based on the rule structure and the facts provided, the outcome depends on several variables.",
+        "factors": [
+          "The proposed increase is 5%."
+        ],
+        "uncertainties": [
+          "The tenancy start date is not specified, which may affect frequency limits."
+        ],
+        "alternativePaths": [
+          "Review the rule citations for additional context.",
+          "Verify the effective date and version of the rule."
+        ]
+      }
+    }
+  ]
+}

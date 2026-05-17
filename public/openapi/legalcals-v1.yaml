@@ -1,0 +1,715 @@
+openapi: 3.0.3
+info:
+  title: LegalCals Enterprise API
+  version: "1.0.0"
+  description: |
+    National regulatory intelligence API for Canada and US jurisdictions.
+    All endpoints require an `x-legalcals-key` header.
+  contact:
+    name: LegalCals Support
+    url: https://legalcals.com/developers
+
+servers:
+  - url: https://legalcals.com/api/v1
+    description: Production
+  - url: http://localhost:3000/api/v1
+    description: Local Development
+
+security:
+  - ApiKeyAuth: []
+
+paths:
+  /intelligence:
+    post:
+      summary: Intelligence Engine
+      description: Generate a natural-language summary for a jurisdiction's rules on a given topic.
+      operationId: getIntelligence
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IntelligenceRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Intelligence result
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+              example:
+                success: true
+                data:
+                  topic: "rent-increase"
+                  jurisdiction: "bc"
+                  summary: "British Columbia requires 90 days written notice..."
+                  keyPoints:
+                    - "Maximum increase capped at 3.5% for 2024."
+                  citations: ["Residential Tenancy Act, s. 42"]
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /reasoning:
+    post:
+      summary: Reasoning Engine
+      description: Analyze a scenario, generate a compliance path, and reason about the likely outcome.
+      operationId: getReasoning
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/JurisdictionScenarioRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Reasoning result
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+              example:
+                success: true
+                data:
+                  analysis:
+                    scenarioSummary: "Landlord proposes 5% increase with 30 days notice."
+                    potentialIssues: ["Increase exceeds 3.5% cap"]
+                  path:
+                    steps: ["Serve 90-day notice using approved form"]
+                    warnings: ["Tenant may dispute at RTB"]
+                  outcome:
+                    likelyOutcome: "Increase likely invalid unless agreed by tenant."
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /checklist:
+    post:
+      summary: Checklist Engine
+      description: Generate a compliance checklist for a scenario.
+      operationId: getChecklist
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/JurisdictionScenarioRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Checklist result
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /risk:
+    post:
+      summary: Risk Engine
+      description: Score structural, procedural, documentation, and overall risk for a scenario.
+      operationId: getRisk
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/JurisdictionScenarioRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Risk score
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+              example:
+                success: true
+                data:
+                  jurisdiction: "bc"
+                  structuralRisk: "high"
+                  proceduralRisk: "high"
+                  documentationRisk: "high"
+                  overallRisk: "high"
+                  factors: ["Exceeds statutory cap"]
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /heatmap:
+    post:
+      summary: Heatmap Engine
+      description: Generate national heatmap data for a topic and scenario.
+      operationId: getHeatmap
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TopicScenarioRequest"
+            example:
+              topic: "rent-increase"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Heatmap data
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /similarity/matrix:
+    post:
+      summary: Similarity Matrix
+      description: Compute pairwise jurisdiction similarity vectors and matrix.
+      operationId: getSimilarityMatrix
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TopicScenarioRequest"
+            example:
+              topic: "rent-increase"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Similarity matrix
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /similarity/clusters:
+    post:
+      summary: Similarity Clusters
+      description: Cluster jurisdictions using k-means on similarity vectors.
+      operationId: getSimilarityClusters
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [topic]
+              properties:
+                topic:
+                  type: string
+                scenario:
+                  type: string
+                k:
+                  type: integer
+                  minimum: 1
+                  maximum: 10
+                  default: 3
+            example:
+              topic: "rent-increase"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+              k: 3
+      responses:
+        "200":
+          description: Cluster result
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /trends/jurisdiction:
+    post:
+      summary: Jurisdiction Trends
+      description: Load historical snapshots and compute trend analysis for one jurisdiction.
+      operationId: getJurisdictionTrends
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/JurisdictionScenarioRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Trend analysis
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /trends/national:
+    post:
+      summary: National Trends
+      description: Compute national trend report across all jurisdictions.
+      operationId: getNationalTrends
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TopicScenarioRequest"
+            example:
+              topic: "rent-increase"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: National trends
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /forecast/jurisdiction:
+    post:
+      summary: Jurisdiction Forecast
+      description: Predict future risk levels for a jurisdiction using trend data.
+      operationId: getJurisdictionForecast
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/JurisdictionScenarioRequest"
+            example:
+              topic: "rent-increase"
+              jurisdiction: "bc"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Forecast result
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /forecast/national:
+    post:
+      summary: National Forecast
+      description: Predict future risk levels across all jurisdictions.
+      operationId: getNationalForecast
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TopicScenarioRequest"
+            example:
+              topic: "rent-increase"
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: National forecast
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /reports/quarterly:
+    post:
+      summary: Quarterly Report
+      description: Generate a comprehensive quarterly regulatory report.
+      operationId: getQuarterlyReport
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [topics]
+              properties:
+                topics:
+                  type: array
+                  items:
+                    type: string
+                scenario:
+                  type: string
+            example:
+              topics: ["rent-increase", "deposit-return"]
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Quarterly report
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /reports/annual:
+    post:
+      summary: Annual Report
+      description: Generate a comprehensive annual regulatory report.
+      operationId: getAnnualReport
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [topics]
+              properties:
+                topics:
+                  type: array
+                  items:
+                    type: string
+                scenario:
+                  type: string
+            example:
+              topics: ["rent-increase"]
+              scenario: "Proposed rent increase of 5% with 30 days' notice."
+      responses:
+        "200":
+          description: Annual report
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /topics:
+    get:
+      summary: List Topics
+      description: List all topics with coverage metadata.
+      operationId: listTopics
+      responses:
+        "200":
+          description: Topic list
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+  /topics/{topic}/coverage:
+    get:
+      summary: Topic Coverage
+      description: Get placeholder vs real rule coverage for a topic.
+      operationId: getTopicCoverage
+      parameters:
+        - name: topic
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Coverage data
+          headers:
+            X-RateLimit-Limit:
+              schema:
+                type: integer
+            X-RateLimit-Remaining:
+              schema:
+                type: integer
+            X-RateLimit-Reset:
+              schema:
+                type: integer
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuccessResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-legalcals-key
+      description: Enterprise API key provided during onboarding.
+
+  responses:
+    Unauthorized:
+      description: Missing or invalid API key
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            success: false
+            error: "Missing x-legalcals-key header"
+    RateLimited:
+      description: Rate limit exceeded
+      headers:
+        X-RateLimit-Limit:
+          schema:
+            type: integer
+        X-RateLimit-Remaining:
+          schema:
+            type: integer
+        X-RateLimit-Reset:
+          schema:
+            type: integer
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            success: false
+            error: "Rate limit exceeded (per minute)"
+    NotFound:
+      description: Topic or jurisdiction not found
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            success: false
+            error: "Topic not found"
+
+  schemas:
+    IntelligenceRequest:
+      type: object
+      required: [topic, jurisdiction]
+      properties:
+        topic:
+          type: string
+          description: Regulatory topic slug (e.g., rent-increase)
+        jurisdiction:
+          type: string
+          description: Jurisdiction code (e.g., bc, ca, ny)
+        scenario:
+          type: string
+          description: Optional scenario text for context
+
+    JurisdictionScenarioRequest:
+      type: object
+      required: [topic, jurisdiction]
+      properties:
+        topic:
+          type: string
+        jurisdiction:
+          type: string
+        scenario:
+          type: string
+
+    TopicScenarioRequest:
+      type: object
+      required: [topic]
+      properties:
+        topic:
+          type: string
+        scenario:
+          type: string
+
+    SuccessResponse:
+      type: object
+      required: [success, data]
+      properties:
+        success:
+          type: boolean
+          example: true
+        data:
+          type: object
+
+    ErrorResponse:
+      type: object
+      required: [success, error]
+      properties:
+        success:
+          type: boolean
+          example: false
+        error:
+          type: string

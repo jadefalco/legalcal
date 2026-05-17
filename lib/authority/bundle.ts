@@ -1,10 +1,2308 @@
-// Auto-generated from /data/authority/ JSON files
+// Auto-generated from /data/authority/ JSON files and /lib/authority/generated/ TS files
 // Do not edit manually. Run: npm run ingest:authority
 
 import type { LegalRuleBlock } from "@/data/authority/schema";
 
-const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
+export const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
+  "utilities": {
+    "ab": {
+      "data": {
+        "description": "Placeholder rule for utilities in AB.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "bc": {
+      "data": {
+        "description": "Placeholder rule for utilities in BC.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "mb": {
+      "data": {
+        "description": "Placeholder rule for utilities in MB.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nb": {
+      "data": {
+        "description": "Placeholder rule for utilities in NB.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nl": {
+      "data": {
+        "description": "Placeholder rule for utilities in NL.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ns": {
+      "data": {
+        "description": "Placeholder rule for utilities in NS.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nt": {
+      "data": {
+        "description": "Placeholder rule for utilities in NT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nu": {
+      "data": {
+        "description": "Placeholder rule for utilities in NU.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "on": {
+      "data": {
+        "description": "Placeholder rule for utilities in ON.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "pe": {
+      "data": {
+        "description": "Placeholder rule for utilities in PE.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "qc": {
+      "data": {
+        "description": "Placeholder rule for utilities in QC.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "sk": {
+      "data": {
+        "description": "Placeholder rule for utilities in SK.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "yt": {
+      "data": {
+        "description": "Placeholder rule for utilities in YT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ak": {
+      "data": {
+        "description": "Placeholder rule for utilities in AK.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "al": {
+      "data": {
+        "description": "Placeholder rule for utilities in AL.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ar": {
+      "data": {
+        "description": "Placeholder rule for utilities in AR.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "az": {
+      "data": {
+        "description": "Placeholder rule for utilities in AZ.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ca": {
+      "data": {
+        "description": "Placeholder rule for utilities in CA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "co": {
+      "data": {
+        "description": "Placeholder rule for utilities in CO.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ct": {
+      "data": {
+        "description": "Placeholder rule for utilities in CT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "dc": {
+      "data": {
+        "description": "Placeholder rule for utilities in DC.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "de": {
+      "data": {
+        "description": "Placeholder rule for utilities in DE.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "fl": {
+      "data": {
+        "description": "Placeholder rule for utilities in FL.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ga": {
+      "data": {
+        "description": "Placeholder rule for utilities in GA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "hi": {
+      "data": {
+        "description": "Placeholder rule for utilities in HI.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ia": {
+      "data": {
+        "description": "Placeholder rule for utilities in IA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "id": {
+      "data": {
+        "description": "Placeholder rule for utilities in ID.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "il": {
+      "data": {
+        "description": "Placeholder rule for utilities in IL.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "in": {
+      "data": {
+        "description": "Placeholder rule for utilities in IN.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ks": {
+      "data": {
+        "description": "Placeholder rule for utilities in KS.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ky": {
+      "data": {
+        "description": "Placeholder rule for utilities in KY.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "la": {
+      "data": {
+        "description": "Placeholder rule for utilities in LA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ma": {
+      "data": {
+        "description": "Placeholder rule for utilities in MA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "md": {
+      "data": {
+        "description": "Placeholder rule for utilities in MD.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "me": {
+      "data": {
+        "description": "Placeholder rule for utilities in ME.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "mi": {
+      "data": {
+        "description": "Placeholder rule for utilities in MI.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "mn": {
+      "data": {
+        "description": "Placeholder rule for utilities in MN.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "mo": {
+      "data": {
+        "description": "Placeholder rule for utilities in MO.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ms": {
+      "data": {
+        "description": "Placeholder rule for utilities in MS.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "mt": {
+      "data": {
+        "description": "Placeholder rule for utilities in MT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nc": {
+      "data": {
+        "description": "Placeholder rule for utilities in NC.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nd": {
+      "data": {
+        "description": "Placeholder rule for utilities in ND.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ne": {
+      "data": {
+        "description": "Placeholder rule for utilities in NE.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nh": {
+      "data": {
+        "description": "Placeholder rule for utilities in NH.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nj": {
+      "data": {
+        "description": "Placeholder rule for utilities in NJ.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nm": {
+      "data": {
+        "description": "Placeholder rule for utilities in NM.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "nv": {
+      "data": {
+        "description": "Placeholder rule for utilities in NV.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ny": {
+      "data": {
+        "description": "Placeholder rule for utilities in NY.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "oh": {
+      "data": {
+        "description": "Placeholder rule for utilities in OH.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ok": {
+      "data": {
+        "description": "Placeholder rule for utilities in OK.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "or": {
+      "data": {
+        "description": "Placeholder rule for utilities in OR.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "pa": {
+      "data": {
+        "description": "Placeholder rule for utilities in PA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ri": {
+      "data": {
+        "description": "Placeholder rule for utilities in RI.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "sc": {
+      "data": {
+        "description": "Placeholder rule for utilities in SC.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "sd": {
+      "data": {
+        "description": "Placeholder rule for utilities in SD.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "tn": {
+      "data": {
+        "description": "Placeholder rule for utilities in TN.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "tx": {
+      "data": {
+        "description": "Placeholder rule for utilities in TX.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "ut": {
+      "data": {
+        "description": "Placeholder rule for utilities in UT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "va": {
+      "data": {
+        "description": "Placeholder rule for utilities in VA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "vt": {
+      "data": {
+        "description": "Placeholder rule for utilities in VT.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "wa": {
+      "data": {
+        "description": "Placeholder rule for utilities in WA.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "wi": {
+      "data": {
+        "description": "Placeholder rule for utilities in WI.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "wv": {
+      "data": {
+        "description": "Placeholder rule for utilities in WV.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    },
+    "wy": {
+      "data": {
+        "description": "Placeholder rule for utilities in WY.",
+        "fields": {},
+        "notes": [
+          "This is a placeholder rule. Replace with actual regulatory data."
+        ]
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": "2026-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      }
+    }
+  },
+  "condition-inspection": {
+    "bc": {
+      "data": {
+        "inspectionRequired": true,
+        "moveInInspection": true,
+        "moveOutInspection": true,
+        "reportDeadlineDays": 7,
+        "tenantMustBePresent": false,
+        "tenantHasRightToAttend": true,
+        "notes": [
+          "Landlord and tenant should conduct a condition inspection at move-in and move-out.",
+          "The inspection report must be signed by both parties.",
+          "A copy must be provided to the tenant within a reasonable time."
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 17(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord and tenant must inspect the rental unit together at the beginning and end of the tenancy.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder values. Verify with RTB."
+        ]
+      }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ak": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "al": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ar": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "az": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ca": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "co": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ct": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "de": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "fl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ga": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "hi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ia": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "id": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "il": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "in": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ks": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ky": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "la": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ma": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "md": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "me": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mn": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mo": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ms": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nd": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ne": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nh": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nj": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nm": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nv": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ny": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "oh": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ok": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "or": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pa": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ri": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sd": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "tn": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "tx": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ut": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "va": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "vt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wa": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wv": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wy": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
   "deposit-return": {
+    "bc": {
+      "data": {
+        "returnDeadlineDays": 15,
+        "interestRequired": false,
+        "interestRate": null,
+        "itemizedStatementRequired": true,
+        "allowableDeductions": [
+          "unpaid rent",
+          "damage beyond normal wear and tear",
+          "costs of cleaning if tenant left unit unreasonably dirty"
+        ],
+        "penalties": [
+          "Tenant may apply for dispute resolution through RTB if deposit is not returned on time."
+        ],
+        "notes": [
+          "Landlord must return deposit within 15 days of tenant vacating.",
+          "An itemized statement of deductions is required if any amount is withheld."
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 38(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord must return the security deposit to the tenant within 15 days after the tenant vacates.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder values for calculator use. Verify with RTB."
+        ]
+      }
+    },
     "ak": {
       "data": {
         "returnDeadline": {
@@ -1658,29 +3956,269 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Landlord must provide itemized statement if deductions are taken."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
-  "duplicate-receipt": {
-    "ak": {
+  "ending-tenancy": {
+    "bc": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
+        "landlordNoticePeriodDays": 30,
+        "tenantNoticePeriodDays": 30,
+        "fixedTermEnd": "automatically ends on expiry date unless renewed",
+        "landlordValidReasons": [
+          "non-payment of rent",
+          "cause (repeated late rent, illegal activity, substantial damage)",
+          "landlord use (moving in, close family member, selling with vacant possession)",
+          "renovation or demolition"
+        ],
+        "tenantValidReasons": [
+          "end of fixed term",
+          "month-to-month with proper notice",
+          "family violence",
+          "landlord breach of material term"
+        ],
+        "notes": [
+          "Landlords must use the correct RTB notice form for the reason.",
+          "Tenants can end a month-to-month tenancy by giving one full rental month's notice.",
+          "Some notices require dispute resolution if the tenant does not agree."
         ]
       },
       "citations": [
         {
-          "statute": "Alaska Stat. § 34.03.020",
-          "url": "",
-          "excerpt": "",
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 44",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A tenancy ends on the expiry date of a fixed term tenancy agreement.",
           "sourceType": "statute",
           "lastUpdated": "2025-01-01",
-          "confidence": 0.8
+          "confidence": 0.9
+        },
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 45",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A tenant may end a month-to-month tenancy by giving the landlord at least one month's notice.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
         }
       ],
       "version": {
@@ -1688,1452 +4226,1108 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
         "effectiveDate": "2025-01-01",
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder values for calculator use. Verify with RTB."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ak": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "al": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ala. Code § 35-9A-161",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Alabama has no statutory requirement for landlords to provide duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ar": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ark. Code § 18-17-701",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Arkansas has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "az": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ariz. Rev. Stat. § 33-1314",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts must be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ca": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "payment method",
-          "property address"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Cal. Civ. Code § 1499",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "California requires landlords to provide duplicate receipts upon request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "co": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Colo. Rev. Stat. § 38-12-105",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts must be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ct": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Immediately upon request",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Conn. Gen. Stat. § 47a-3a",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts promptly upon tenant request."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "de": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Del. Code tit. 25, § 5107",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts must be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "fl": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Fla. Stat. § 83.46",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords should provide duplicate receipts upon tenant request."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ga": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ga. Code § 44-7-7",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Georgia has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "hi": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Immediately upon request",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Haw. Rev. Stat. § 521-21",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts promptly upon tenant request."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ia": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Iowa Code § 562A.13",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "id": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Idaho Code § 55-307",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Idaho has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "il": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "765 ILCS 730/1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge.",
-          "Chicago has additional local requirements."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "in": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ind. Code § 32-31-1-9",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Indiana has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ks": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Kan. Stat. § 58-2570",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Kansas has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ky": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ky. Rev. Stat. § 383.190",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Kentucky has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "la": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "La. Rev. Stat. § 9:3258",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Louisiana has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ma": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Mass. Gen. Laws ch. 186, § 15B",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "md": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Md. Code, Real Prop. § 8-208",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "me": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "14 Me. Rev. Stat. § 6028",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "mi": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Mich. Comp. Laws § 554.607",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "mn": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Minn. Stat. § 504B.118",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "mo": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Mo. Rev. Stat. § 535.300",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ms": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Miss. Code § 89-8-13",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Mississippi has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "mt": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Mont. Code § 70-24-301",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Montana has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nc": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.C. Gen. Stat. § 42-46",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "North Carolina has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nd": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.D. Cent. Code § 47-16-07",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "North Dakota has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ne": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Neb. Rev. Stat. § 76-1417",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Nebraska has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nh": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.H. Rev. Stat. § 540-A:2",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nj": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.J. Stat. § 46:8-26",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nm": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.M. Stat. § 47-8-15",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "nv": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Nev. Rev. Stat. § 118A.230",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ny": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Immediately upon request",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address",
-          "period covered"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "N.Y. Real Prop. Law § 235-e",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts promptly upon tenant request.",
-          "NYC has strict enforcement."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "oh": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ohio Rev. Code § 5321.04",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ok": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Okla. Stat. tit. 41, § 113",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Oklahoma has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "or": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Or. Rev. Stat. § 90.260",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "pa": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "68 Pa. Cons. Stat. § 250.501",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ri": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "R.I. Gen. Laws § 34-18-18",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "sc": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "S.C. Code § 27-40-770",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "South Carolina has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "sd": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "S.D. Codified Laws § 43-32-13",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "South Dakota has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "tn": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Tenn. Code § 66-28-512",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Tennessee has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "tx": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Tex. Prop. Code § 92.019",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Texas has no statutory requirement for landlords to provide duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "ut": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Utah Code § 57-22-4",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Utah has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "va": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Va. Code § 55.1-1204",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Virginia has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "vt": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name",
-          "property address"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "9 Vt. Stat. § 4454",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Landlords must provide duplicate receipts upon tenant request at no charge."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "wa": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Wash. Rev. Code § 59.18.140",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "wi": {
       "data": {
-        "tenantRightToCopy": true,
-        "landlordMustProvide": true,
-        "timeframe": "Within a reasonable time",
-        "allowedFee": 0,
-        "requiredFields": [
-          "amount paid",
-          "date",
-          "tenant name"
-        ]
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Wis. Stat. § 704.19",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Duplicate receipts should be provided upon tenant request without fee."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "wv": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "W. Va. Code § 37-6-7",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "West Virginia has no statutory requirement for duplicate receipts."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "wy": {
       "data": {
-        "tenantRightToCopy": false,
-        "landlordMustProvide": false,
-        "timeframe": "Not required",
-        "allowedFee": null,
-        "requiredFields": []
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
+  "entry-notice": {
+    "bc": {
+      "data": {
+        "noticeHours": 24,
+        "noticeRequired": true,
+        "validReasons": [
+          "emergency",
+          "inspecting the rental unit",
+          "making repairs",
+          "showing the unit to prospective buyers or tenants"
+        ],
+        "timeRange": "8:00 AM - 9:00 PM",
+        "notes": [
+          "Landlord must give written notice at least 24 hours before entry.",
+          "Entry must be between 8 a.m. and 9 p.m. unless the tenant agrees otherwise.",
+          "In case of emergency, notice is not required."
+        ]
       },
       "citations": [
         {
-          "statute": "Wyo. Stat. § 1-21-1205",
-          "url": "",
-          "excerpt": "",
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 29(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord must not enter a rental unit except with the tenant's consent or after giving written notice.",
           "sourceType": "statute",
           "lastUpdated": "2025-01-01",
-          "confidence": 0.8
+          "confidence": 0.9
         }
       ],
       "version": {
@@ -3141,12 +5335,10 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
         "effectiveDate": "2025-01-01",
         "supersedes": null,
         "notes": [
-          "Wyoming has no statutory requirement for duplicate receipts."
+          "Placeholder values. Verify current rules with RTB."
         ]
       }
-    }
-  },
-  "entry-notice": {
+    },
     "ak": {
       "data": {
         "noticeHours": 24,
@@ -4711,6 +6903,6412 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Reasonable notice required except in emergencies."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
+  "rent-increase": {
+    "bc": {
+      "data": {
+        "rentIncreaseLimit": 3.5,
+        "noticePeriodDays": 90,
+        "frequencyLimitMonths": 12,
+        "exemptions": [
+          "new construction",
+          "subsidized housing"
+        ],
+        "calculatorFields": {
+          "currentRent": null,
+          "increasePercent": null,
+          "newRent": null
+        },
+        "notes": [
+          "Landlords must give at least 3 full calendar months' notice (approx. 24 days minimum formal notice).",
+          "Annual rent increase is capped by the rate set by the BC government.",
+          "Some properties are exempt from the cap."
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 42(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord may increase the rent only if the landlord has given the tenant at least 3 months' notice.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        },
+        {
+          "statute": "Residential Tenancy Regulation, BC Reg 477/2003, s 7",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/477_2003",
+          "excerpt": "The maximum annual rent increase is set by regulation.",
+          "sourceType": "regulation",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.85
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder cap of 3.5%. Verify current year's allowed increase with RTB."
+        ]
+      }
+    },
+    "ak": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Alaska Stat. § 34.03.160",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "30-day notice required for month-to-month tenancies."
+        ]
+      }
+    },
+    "al": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ala. Code § 35-9A-161",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Alabama has no statutory limit on rent increases for private housing."
+        ]
+      }
+    },
+    "ar": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ark. Code § 18-17-704",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Arkansas has no rent control and minimal tenant protections."
+        ]
+      }
+    },
+    "az": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ariz. Rev. Stat. § 33-1314",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Arizona prohibits cities from enacting rent control."
+        ]
+      }
+    },
+    "ca": {
+      "data": {
+        "noticeDays": {
+          "standard": 30,
+          "special": [
+            "90 days if increase is greater than 10%"
+          ]
+        },
+        "maxIncreasePercent": 10,
+        "rentControl": true,
+        "frequencyLimit": "Once every 12 months"
+      },
+      "citations": [
+        {
+          "statute": "Cal. Civ. Code § 827",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        },
+        {
+          "statute": "AB 1482 (Tenant Protection Act)",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Statewide rent cap of 5% plus CPI (max 10%) applies to most properties.",
+          "Local rent control ordinances may impose stricter limits in some cities."
+        ]
+      }
+    },
+    "co": {
+      "data": {
+        "noticeDays": {
+          "standard": 21,
+          "special": [
+            "30 days for mobile home parks"
+          ]
+        },
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Colo. Rev. Stat. § 38-12-701",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Colorado requires 21 days notice for month-to-month tenancies.",
+          "Local rent control is prohibited by state law."
+        ]
+      }
+    },
+    "ct": {
+      "data": {
+        "noticeDays": {
+          "standard": 30,
+          "special": [
+            "90 days for elderly or disabled tenants"
+          ]
+        },
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Conn. Gen. Stat. § 47a-15c",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Connecticut does not have statewide rent control, but some municipalities have ordinances."
+        ]
+      }
+    },
+    "de": {
+      "data": {
+        "noticeDays": 60,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Del. Code tit. 25, § 5107",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Delaware requires 60 days notice for rent increases on month-to-month leases."
+        ]
+      }
+    },
+    "fl": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Fla. Stat. § 83.46",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Florida prohibits rent control except in housing emergencies."
+        ]
+      }
+    },
+    "ga": {
+      "data": {
+        "noticeDays": 60,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ga. Code § 44-7-7",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Georgia requires 60 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "hi": {
+      "data": {
+        "noticeDays": 45,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Haw. Rev. Stat. § 521-21",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Hawaii requires 45 days written notice for rent increases."
+        ]
+      }
+    },
+    "ia": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Iowa Code § 562A.13",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Iowa requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "id": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Idaho Code § 55-307",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Idaho has no rent control and no statutory limit on increases."
+        ]
+      }
+    },
+    "il": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "765 ILCS 705/0.01",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Cook County has a rent control ordinance for unincorporated areas.",
+          "Chicago has additional tenant protections."
+        ]
+      }
+    },
+    "in": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ind. Code § 32-31-1-9",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Indiana has no rent control at the state level."
+        ]
+      }
+    },
+    "ks": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Kan. Stat. § 58-2570",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Kansas requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ky": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ky. Rev. Stat. § 383.190",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Kentucky requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "la": {
+      "data": {
+        "noticeDays": 10,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "La. Rev. Stat. § 9:3258",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Louisiana requires 10 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ma": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": true,
+        "frequencyLimit": "Once every 12 months"
+      },
+      "citations": [
+        {
+          "statute": "Mass. Gen. Laws ch. 186, § 15B",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Massachusetts has a statewide rent control prohibition, but some cities have home-rule petitions.",
+          "Mobile home parks have special protections."
+        ]
+      }
+    },
+    "md": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Md. Code, Real Prop. § 8-208",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Some Maryland counties have local rent stabilization programs."
+        ]
+      }
+    },
+    "me": {
+      "data": {
+        "noticeDays": 45,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "14 Me. Rev. Stat. § 6015",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Maine requires 45 days written notice for rent increases."
+        ]
+      }
+    },
+    "mi": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Mich. Comp. Laws § 554.134",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Michigan has no rent control at the state level."
+        ]
+      }
+    },
+    "mn": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Minn. Stat. § 504B.135",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Minnesota requires 30 days notice for month-to-month tenancies.",
+          "Some cities have tenant screening and notice ordinances."
+        ]
+      }
+    },
+    "mo": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Mo. Rev. Stat. § 441.060",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Missouri requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ms": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Miss. Code § 89-7-23",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Mississippi has no rent control and minimal notice requirements."
+        ]
+      }
+    },
+    "mt": {
+      "data": {
+        "noticeDays": 15,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Mont. Code § 70-24-311",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Montana requires 15 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "nc": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "N.C. Gen. Stat. § 42-14",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "North Carolina prohibits local rent control ordinances."
+        ]
+      }
+    },
+    "nd": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "N.D. Cent. Code § 47-16-07",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "North Dakota requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ne": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Neb. Rev. Stat. § 76-1497",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Nebraska requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "nh": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "N.H. Rev. Stat. § 540:2",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "New Hampshire requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "nj": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "N.J. Stat. § 46:8-28",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "New Jersey has local rent control in many municipalities.",
+          "The Anti-Eviction Act provides additional protections."
+        ]
+      }
+    },
+    "nm": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "N.M. Stat. § 47-8-15",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "New Mexico requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "nv": {
+      "data": {
+        "noticeDays": {
+          "standard": 30,
+          "special": [
+            "60 days for tenants over 62 or disabled"
+          ]
+        },
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Nev. Rev. Stat. § 118A.300",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Nevada requires 30 days notice for rent increases.",
+          "Las Vegas and Reno do not have rent control."
+        ]
+      }
+    },
+    "ny": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": true,
+        "frequencyLimit": "Once every 12 months"
+      },
+      "citations": [
+        {
+          "statute": "N.Y. Real Prop. Law § 226-c",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "NYC and several other municipalities have rent stabilization programs.",
+          "Good cause eviction laws apply in some areas."
+        ]
+      }
+    },
+    "oh": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Ohio Rev. Code § 5321.17",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Ohio requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ok": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Okla. Stat. tit. 41, § 111",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Oklahoma requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "or": {
+      "data": {
+        "noticeDays": {
+          "standard": 90,
+          "special": [
+            "30 days for week-to-week tenancies"
+          ]
+        },
+        "maxIncreasePercent": 10,
+        "rentControl": true,
+        "frequencyLimit": "Once every 12 months"
+      },
+      "citations": [
+        {
+          "statute": "Or. Rev. Stat. § 90.323",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        },
+        {
+          "statute": "Or. Rev. Stat. § 90.324",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Oregon has statewide rent control limiting increases to 7% plus CPI.",
+          "Portland has additional local protections."
+        ]
+      }
+    },
+    "pa": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "68 Pa. Cons. Stat. § 250.501",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Pennsylvania has no statewide rent control, but Philadelphia has limited protections."
+        ]
+      }
+    },
+    "ri": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "R.I. Gen. Laws § 34-18-16",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Rhode Island requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "sc": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "S.C. Code § 27-40-770",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "South Carolina requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "sd": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "S.D. Codified Laws § 43-32-13",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "South Dakota requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "tn": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Tenn. Code § 66-28-512",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Tennessee requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "tx": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Tex. Prop. Code § 92.019",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Texas prohibits local rent control except in housing emergencies."
+        ]
+      }
+    },
+    "ut": {
+      "data": {
+        "noticeDays": 15,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Utah Code § 57-22-4",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Utah requires 15 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "va": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Va. Code § 55.1-1204",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Virginia requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "vt": {
+      "data": {
+        "noticeDays": 60,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "9 Vt. Stat. § 4455",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Vermont requires 60 days notice for rent increases.",
+          "Burlington has local tenant protections."
+        ]
+      }
+    },
+    "wa": {
+      "data": {
+        "noticeDays": 60,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Wash. Rev. Code § 59.18.140",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Washington requires 60 days notice for rent increases.",
+          "Seattle has additional tenant protections."
+        ]
+      }
+    },
+    "wi": {
+      "data": {
+        "noticeDays": 28,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Wis. Stat. § 704.19",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Wisconsin requires 28 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "wv": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "W. Va. Code § 37-6-5",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "West Virginia requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "wy": {
+      "data": {
+        "noticeDays": 30,
+        "maxIncreasePercent": null,
+        "rentControl": false,
+        "frequencyLimit": null
+      },
+      "citations": [
+        {
+          "statute": "Wyo. Stat. § 1-21-1207",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Wyoming requires 30 days notice for month-to-month tenancies."
+        ]
+      }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
+  "repair-request": {
+    "bc": {
+      "data": {
+        "repairUrgentTimelineHours": 24,
+        "repairNonUrgentTimelineDays": 7,
+        "tenantRepairDeductAllowed": false,
+        "tenantRepairDeductLimit": null,
+        "emergencyRepairs": [
+          "major leaks",
+          "broken heating in winter",
+          "electrical hazards",
+          "sewage backup"
+        ],
+        "notes": [
+          "Landlords must make urgent repairs within a reasonable time, typically 24 hours for emergencies.",
+          "Non-urgent repairs should be addressed within a reasonable timeframe, typically within 7 days.",
+          "Tenants should request repairs in writing and keep a copy."
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 32(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord must provide and maintain the rental unit in a reasonable state of decoration and repair.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder timelines. Verify with RTB or local tenant resources."
+        ]
+      }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ak": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "al": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ar": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "az": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ca": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "co": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ct": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "de": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "fl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ga": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "hi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ia": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "id": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "il": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "in": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ks": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ky": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "la": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ma": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "md": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "me": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mn": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mo": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ms": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nd": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ne": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nh": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nj": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nm": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nv": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ny": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "oh": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ok": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "or": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pa": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ri": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sd": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "tn": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "tx": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ut": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "va": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "vt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wa": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wi": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wv": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "wy": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
+  "security-deposit": {
+    "bc": {
+      "data": {
+        "maxDeposit": "0.5 * monthlyRent",
+        "maxDepositMonths": 0.5,
+        "petDepositAllowed": false,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 15,
+        "itemizedStatementRequired": true,
+        "interestRequired": false,
+        "penaltyMultiple": null,
+        "notes": [
+          "Landlord cannot charge more than one-half of one month's rent as a security deposit.",
+          "Pet deposits are not permitted in BC.",
+          "Deposit must be returned within 15 days of the tenant vacating, with an itemized statement."
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 19(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord must not require or accept a security deposit that is greater than one-half of one month's rent.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        },
+        {
+          "statute": "Residential Tenancy Act, SBC 2002, c 78, s 38(1)",
+          "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+          "excerpt": "A landlord must return the security deposit to the tenant within 15 days after the tenant vacates the rental unit.",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.9
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Placeholder values for calculator use. Consult RTB for current limits."
+        ]
+      }
+    },
+    "ak": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Alaska Stat. § 34.03.070",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlord must return deposit within 14 days if no deductions.",
+          "Itemized statement required if any deductions taken."
+        ]
+      }
+    },
+    "al": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 35,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ala. Code § 35-9A-201",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "ar": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 60,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ark. Code Ann. § 18-16-305",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "az": {
+      "data": {
+        "maxMonthsRent": 1.5,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ariz. Rev. Stat. § 33-1321",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one and one-half month's rent.",
+          "Nonrefundable fees must be stated in writing."
+        ]
+      }
+    },
+    "ca": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 21,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Cal. Civ. Code § 1950.5",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Maximum deposit is 2 months' rent for furnished units, 1 month for unfurnished.",
+          "No nonrefundable 'cleaning fees' are permitted.",
+          "Landlord must provide itemized statement with receipts."
+        ]
+      }
+    },
+    "co": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Colo. Rev. Stat. § 38-12-103",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "ct": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Conn. Gen. Stat. § 47a-21",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit, but interest must be paid annually.",
+          "Nonrefundable fees must be clearly stated in the lease."
+        ]
+      }
+    },
+    "dc": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": false,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "D.C. Code § 42-3502.17",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit strictly capped at one month's rent.",
+          "Pet deposits are considered part of the security deposit cap.",
+          "Landlord must pay interest on deposits."
+        ]
+      }
+    },
+    "de": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 20,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Del. Code Ann. tit. 25, § 5514",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must provide itemized statement within 20 days."
+        ]
+      }
+    },
+    "fl": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Fla. Stat. § 83.49",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount.",
+          "Landlord must notify tenant of claim within 30 days."
+        ]
+      }
+    },
+    "ga": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ga. Code Ann. § 44-7-34",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "hi": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Haw. Rev. Stat. § 521-44",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 14 days."
+        ]
+      }
+    },
+    "ia": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Iowa Code § 562A.12",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "id": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Idaho Code § 6-321",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "il": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 2
+      },
+      "citations": [
+        {
+          "statute": "765 Ill. Comp. Stat. 710/1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Willful failure to return deposit may result in double damages."
+        ]
+      }
+    },
+    "in": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ind. Code § 32-31-3-12",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "ks": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 1.5
+      },
+      "citations": [
+        {
+          "statute": "Kan. Stat. Ann. § 58-2550",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Wrongful withholding may result in damages of 1.5x the deposit."
+        ]
+      }
+    },
+    "ky": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ky. Rev. Stat. Ann. § 383.580",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "la": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "La. Rev. Stat. Ann. § 9:3251",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "ma": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 3
+      },
+      "citations": [
+        {
+          "statute": "Mass. Gen. Laws ch. 186, § 15B",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount, but interest must be paid annually.",
+          "Willful failure to return deposit may result in treble damages."
+        ]
+      }
+    },
+    "md": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Md. Code Ann., Real Prop. § 8-203",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must pay interest on deposits over $50."
+        ]
+      }
+    },
+    "me": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "14 Me. Rev. Stat. Ann. § 6033",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Nonrefundable fees must be stated in writing."
+        ]
+      }
+    },
+    "mi": {
+      "data": {
+        "maxMonthsRent": 1.5,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 2
+      },
+      "citations": [
+        {
+          "statute": "Mich. Comp. Laws § 554.602",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one and one-half months' rent.",
+          "Wrongful withholding may result in double damages."
+        ]
+      }
+    },
+    "mn": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 21,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Minn. Stat. § 504B.178",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 21 days of move-out."
+        ]
+      }
+    },
+    "mo": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 2
+      },
+      "citations": [
+        {
+          "statute": "Mo. Rev. Stat. § 535.300",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Willful failure to return deposit may result in double damages."
+        ]
+      }
+    },
+    "ms": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Miss. Code Ann. § 89-8-21",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "mt": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Mont. Code Ann. § 70-25-201",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "nc": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.C. Gen. Stat. § 42-52",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must account for deposit within 30 days."
+        ]
+      }
+    },
+    "nd": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.D. Cent. Code § 47-16-07.1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 30 days."
+        ]
+      }
+    },
+    "ne": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Neb. Rev. Stat. § 76-1416",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 14 days."
+        ]
+      }
+    },
+    "nh": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.H. Rev. Stat. Ann. § 540-A:6",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 30 days."
+        ]
+      }
+    },
+    "nj": {
+      "data": {
+        "maxMonthsRent": 1.5,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.J. Stat. Ann. § 46:8-21.1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one and one-half months' rent.",
+          "Landlord must return deposit within 30 days of move-out.",
+          "Interest must be paid annually or credited toward rent."
+        ]
+      }
+    },
+    "nm": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.M. Stat. Ann. § 47-8-18",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 30 days."
+        ]
+      }
+    },
+    "nv": {
+      "data": {
+        "maxMonthsRent": 3,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Nev. Rev. Stat. § 118A.242",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed three months' rent.",
+          "Landlord must provide itemized statement within 30 days."
+        ]
+      }
+    },
+    "ny": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": false,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "N.Y. Gen. Oblig. Law § 7-108",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit strictly capped at one month's rent.",
+          "Landlord must return deposit within 14 days.",
+          "Itemized statement required for any deductions."
+        ]
+      }
+    },
+    "oh": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Ohio Rev. Code Ann. § 5321.16",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must pay interest on deposits over one year's rent."
+        ]
+      }
+    },
+    "ok": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Okla. Stat. Ann. tit. 41, § 115",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No statutory cap on security deposit amount."
+        ]
+      }
+    },
+    "or": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 31,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Or. Rev. Stat. § 90.300",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must account for deposit within 31 days."
+        ]
+      }
+    },
+    "pa": {
+      "data": {
+        "maxMonthsRent": 2,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 2
+      },
+      "citations": [
+        {
+          "statute": "68 Pa. Cons. Stat. Ann. § 250.512",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed two months' rent for first year, one month for renewals.",
+          "Willful failure to return deposit may result in double damages."
+        ]
+      }
+    },
+    "ri": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 20,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "R.I. Gen. Laws § 34-18-19",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 20 days."
+        ]
+      }
+    },
+    "sc": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "S.C. Code Ann. § 27-40-410",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 30 days."
+        ]
+      }
+    },
+    "sd": {
+      "data": {
+        "maxMonthsRent": 1,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "S.D. Codified Laws § 43-32-6.1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Security deposit cannot exceed one month's rent.",
+          "Landlord must return deposit within 14 days."
+        ]
+      }
+    },
+    "tn": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Tenn. Code Ann. § 66-28-301",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must provide itemized statement within 30 days."
+        ]
+      }
+    },
+    "tx": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 3
+      },
+      "citations": [
+        {
+          "statute": "Tex. Prop. Code § 92.103",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        },
+        {
+          "statute": "Tex. Prop. Code § 92.109",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Bad-faith withholding can trigger treble damages plus attorney fees."
+        ]
+      }
+    },
+    "ut": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Utah Code Ann. § 57-17-3",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must account for deposit within 30 days."
+        ]
+      }
+    },
+    "va": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 45,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Va. Code Ann. § 55.1-1226",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must provide itemized statement within 45 days."
+        ]
+      }
+    },
+    "vt": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 14,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "9 Vt. Stat. Ann. § 4461",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 14 days."
+        ]
+      }
+    },
+    "wa": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 21,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Wash. Rev. Code § 59.18.280",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 21 days.",
+          "Nonrefundable fees must be stated in writing."
+        ]
+      }
+    },
+    "wi": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": false,
+        "returnDeadlineDays": 21,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": 2
+      },
+      "citations": [
+        {
+          "statute": "Wis. Stat. § 704.28",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Wrongful withholding may result in double damages."
+        ]
+      }
+    },
+    "wv": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 60,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "W. Va. Code § 37-6A-1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 60 days."
+        ]
+      }
+    },
+    "wy": {
+      "data": {
+        "maxMonthsRent": null,
+        "separatePetDepositAllowed": true,
+        "nonrefundableFeesAllowed": true,
+        "returnDeadlineDays": 30,
+        "itemizedStatementRequired": true,
+        "penaltyMultiple": null
+      },
+      "citations": [
+        {
+          "statute": "Wyo. Stat. Ann. § 1-21-1207",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "No cap on security deposit amount.",
+          "Landlord must return deposit within 30 days."
+        ]
+      }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    }
+  },
+  "duplicate-receipt": {
+    "ak": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Alaska Stat. § 34.03.020",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "al": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Ala. Code § 35-9A-161",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Alabama has no statutory requirement for landlords to provide duplicate receipts."
+        ]
+      }
+    },
+    "ar": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Ark. Code § 18-17-701",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Arkansas has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "az": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Ariz. Rev. Stat. § 33-1314",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts must be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ca": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "payment method",
+          "property address"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Cal. Civ. Code § 1499",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "California requires landlords to provide duplicate receipts upon request at no charge."
+        ]
+      }
+    },
+    "co": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Colo. Rev. Stat. § 38-12-105",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts must be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ct": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Immediately upon request",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Conn. Gen. Stat. § 47a-3a",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts promptly upon tenant request."
+        ]
+      }
+    },
+    "de": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Del. Code tit. 25, § 5107",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts must be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "fl": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Fla. Stat. § 83.46",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords should provide duplicate receipts upon tenant request."
+        ]
+      }
+    },
+    "ga": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Ga. Code § 44-7-7",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Georgia has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "hi": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Immediately upon request",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Haw. Rev. Stat. § 521-21",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts promptly upon tenant request."
+        ]
+      }
+    },
+    "ia": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Iowa Code § 562A.13",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "id": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Idaho Code § 55-307",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Idaho has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "il": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "765 ILCS 730/1",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge.",
+          "Chicago has additional local requirements."
+        ]
+      }
+    },
+    "in": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Ind. Code § 32-31-1-9",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Indiana has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "ks": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Kan. Stat. § 58-2570",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Kansas has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "ky": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Ky. Rev. Stat. § 383.190",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Kentucky has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "la": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "La. Rev. Stat. § 9:3258",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Louisiana has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "ma": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Mass. Gen. Laws ch. 186, § 15B",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "md": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Md. Code, Real Prop. § 8-208",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request without fee."
+        ]
+      }
+    },
+    "me": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "14 Me. Rev. Stat. § 6028",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "mi": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Mich. Comp. Laws § 554.607",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "mn": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Minn. Stat. § 504B.118",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "mo": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Mo. Rev. Stat. § 535.300",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ms": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Miss. Code § 89-8-13",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Mississippi has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "mt": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Mont. Code § 70-24-301",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Montana has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "nc": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "N.C. Gen. Stat. § 42-46",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "North Carolina has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "nd": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "N.D. Cent. Code § 47-16-07",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "North Dakota has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "ne": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Neb. Rev. Stat. § 76-1417",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Nebraska has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "nh": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "N.H. Rev. Stat. § 540-A:2",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "nj": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "N.J. Stat. § 46:8-26",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "nm": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "N.M. Stat. § 47-8-15",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "nv": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Nev. Rev. Stat. § 118A.230",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ny": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Immediately upon request",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address",
+          "period covered"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "N.Y. Real Prop. Law § 235-e",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts promptly upon tenant request.",
+          "NYC has strict enforcement."
+        ]
+      }
+    },
+    "oh": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Ohio Rev. Code § 5321.04",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ok": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Okla. Stat. tit. 41, § 113",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Oklahoma has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "or": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Or. Rev. Stat. § 90.260",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "pa": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "68 Pa. Cons. Stat. § 250.501",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "ri": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "R.I. Gen. Laws § 34-18-18",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "sc": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "S.C. Code § 27-40-770",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "South Carolina has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "sd": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "S.D. Codified Laws § 43-32-13",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "South Dakota has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "tn": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Tenn. Code § 66-28-512",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Tennessee has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "tx": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Tex. Prop. Code § 92.019",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Texas has no statutory requirement for landlords to provide duplicate receipts."
+        ]
+      }
+    },
+    "ut": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Utah Code § 57-22-4",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Utah has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "va": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Va. Code § 55.1-1204",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Virginia has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "vt": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name",
+          "property address"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "9 Vt. Stat. § 4454",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Landlords must provide duplicate receipts upon tenant request at no charge."
+        ]
+      }
+    },
+    "wa": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Wash. Rev. Code § 59.18.140",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "wi": {
+      "data": {
+        "tenantRightToCopy": true,
+        "landlordMustProvide": true,
+        "timeframe": "Within a reasonable time",
+        "allowedFee": 0,
+        "requiredFields": [
+          "amount paid",
+          "date",
+          "tenant name"
+        ]
+      },
+      "citations": [
+        {
+          "statute": "Wis. Stat. § 704.19",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Duplicate receipts should be provided upon tenant request without fee."
+        ]
+      }
+    },
+    "wv": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "W. Va. Code § 37-6-7",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "West Virginia has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "wy": {
+      "data": {
+        "tenantRightToCopy": false,
+        "landlordMustProvide": false,
+        "timeframe": "Not required",
+        "allowedFee": null,
+        "requiredFields": []
+      },
+      "citations": [
+        {
+          "statute": "Wyo. Stat. § 1-21-1205",
+          "url": "",
+          "excerpt": "",
+          "sourceType": "statute",
+          "lastUpdated": "2025-01-01",
+          "confidence": 0.8
+        }
+      ],
+      "version": {
+        "version": "2025.01",
+        "effectiveDate": "2025-01-01",
+        "supersedes": null,
+        "notes": [
+          "Wyoming has no statutory requirement for duplicate receipts."
+        ]
+      }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "eviction-timeline": {
@@ -6332,6 +14930,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming requires a 3-day notice for nonpayment of rent."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "late-fee": {
@@ -7646,6 +16482,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming does not cap late fees. They must be disclosed in the lease."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "late-status": {
@@ -8983,6 +18057,227 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "No statutory grace period. Late fees governed by lease agreement."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "lease-termination": {
@@ -10670,6 +19965,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming has one of the shortest notice periods in the country."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "ledger-validation": {
@@ -12444,6 +21977,227 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "No statutory limit on late fees."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "payment-methods": {
@@ -14026,6 +23780,227 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "No state statute requires landlords to accept specific payment methods."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "payment-proof": {
@@ -15878,6 +25853,227 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "No state law mandates landlord acknowledgment of payment receipt."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "receipt-validation": {
@@ -17304,1360 +27500,227 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "No state law mandates specific receipt fields."
         ]
       }
-    }
-  },
-  "rent-increase": {
-    "ak": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Alaska Stat. § 34.03.160",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "30-day notice required for month-to-month tenancies."
-        ]
-      }
     },
-    "al": {
+    "ab": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ala. Code § 35-9A-161",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Alabama has no statutory limit on rent increases for private housing."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ar": {
+    "bc": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ark. Code § 18-17-704",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Arkansas has no rent control and minimal tenant protections."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "az": {
+    "mb": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ariz. Rev. Stat. § 33-1314",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Arizona prohibits cities from enacting rent control."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ca": {
+    "nb": {
       "data": {
-        "noticeDays": {
-          "standard": 30,
-          "special": [
-            "90 days if increase is greater than 10%"
-          ]
-        },
-        "maxIncreasePercent": 10,
-        "rentControl": true,
-        "frequencyLimit": "Once every 12 months"
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Cal. Civ. Code § 827",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        },
-        {
-          "statute": "AB 1482 (Tenant Protection Act)",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Statewide rent cap of 5% plus CPI (max 10%) applies to most properties.",
-          "Local rent control ordinances may impose stricter limits in some cities."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "co": {
+    "nl": {
       "data": {
-        "noticeDays": {
-          "standard": 21,
-          "special": [
-            "30 days for mobile home parks"
-          ]
-        },
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Colo. Rev. Stat. § 38-12-701",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Colorado requires 21 days notice for month-to-month tenancies.",
-          "Local rent control is prohibited by state law."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ct": {
+    "ns": {
       "data": {
-        "noticeDays": {
-          "standard": 30,
-          "special": [
-            "90 days for elderly or disabled tenants"
-          ]
-        },
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Conn. Gen. Stat. § 47a-15c",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Connecticut does not have statewide rent control, but some municipalities have ordinances."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "de": {
+    "nt": {
       "data": {
-        "noticeDays": 60,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Del. Code tit. 25, § 5107",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Delaware requires 60 days notice for rent increases on month-to-month leases."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "fl": {
+    "nu": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Fla. Stat. § 83.46",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Florida prohibits rent control except in housing emergencies."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ga": {
+    "on": {
       "data": {
-        "noticeDays": 60,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ga. Code § 44-7-7",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Georgia requires 60 days notice for month-to-month tenancies."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "hi": {
+    "pe": {
       "data": {
-        "noticeDays": 45,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Haw. Rev. Stat. § 521-21",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Hawaii requires 45 days written notice for rent increases."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ia": {
+    "qc": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Iowa Code § 562A.13",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Iowa requires 30 days notice for month-to-month tenancies."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "id": {
+    "sk": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Idaho Code § 55-307",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Idaho has no rent control and no statutory limit on increases."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "il": {
+    "yt": {
       "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "765 ILCS 705/0.01",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Cook County has a rent control ordinance for unincorporated areas.",
-          "Chicago has additional tenant protections."
+          "Placeholder auto-generated"
         ]
-      }
-    },
-    "in": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
       },
-      "citations": [
-        {
-          "statute": "Ind. Code § 32-31-1-9",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Indiana has no rent control at the state level."
-        ]
-      }
-    },
-    "ks": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Kan. Stat. § 58-2570",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Kansas requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "ky": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Ky. Rev. Stat. § 383.190",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Kentucky requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "la": {
-      "data": {
-        "noticeDays": 10,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "La. Rev. Stat. § 9:3258",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Louisiana requires 10 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "ma": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": true,
-        "frequencyLimit": "Once every 12 months"
-      },
-      "citations": [
-        {
-          "statute": "Mass. Gen. Laws ch. 186, § 15B",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Massachusetts has a statewide rent control prohibition, but some cities have home-rule petitions.",
-          "Mobile home parks have special protections."
-        ]
-      }
-    },
-    "md": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Md. Code, Real Prop. § 8-208",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Some Maryland counties have local rent stabilization programs."
-        ]
-      }
-    },
-    "me": {
-      "data": {
-        "noticeDays": 45,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "14 Me. Rev. Stat. § 6015",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Maine requires 45 days written notice for rent increases."
-        ]
-      }
-    },
-    "mi": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Mich. Comp. Laws § 554.134",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Michigan has no rent control at the state level."
-        ]
-      }
-    },
-    "mn": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Minn. Stat. § 504B.135",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Minnesota requires 30 days notice for month-to-month tenancies.",
-          "Some cities have tenant screening and notice ordinances."
-        ]
-      }
-    },
-    "mo": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Mo. Rev. Stat. § 441.060",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Missouri requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "ms": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Miss. Code § 89-7-23",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Mississippi has no rent control and minimal notice requirements."
-        ]
-      }
-    },
-    "mt": {
-      "data": {
-        "noticeDays": 15,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Mont. Code § 70-24-311",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Montana requires 15 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "nc": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "N.C. Gen. Stat. § 42-14",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "North Carolina prohibits local rent control ordinances."
-        ]
-      }
-    },
-    "nd": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "N.D. Cent. Code § 47-16-07",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "North Dakota requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "ne": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Neb. Rev. Stat. § 76-1497",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Nebraska requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "nh": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "N.H. Rev. Stat. § 540:2",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "New Hampshire requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "nj": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "N.J. Stat. § 46:8-28",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "New Jersey has local rent control in many municipalities.",
-          "The Anti-Eviction Act provides additional protections."
-        ]
-      }
-    },
-    "nm": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "N.M. Stat. § 47-8-15",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "New Mexico requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "nv": {
-      "data": {
-        "noticeDays": {
-          "standard": 30,
-          "special": [
-            "60 days for tenants over 62 or disabled"
-          ]
-        },
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Nev. Rev. Stat. § 118A.300",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Nevada requires 30 days notice for rent increases.",
-          "Las Vegas and Reno do not have rent control."
-        ]
-      }
-    },
-    "ny": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": true,
-        "frequencyLimit": "Once every 12 months"
-      },
-      "citations": [
-        {
-          "statute": "N.Y. Real Prop. Law § 226-c",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "NYC and several other municipalities have rent stabilization programs.",
-          "Good cause eviction laws apply in some areas."
-        ]
-      }
-    },
-    "oh": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Ohio Rev. Code § 5321.17",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Ohio requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "ok": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Okla. Stat. tit. 41, § 111",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Oklahoma requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "or": {
-      "data": {
-        "noticeDays": {
-          "standard": 90,
-          "special": [
-            "30 days for week-to-week tenancies"
-          ]
-        },
-        "maxIncreasePercent": 10,
-        "rentControl": true,
-        "frequencyLimit": "Once every 12 months"
-      },
-      "citations": [
-        {
-          "statute": "Or. Rev. Stat. § 90.323",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        },
-        {
-          "statute": "Or. Rev. Stat. § 90.324",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Oregon has statewide rent control limiting increases to 7% plus CPI.",
-          "Portland has additional local protections."
-        ]
-      }
-    },
-    "pa": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "68 Pa. Cons. Stat. § 250.501",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Pennsylvania has no statewide rent control, but Philadelphia has limited protections."
-        ]
-      }
-    },
-    "ri": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "R.I. Gen. Laws § 34-18-16",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Rhode Island requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "sc": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "S.C. Code § 27-40-770",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "South Carolina requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "sd": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "S.D. Codified Laws § 43-32-13",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "South Dakota requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "tn": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Tenn. Code § 66-28-512",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Tennessee requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "tx": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Tex. Prop. Code § 92.019",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Texas prohibits local rent control except in housing emergencies."
-        ]
-      }
-    },
-    "ut": {
-      "data": {
-        "noticeDays": 15,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Utah Code § 57-22-4",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Utah requires 15 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "va": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Va. Code § 55.1-1204",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Virginia requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "vt": {
-      "data": {
-        "noticeDays": 60,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "9 Vt. Stat. § 4455",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Vermont requires 60 days notice for rent increases.",
-          "Burlington has local tenant protections."
-        ]
-      }
-    },
-    "wa": {
-      "data": {
-        "noticeDays": 60,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Wash. Rev. Code § 59.18.140",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Washington requires 60 days notice for rent increases.",
-          "Seattle has additional tenant protections."
-        ]
-      }
-    },
-    "wi": {
-      "data": {
-        "noticeDays": 28,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Wis. Stat. § 704.19",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Wisconsin requires 28 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "wv": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "W. Va. Code § 37-6-5",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "West Virginia requires 30 days notice for month-to-month tenancies."
-        ]
-      }
-    },
-    "wy": {
-      "data": {
-        "noticeDays": 30,
-        "maxIncreasePercent": null,
-        "rentControl": false,
-        "frequencyLimit": null
-      },
-      "citations": [
-        {
-          "statute": "Wyo. Stat. § 1-21-1207",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Wyoming requires 30 days notice for month-to-month tenancies."
-        ]
-      }
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "rent-receipt": {
@@ -20135,6 +29198,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming has no statutory rent receipt requirement."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "repair-deduct": {
@@ -21490,1488 +30791,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming does not have a statutory repair-and-deduct remedy."
         ]
       }
-    }
-  },
-  "security-deposit": {
-    "ak": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Alaska Stat. § 34.03.070",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Landlord must return deposit within 14 days if no deductions.",
-          "Itemized statement required if any deductions taken."
-        ]
-      }
     },
-    "al": {
+    "ab": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 35,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ala. Code § 35-9A-201",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ar": {
+    "bc": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 60,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ark. Code Ann. § 18-16-305",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
-    },
-    "az": {
-      "data": {
-        "maxMonthsRent": 1.5,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
       },
-      "citations": [
-        {
-          "statute": "Ariz. Rev. Stat. § 33-1321",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one and one-half month's rent.",
-          "Nonrefundable fees must be stated in writing."
-        ]
-      }
-    },
-    "ca": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 21,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Cal. Civ. Code § 1950.5",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Maximum deposit is 2 months' rent for furnished units, 1 month for unfurnished.",
-          "No nonrefundable 'cleaning fees' are permitted.",
-          "Landlord must provide itemized statement with receipts."
-        ]
-      }
-    },
-    "co": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Colo. Rev. Stat. § 38-12-103",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No statutory cap on security deposit amount."
-        ]
-      }
-    },
-    "ct": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Conn. Gen. Stat. § 47a-21",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit, but interest must be paid annually.",
-          "Nonrefundable fees must be clearly stated in the lease."
-        ]
-      }
+      "lastUpdated": null,
+      "expiresOn": null
     },
     "dc": {
       "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": false,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "D.C. Code § 42-3502.17",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Security deposit strictly capped at one month's rent.",
-          "Pet deposits are considered part of the security deposit cap.",
-          "Landlord must pay interest on deposits."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "de": {
+    "mb": {
       "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 20,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Del. Code Ann. tit. 25, § 5514",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must provide itemized statement within 20 days."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "fl": {
+    "nb": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Fla. Stat. § 83.49",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount.",
-          "Landlord must notify tenant of claim within 30 days."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ga": {
+    "nl": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ga. Code Ann. § 44-7-34",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "hi": {
+    "ns": {
       "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Haw. Rev. Stat. § 521-44",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 14 days."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ia": {
+    "nt": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Iowa Code § 562A.12",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "id": {
+    "nu": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Idaho Code § 6-321",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "il": {
+    "on": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 2
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "765 Ill. Comp. Stat. 710/1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No cap on security deposit amount.",
-          "Willful failure to return deposit may result in double damages."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "in": {
+    "pe": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ind. Code § 32-31-3-12",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ks": {
+    "qc": {
       "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 1.5
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Kan. Stat. Ann. § 58-2550",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Wrongful withholding may result in damages of 1.5x the deposit."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "ky": {
+    "sk": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "Ky. Rev. Stat. Ann. § 383.580",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     },
-    "la": {
+    "yt": {
       "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
+        "year": null,
+        "sourceUrl": null
       },
-      "citations": [
-        {
-          "statute": "La. Rev. Stat. Ann. § 9:3251",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
+      "citations": [],
       "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
+        "version": "0.0",
+        "effectiveDate": null,
         "supersedes": null,
         "notes": [
-          "No statutory cap on security deposit amount."
+          "Placeholder auto-generated"
         ]
-      }
-    },
-    "ma": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 3
       },
-      "citations": [
-        {
-          "statute": "Mass. Gen. Laws ch. 186, § 15B",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount, but interest must be paid annually.",
-          "Willful failure to return deposit may result in treble damages."
-        ]
-      }
-    },
-    "md": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Md. Code Ann., Real Prop. § 8-203",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must pay interest on deposits over $50."
-        ]
-      }
-    },
-    "me": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "14 Me. Rev. Stat. Ann. § 6033",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Nonrefundable fees must be stated in writing."
-        ]
-      }
-    },
-    "mi": {
-      "data": {
-        "maxMonthsRent": 1.5,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 2
-      },
-      "citations": [
-        {
-          "statute": "Mich. Comp. Laws § 554.602",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one and one-half months' rent.",
-          "Wrongful withholding may result in double damages."
-        ]
-      }
-    },
-    "mn": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 21,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Minn. Stat. § 504B.178",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 21 days of move-out."
-        ]
-      }
-    },
-    "mo": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 2
-      },
-      "citations": [
-        {
-          "statute": "Mo. Rev. Stat. § 535.300",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Willful failure to return deposit may result in double damages."
-        ]
-      }
-    },
-    "ms": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Miss. Code Ann. § 89-8-21",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No statutory cap on security deposit amount."
-        ]
-      }
-    },
-    "mt": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Mont. Code Ann. § 70-25-201",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No statutory cap on security deposit amount."
-        ]
-      }
-    },
-    "nc": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.C. Gen. Stat. § 42-52",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must account for deposit within 30 days."
-        ]
-      }
-    },
-    "nd": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.D. Cent. Code § 47-16-07.1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 30 days."
-        ]
-      }
-    },
-    "ne": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Neb. Rev. Stat. § 76-1416",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 14 days."
-        ]
-      }
-    },
-    "nh": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.H. Rev. Stat. Ann. § 540-A:6",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 30 days."
-        ]
-      }
-    },
-    "nj": {
-      "data": {
-        "maxMonthsRent": 1.5,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.J. Stat. Ann. § 46:8-21.1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one and one-half months' rent.",
-          "Landlord must return deposit within 30 days of move-out.",
-          "Interest must be paid annually or credited toward rent."
-        ]
-      }
-    },
-    "nm": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.M. Stat. Ann. § 47-8-18",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 30 days."
-        ]
-      }
-    },
-    "nv": {
-      "data": {
-        "maxMonthsRent": 3,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Nev. Rev. Stat. § 118A.242",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed three months' rent.",
-          "Landlord must provide itemized statement within 30 days."
-        ]
-      }
-    },
-    "ny": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": false,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "N.Y. Gen. Oblig. Law § 7-108",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit strictly capped at one month's rent.",
-          "Landlord must return deposit within 14 days.",
-          "Itemized statement required for any deductions."
-        ]
-      }
-    },
-    "oh": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Ohio Rev. Code Ann. § 5321.16",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must pay interest on deposits over one year's rent."
-        ]
-      }
-    },
-    "ok": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Okla. Stat. Ann. tit. 41, § 115",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No statutory cap on security deposit amount."
-        ]
-      }
-    },
-    "or": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 31,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Or. Rev. Stat. § 90.300",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must account for deposit within 31 days."
-        ]
-      }
-    },
-    "pa": {
-      "data": {
-        "maxMonthsRent": 2,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 2
-      },
-      "citations": [
-        {
-          "statute": "68 Pa. Cons. Stat. Ann. § 250.512",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed two months' rent for first year, one month for renewals.",
-          "Willful failure to return deposit may result in double damages."
-        ]
-      }
-    },
-    "ri": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 20,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "R.I. Gen. Laws § 34-18-19",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 20 days."
-        ]
-      }
-    },
-    "sc": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "S.C. Code Ann. § 27-40-410",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 30 days."
-        ]
-      }
-    },
-    "sd": {
-      "data": {
-        "maxMonthsRent": 1,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "S.D. Codified Laws § 43-32-6.1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "Security deposit cannot exceed one month's rent.",
-          "Landlord must return deposit within 14 days."
-        ]
-      }
-    },
-    "tn": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Tenn. Code Ann. § 66-28-301",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must provide itemized statement within 30 days."
-        ]
-      }
-    },
-    "tx": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 3
-      },
-      "citations": [
-        {
-          "statute": "Tex. Prop. Code § 92.103",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        },
-        {
-          "statute": "Tex. Prop. Code § 92.109",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Bad-faith withholding can trigger treble damages plus attorney fees."
-        ]
-      }
-    },
-    "ut": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Utah Code Ann. § 57-17-3",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must account for deposit within 30 days."
-        ]
-      }
-    },
-    "va": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 45,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Va. Code Ann. § 55.1-1226",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must provide itemized statement within 45 days."
-        ]
-      }
-    },
-    "vt": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 14,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "9 Vt. Stat. Ann. § 4461",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 14 days."
-        ]
-      }
-    },
-    "wa": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 21,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Wash. Rev. Code § 59.18.280",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 21 days.",
-          "Nonrefundable fees must be stated in writing."
-        ]
-      }
-    },
-    "wi": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": false,
-        "returnDeadlineDays": 21,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": 2
-      },
-      "citations": [
-        {
-          "statute": "Wis. Stat. § 704.28",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Wrongful withholding may result in double damages."
-        ]
-      }
-    },
-    "wv": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 60,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "W. Va. Code § 37-6A-1",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 60 days."
-        ]
-      }
-    },
-    "wy": {
-      "data": {
-        "maxMonthsRent": null,
-        "separatePetDepositAllowed": true,
-        "nonrefundableFeesAllowed": true,
-        "returnDeadlineDays": 30,
-        "itemizedStatementRequired": true,
-        "penaltyMultiple": null
-      },
-      "citations": [
-        {
-          "statute": "Wyo. Stat. Ann. § 1-21-1207",
-          "url": "",
-          "excerpt": "",
-          "sourceType": "statute",
-          "lastUpdated": "2025-01-01",
-          "confidence": 0.8
-        }
-      ],
-      "version": {
-        "version": "2025.01",
-        "effectiveDate": "2025-01-01",
-        "supersedes": null,
-        "notes": [
-          "No cap on security deposit amount.",
-          "Landlord must return deposit within 30 days."
-        ]
-      }
+      "lastUpdated": null,
+      "expiresOn": null
     }
   },
   "withhold-rent": {
@@ -24327,6 +32384,244 @@ const authorityBundle: Record<string, Record<string, LegalRuleBlock>> = {
           "Wyoming does not allow tenants to withhold rent."
         ]
       }
+    },
+    "ab": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "bc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "dc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "mb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nb": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nl": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "ns": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "nu": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "on": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "pe": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "qc": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "sk": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
+    },
+    "yt": {
+      "data": {
+        "year": null,
+        "sourceUrl": null
+      },
+      "citations": [],
+      "version": {
+        "version": "0.0",
+        "effectiveDate": null,
+        "supersedes": null,
+        "notes": [
+          "Placeholder auto-generated"
+        ]
+      },
+      "lastUpdated": null,
+      "expiresOn": null
     }
   }
 };

@@ -1,0 +1,45 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "security-deposit",
+  "rule": {
+    "data": {
+      "maxDeposit": "0.5 * monthlyRent",
+      "maxDepositMonths": 0.5,
+      "petDepositAllowed": false,
+      "nonrefundableFeesAllowed": false,
+      "returnDeadlineDays": 15,
+      "itemizedStatementRequired": true,
+      "interestRequired": false,
+      "penaltyMultiple": null,
+      "notes": [
+        "Landlord cannot charge more than one-half of one month's rent as a security deposit.",
+        "Pet deposits are not permitted in BC.",
+        "Deposit must be returned within 15 days of the tenant vacating, with an itemized statement."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 19(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord must not require or accept a security deposit that is greater than one-half of one month's rent.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      },
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 38(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord must return the security deposit to the tenant within 15 days after the tenant vacates the rental unit.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder values for calculator use. Consult RTB for current limits."]
+    }
+  }
+}

@@ -1,0 +1,3660 @@
+{
+  "type": "quarterly",
+  "quarter": "Q2 2026",
+  "generatedAt": "2026-05-15T21:20:12.465Z",
+  "topics": [
+    {
+      "topic": "rent-increase",
+      "nationalRisk": {
+        "topic": "rent-increase",
+        "scenario": "Proposed rent increase of 5% with 30 days' notice.",
+        "results": [
+          {
+            "jurisdiction": "ab",
+            "country": "ca",
+            "name": "Alberta",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "bc",
+            "country": "ca",
+            "name": "British Columbia",
+            "topic": "rent-increase",
+            "structuralRisk": "high",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Structural] Proposed increase (5%) exceeds the allowed cap (3.5%).",
+              "[Structural] The rule structure allows a maximum increase of 3.5%.",
+              "[Structural] The proposed increase appears to exceed the structural cap.",
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "mb",
+            "country": "ca",
+            "name": "Manitoba",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "nb",
+            "country": "ca",
+            "name": "New Brunswick",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "nl",
+            "country": "ca",
+            "name": "Newfoundland and Labrador",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "ns",
+            "country": "ca",
+            "name": "Nova Scotia",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "nt",
+            "country": "ca",
+            "name": "Northwest Territories",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "nu",
+            "country": "ca",
+            "name": "Nunavut",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "on",
+            "country": "ca",
+            "name": "Ontario",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "pe",
+            "country": "ca",
+            "name": "Prince Edward Island",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "qc",
+            "country": "ca",
+            "name": "Quebec",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "sk",
+            "country": "ca",
+            "name": "Saskatchewan",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "yt",
+            "country": "ca",
+            "name": "Yukon",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "ak",
+            "country": "us",
+            "name": "Alaska",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "al",
+            "country": "us",
+            "name": "Alabama",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ar",
+            "country": "us",
+            "name": "Arkansas",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "az",
+            "country": "us",
+            "name": "Arizona",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ca",
+            "country": "us",
+            "name": "California",
+            "topic": "rent-increase",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Structural] The rule structure allows a maximum increase of 10%.",
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "co",
+            "country": "us",
+            "name": "Colorado",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ct",
+            "country": "us",
+            "name": "Connecticut",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "dc",
+            "country": "us",
+            "name": "District of Columbia",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "overallRisk": "low",
+            "factors": [
+              "Placeholder rule — no structured data available for risk assessment."
+            ],
+            "uncertainties": [
+              "Rule structure is incomplete."
+            ],
+            "warnings": [
+              "This is a placeholder rule. Data has not been researched yet."
+            ]
+          },
+          {
+            "jurisdiction": "de",
+            "country": "us",
+            "name": "Delaware",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "fl",
+            "country": "us",
+            "name": "Florida",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ga",
+            "country": "us",
+            "name": "Georgia",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "hi",
+            "country": "us",
+            "name": "Hawaii",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ia",
+            "country": "us",
+            "name": "Iowa",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "id",
+            "country": "us",
+            "name": "Idaho",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "il",
+            "country": "us",
+            "name": "Illinois",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "in",
+            "country": "us",
+            "name": "Indiana",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ks",
+            "country": "us",
+            "name": "Kansas",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ky",
+            "country": "us",
+            "name": "Kentucky",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "la",
+            "country": "us",
+            "name": "Louisiana",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ma",
+            "country": "us",
+            "name": "Massachusetts",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "md",
+            "country": "us",
+            "name": "Maryland",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "me",
+            "country": "us",
+            "name": "Maine",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "mi",
+            "country": "us",
+            "name": "Michigan",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "mn",
+            "country": "us",
+            "name": "Minnesota",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "mo",
+            "country": "us",
+            "name": "Missouri",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ms",
+            "country": "us",
+            "name": "Mississippi",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "mt",
+            "country": "us",
+            "name": "Montana",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nc",
+            "country": "us",
+            "name": "North Carolina",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nd",
+            "country": "us",
+            "name": "North Dakota",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ne",
+            "country": "us",
+            "name": "Nebraska",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nh",
+            "country": "us",
+            "name": "New Hampshire",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nj",
+            "country": "us",
+            "name": "New Jersey",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nm",
+            "country": "us",
+            "name": "New Mexico",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "nv",
+            "country": "us",
+            "name": "Nevada",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ny",
+            "country": "us",
+            "name": "New York",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "oh",
+            "country": "us",
+            "name": "Ohio",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ok",
+            "country": "us",
+            "name": "Oklahoma",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "or",
+            "country": "us",
+            "name": "Oregon",
+            "topic": "rent-increase",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Structural] The rule structure allows a maximum increase of 10%.",
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "pa",
+            "country": "us",
+            "name": "Pennsylvania",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ri",
+            "country": "us",
+            "name": "Rhode Island",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "sc",
+            "country": "us",
+            "name": "South Carolina",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "sd",
+            "country": "us",
+            "name": "South Dakota",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "tn",
+            "country": "us",
+            "name": "Tennessee",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "tx",
+            "country": "us",
+            "name": "Texas",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "ut",
+            "country": "us",
+            "name": "Utah",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "va",
+            "country": "us",
+            "name": "Virginia",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "vt",
+            "country": "us",
+            "name": "Vermont",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "wa",
+            "country": "us",
+            "name": "Washington",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "wi",
+            "country": "us",
+            "name": "Wisconsin",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "wv",
+            "country": "us",
+            "name": "West Virginia",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          },
+          {
+            "jurisdiction": "wy",
+            "country": "us",
+            "name": "Wyoming",
+            "topic": "rent-increase",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "overallRisk": "high",
+            "factors": [
+              "[Procedural] Move-in date or tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the analysis.",
+              "[Procedural] Tenancy start date not provided.",
+              "[Procedural] Scenario description appears brief; additional facts may improve the assessment.",
+              "[Documentation] Tenancy start date or move-in date is not specified.",
+              "[Documentation] No written notice of increase mentioned.",
+              "[Documentation] Current rent amount not provided."
+            ],
+            "uncertainties": [
+              "The tenancy start date is not specified, which may affect frequency limits."
+            ],
+            "warnings": [
+              "This rule has an expired effective date. Verify the current rule before proceeding.",
+              "This rule may be outdated. Check for more recent amendments."
+            ]
+          }
+        ]
+      },
+      "nationalHeatmap": {
+        "topic": "rent-increase",
+        "scenario": "Proposed rent increase of 5% with 30 days' notice.",
+        "results": [
+          {
+            "jurisdiction": "ab",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Alberta"
+          },
+          {
+            "jurisdiction": "bc",
+            "country": "CA",
+            "overallRisk": "high",
+            "structuralRisk": "high",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "British Columbia"
+          },
+          {
+            "jurisdiction": "mb",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Manitoba"
+          },
+          {
+            "jurisdiction": "nb",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "New Brunswick"
+          },
+          {
+            "jurisdiction": "nl",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Newfoundland and Labrador"
+          },
+          {
+            "jurisdiction": "ns",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Nova Scotia"
+          },
+          {
+            "jurisdiction": "nt",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Northwest Territories"
+          },
+          {
+            "jurisdiction": "nu",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Nunavut"
+          },
+          {
+            "jurisdiction": "on",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Ontario"
+          },
+          {
+            "jurisdiction": "pe",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Prince Edward Island"
+          },
+          {
+            "jurisdiction": "qc",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Quebec"
+          },
+          {
+            "jurisdiction": "sk",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Saskatchewan"
+          },
+          {
+            "jurisdiction": "yt",
+            "country": "CA",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "Yukon"
+          },
+          {
+            "jurisdiction": "ak",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Alaska"
+          },
+          {
+            "jurisdiction": "al",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Alabama"
+          },
+          {
+            "jurisdiction": "ar",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Arkansas"
+          },
+          {
+            "jurisdiction": "az",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Arizona"
+          },
+          {
+            "jurisdiction": "ca",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "California"
+          },
+          {
+            "jurisdiction": "co",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Colorado"
+          },
+          {
+            "jurisdiction": "ct",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Connecticut"
+          },
+          {
+            "jurisdiction": "dc",
+            "country": "US",
+            "overallRisk": "low",
+            "structuralRisk": "low",
+            "proceduralRisk": "low",
+            "documentationRisk": "low",
+            "isPlaceholder": true,
+            "name": "District of Columbia"
+          },
+          {
+            "jurisdiction": "de",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Delaware"
+          },
+          {
+            "jurisdiction": "fl",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Florida"
+          },
+          {
+            "jurisdiction": "ga",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Georgia"
+          },
+          {
+            "jurisdiction": "hi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Hawaii"
+          },
+          {
+            "jurisdiction": "ia",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Iowa"
+          },
+          {
+            "jurisdiction": "id",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Idaho"
+          },
+          {
+            "jurisdiction": "il",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Illinois"
+          },
+          {
+            "jurisdiction": "in",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Indiana"
+          },
+          {
+            "jurisdiction": "ks",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Kansas"
+          },
+          {
+            "jurisdiction": "ky",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Kentucky"
+          },
+          {
+            "jurisdiction": "la",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Louisiana"
+          },
+          {
+            "jurisdiction": "ma",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Massachusetts"
+          },
+          {
+            "jurisdiction": "md",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Maryland"
+          },
+          {
+            "jurisdiction": "me",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Maine"
+          },
+          {
+            "jurisdiction": "mi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Michigan"
+          },
+          {
+            "jurisdiction": "mn",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Minnesota"
+          },
+          {
+            "jurisdiction": "mo",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Missouri"
+          },
+          {
+            "jurisdiction": "ms",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Mississippi"
+          },
+          {
+            "jurisdiction": "mt",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Montana"
+          },
+          {
+            "jurisdiction": "nc",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "North Carolina"
+          },
+          {
+            "jurisdiction": "nd",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "North Dakota"
+          },
+          {
+            "jurisdiction": "ne",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Nebraska"
+          },
+          {
+            "jurisdiction": "nh",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Hampshire"
+          },
+          {
+            "jurisdiction": "nj",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Jersey"
+          },
+          {
+            "jurisdiction": "nm",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New Mexico"
+          },
+          {
+            "jurisdiction": "nv",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Nevada"
+          },
+          {
+            "jurisdiction": "ny",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "New York"
+          },
+          {
+            "jurisdiction": "oh",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Ohio"
+          },
+          {
+            "jurisdiction": "ok",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Oklahoma"
+          },
+          {
+            "jurisdiction": "or",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "medium",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Oregon"
+          },
+          {
+            "jurisdiction": "pa",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Pennsylvania"
+          },
+          {
+            "jurisdiction": "ri",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Rhode Island"
+          },
+          {
+            "jurisdiction": "sc",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "South Carolina"
+          },
+          {
+            "jurisdiction": "sd",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "South Dakota"
+          },
+          {
+            "jurisdiction": "tn",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Tennessee"
+          },
+          {
+            "jurisdiction": "tx",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Texas"
+          },
+          {
+            "jurisdiction": "ut",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Utah"
+          },
+          {
+            "jurisdiction": "va",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Virginia"
+          },
+          {
+            "jurisdiction": "vt",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Vermont"
+          },
+          {
+            "jurisdiction": "wa",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Washington"
+          },
+          {
+            "jurisdiction": "wi",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Wisconsin"
+          },
+          {
+            "jurisdiction": "wv",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "West Virginia"
+          },
+          {
+            "jurisdiction": "wy",
+            "country": "US",
+            "overallRisk": "high",
+            "structuralRisk": "low",
+            "proceduralRisk": "high",
+            "documentationRisk": "high",
+            "isPlaceholder": false,
+            "name": "Wyoming"
+          }
+        ]
+      },
+      "nationalSimilarity": {
+        "topClusters": [
+          {
+            "clusterId": 0,
+            "members": [
+              "ak",
+              "al",
+              "ar",
+              "az",
+              "co",
+              "ct",
+              "de",
+              "fl",
+              "ga",
+              "hi",
+              "ia",
+              "id",
+              "il",
+              "in",
+              "ks",
+              "ky",
+              "la",
+              "ma",
+              "md",
+              "me",
+              "mi",
+              "mn",
+              "mo",
+              "ms",
+              "mt",
+              "nc",
+              "nd",
+              "ne",
+              "nh",
+              "nj",
+              "nm",
+              "nv",
+              "ny",
+              "oh",
+              "ok",
+              "pa",
+              "ri",
+              "sc",
+              "sd",
+              "tn",
+              "tx",
+              "ut",
+              "va",
+              "vt",
+              "wa",
+              "wi",
+              "wv",
+              "wy"
+            ]
+          },
+          {
+            "clusterId": 1,
+            "members": [
+              "bc",
+              "ca",
+              "or"
+            ]
+          },
+          {
+            "clusterId": 2,
+            "members": []
+          }
+        ],
+        "outliers": [
+          "ab",
+          "bc",
+          "mb",
+          "nb",
+          "nl",
+          "ns",
+          "nt",
+          "nu",
+          "on",
+          "pe",
+          "qc",
+          "sk",
+          "yt",
+          "ak",
+          "al",
+          "ar",
+          "az",
+          "ca",
+          "co",
+          "ct",
+          "dc",
+          "de",
+          "fl",
+          "ga",
+          "hi",
+          "ia",
+          "id",
+          "il",
+          "in",
+          "ks",
+          "ky",
+          "la",
+          "ma",
+          "md",
+          "me",
+          "mi",
+          "mn",
+          "mo",
+          "ms",
+          "mt",
+          "nc",
+          "nd",
+          "ne",
+          "nh",
+          "nj",
+          "nm",
+          "nv",
+          "ny",
+          "oh",
+          "ok",
+          "or",
+          "pa",
+          "ri",
+          "sc",
+          "sd",
+          "tn",
+          "tx",
+          "ut",
+          "va",
+          "vt",
+          "wa",
+          "wi",
+          "wv",
+          "wy"
+        ],
+        "strongestPairs": [
+          {
+            "a": "ca",
+            "b": "or",
+            "score": 1
+          },
+          {
+            "a": "ak",
+            "b": "al",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ar",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "az",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "co",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ct",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "de",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "fl",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "ga",
+            "score": 0.9999999999999999
+          },
+          {
+            "a": "ak",
+            "b": "hi",
+            "score": 0.9999999999999999
+          }
+        ]
+      },
+      "nationalTrends": {
+        "topic": "rent-increase",
+        "jurisdictions": [
+          {
+            "jurisdiction": "bc",
+            "name": "British Columbia",
+            "country": "ca",
+            "volatilityScore": 0.33,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "al",
+            "name": "Alabama",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ak",
+            "name": "Alaska",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "az",
+            "name": "Arizona",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ar",
+            "name": "Arkansas",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "co",
+            "name": "Colorado",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ct",
+            "name": "Connecticut",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "de",
+            "name": "Delaware",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "fl",
+            "name": "Florida",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ga",
+            "name": "Georgia",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "hi",
+            "name": "Hawaii",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "id",
+            "name": "Idaho",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "il",
+            "name": "Illinois",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "in",
+            "name": "Indiana",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ia",
+            "name": "Iowa",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ks",
+            "name": "Kansas",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ky",
+            "name": "Kentucky",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "la",
+            "name": "Louisiana",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "me",
+            "name": "Maine",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "md",
+            "name": "Maryland",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ma",
+            "name": "Massachusetts",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "mi",
+            "name": "Michigan",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "mn",
+            "name": "Minnesota",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ms",
+            "name": "Mississippi",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "mo",
+            "name": "Missouri",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "mt",
+            "name": "Montana",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ne",
+            "name": "Nebraska",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nv",
+            "name": "Nevada",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nh",
+            "name": "New Hampshire",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nj",
+            "name": "New Jersey",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nm",
+            "name": "New Mexico",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ny",
+            "name": "New York",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nc",
+            "name": "North Carolina",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "nd",
+            "name": "North Dakota",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "oh",
+            "name": "Ohio",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ok",
+            "name": "Oklahoma",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "pa",
+            "name": "Pennsylvania",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ri",
+            "name": "Rhode Island",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "sc",
+            "name": "South Carolina",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "sd",
+            "name": "South Dakota",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "tn",
+            "name": "Tennessee",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "tx",
+            "name": "Texas",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ut",
+            "name": "Utah",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "vt",
+            "name": "Vermont",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "va",
+            "name": "Virginia",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "wa",
+            "name": "Washington",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "wv",
+            "name": "West Virginia",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "wi",
+            "name": "Wisconsin",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "wy",
+            "name": "Wyoming",
+            "country": "us",
+            "volatilityScore": 0.25,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ca",
+            "name": "California",
+            "country": "us",
+            "volatilityScore": 0.06,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "or",
+            "name": "Oregon",
+            "country": "us",
+            "volatilityScore": 0.06,
+            "trendDirection": "stable",
+            "lastRisk": "high",
+            "lastRuleVersion": "2025.01"
+          },
+          {
+            "jurisdiction": "ab",
+            "name": "Alberta",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "sk",
+            "name": "Saskatchewan",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "mb",
+            "name": "Manitoba",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "on",
+            "name": "Ontario",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "qc",
+            "name": "Quebec",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "nb",
+            "name": "New Brunswick",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "ns",
+            "name": "Nova Scotia",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "pe",
+            "name": "Prince Edward Island",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "nl",
+            "name": "Newfoundland and Labrador",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "yt",
+            "name": "Yukon",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "nt",
+            "name": "Northwest Territories",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "nu",
+            "name": "Nunavut",
+            "country": "ca",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          },
+          {
+            "jurisdiction": "dc",
+            "name": "District of Columbia",
+            "country": "us",
+            "volatilityScore": 0,
+            "trendDirection": "stable",
+            "lastRisk": "low",
+            "lastRuleVersion": "0.0"
+          }
+        ]
+      },
+      "nationalForecast": {
+        "topic": "rent-increase",
+        "jurisdictions": [
+          {
+            "jurisdiction": "bc",
+            "name": "British Columbia",
+            "country": "ca",
+            "predictedRisk": "high",
+            "confidence": 0.92,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.33
+          },
+          {
+            "jurisdiction": "al",
+            "name": "Alabama",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ak",
+            "name": "Alaska",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "az",
+            "name": "Arizona",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ar",
+            "name": "Arkansas",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "co",
+            "name": "Colorado",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ct",
+            "name": "Connecticut",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "de",
+            "name": "Delaware",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "fl",
+            "name": "Florida",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ga",
+            "name": "Georgia",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "hi",
+            "name": "Hawaii",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "id",
+            "name": "Idaho",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "il",
+            "name": "Illinois",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "in",
+            "name": "Indiana",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ia",
+            "name": "Iowa",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ks",
+            "name": "Kansas",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ky",
+            "name": "Kentucky",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "la",
+            "name": "Louisiana",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "me",
+            "name": "Maine",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "md",
+            "name": "Maryland",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ma",
+            "name": "Massachusetts",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "mi",
+            "name": "Michigan",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "mn",
+            "name": "Minnesota",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ms",
+            "name": "Mississippi",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "mo",
+            "name": "Missouri",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "mt",
+            "name": "Montana",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ne",
+            "name": "Nebraska",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nv",
+            "name": "Nevada",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nh",
+            "name": "New Hampshire",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nj",
+            "name": "New Jersey",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nm",
+            "name": "New Mexico",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ny",
+            "name": "New York",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nc",
+            "name": "North Carolina",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "nd",
+            "name": "North Dakota",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "oh",
+            "name": "Ohio",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ok",
+            "name": "Oklahoma",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "pa",
+            "name": "Pennsylvania",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ri",
+            "name": "Rhode Island",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "sc",
+            "name": "South Carolina",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "sd",
+            "name": "South Dakota",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "tn",
+            "name": "Tennessee",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "tx",
+            "name": "Texas",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ut",
+            "name": "Utah",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "vt",
+            "name": "Vermont",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "va",
+            "name": "Virginia",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "wa",
+            "name": "Washington",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "wv",
+            "name": "West Virginia",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "wi",
+            "name": "Wisconsin",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "wy",
+            "name": "Wyoming",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 0.95,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.25
+          },
+          {
+            "jurisdiction": "ca",
+            "name": "California",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.06
+          },
+          {
+            "jurisdiction": "or",
+            "name": "Oregon",
+            "country": "us",
+            "predictedRisk": "high",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0.06
+          },
+          {
+            "jurisdiction": "ab",
+            "name": "Alberta",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "sk",
+            "name": "Saskatchewan",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "mb",
+            "name": "Manitoba",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "on",
+            "name": "Ontario",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "qc",
+            "name": "Quebec",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "nb",
+            "name": "New Brunswick",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "ns",
+            "name": "Nova Scotia",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "pe",
+            "name": "Prince Edward Island",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "nl",
+            "name": "Newfoundland and Labrador",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "yt",
+            "name": "Yukon",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "nt",
+            "name": "Northwest Territories",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "nu",
+            "name": "Nunavut",
+            "country": "ca",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          },
+          {
+            "jurisdiction": "dc",
+            "name": "District of Columbia",
+            "country": "us",
+            "predictedRisk": "low",
+            "confidence": 1,
+            "trendDirection": "stable",
+            "clusterMovement": "stable within cluster",
+            "volatility": 0
+          }
+        ]
+      },
+      "coverage": {
+        "total": 64,
+        "placeholder": 13,
+        "real": 51,
+        "coveragePercent": 80
+      },
+      "ruleChanges": []
+    }
+  ]
+}

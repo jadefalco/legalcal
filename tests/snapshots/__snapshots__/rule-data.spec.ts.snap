@@ -1,5 +1,45 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
+exports[`Rule Data Snapshots matches snapshot for bc/rent-increase: rule-bc-rent-increase 1`] = `
+{
+  "calculatorFields": {
+    "currentRent": null,
+    "increasePercent": null,
+    "newRent": null,
+  },
+  "exemptions": [
+    "new construction",
+    "subsidized housing",
+  ],
+  "frequencyLimitMonths": 12,
+  "notes": [
+    "Landlords must give at least 3 full calendar months' notice (approx. 24 days minimum formal notice).",
+    "Annual rent increase is capped by the rate set by the BC government.",
+    "Some properties are exempt from the cap.",
+  ],
+  "noticePeriodDays": 90,
+  "rentIncreaseLimit": 3.5,
+}
+`;
+
+exports[`Rule Data Snapshots matches snapshot for bc/security-deposit: rule-bc-security-deposit 1`] = `
+{
+  "interestRequired": false,
+  "itemizedStatementRequired": true,
+  "maxDeposit": "0.5 * monthlyRent",
+  "maxDepositMonths": 0.5,
+  "nonrefundableFeesAllowed": false,
+  "notes": [
+    "Landlord cannot charge more than one-half of one month's rent as a security deposit.",
+    "Pet deposits are not permitted in BC.",
+    "Deposit must be returned within 15 days of the tenant vacating, with an itemized statement.",
+  ],
+  "penaltyMultiple": null,
+  "petDepositAllowed": false,
+  "returnDeadlineDays": 15,
+}
+`;
+
 exports[`Rule Data Snapshots matches snapshot for ca/security-deposit: rule-ca-security-deposit 1`] = `
 {
   "itemizedStatementRequired": true,

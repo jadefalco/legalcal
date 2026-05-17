@@ -1,0 +1,38 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "entry-notice",
+  "rule": {
+    "data": {
+      "noticeHours": 24,
+      "noticeRequired": true,
+      "validReasons": [
+        "emergency",
+        "inspecting the rental unit",
+        "making repairs",
+        "showing the unit to prospective buyers or tenants"
+      ],
+      "timeRange": "8:00 AM - 9:00 PM",
+      "notes": [
+        "Landlord must give written notice at least 24 hours before entry.",
+        "Entry must be between 8 a.m. and 9 p.m. unless the tenant agrees otherwise.",
+        "In case of emergency, notice is not required."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 29(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord must not enter a rental unit except with the tenant's consent or after giving written notice.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder values. Verify current rules with RTB."]
+    }
+  }
+}

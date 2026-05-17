@@ -52,12 +52,18 @@ export default function Page() {
                 </LCButton>
               </Link>
 
-              <Link href={`/calculators/ca/${province.code}`}>
-                <LCButton variant="primary" className="w-full text-sm" theme={theme}>
-                  <ArrowRightCircleIcon className="w-4 h-4" />
-                  Calculators
+              {province.code === "bc" ? (
+                <Link href={`/calculators/ca/${province.code}`}>
+                  <LCButton variant="primary" className="w-full text-sm" theme={theme}>
+                    <ArrowRightCircleIcon className="w-4 h-4" />
+                    Calculators
+                  </LCButton>
+                </Link>
+              ) : (
+                <LCButton variant="ghost" className="w-full text-sm opacity-50 cursor-not-allowed" theme={theme} disabled>
+                  Calculators (soon)
                 </LCButton>
-              </Link>
+              )}
             </div>
           </LCCard>
         ))}

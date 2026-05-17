@@ -1,0 +1,60 @@
+[
+  {
+    "topic": "rent-increase",
+    "jurisdiction": "bc",
+    "version": "2026.01",
+    "previousVersion": null,
+    "savedAt": "2026-05-14T17:45:55.003Z",
+    "changes": {
+      "changedKeys": [],
+      "addedKeys": [
+        "maxIncreasePercent",
+        "noticeMonths",
+        "year",
+        "sourceUrl",
+        "frequencyLimitMonths",
+        "exemptions",
+        "calculatorFields",
+        "notes"
+      ],
+      "removedKeys": [],
+      "dataDiff": {
+        "maxIncreasePercent": {
+          "after": 2.3
+        },
+        "noticeMonths": {
+          "after": 3
+        },
+        "year": {
+          "after": 2026
+        },
+        "sourceUrl": {
+          "after": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies/rent-increases"
+        },
+        "frequencyLimitMonths": {
+          "after": 12
+        },
+        "exemptions": {
+          "after": [
+            "new construction",
+            "subsidized housing"
+          ]
+        },
+        "calculatorFields": {
+          "after": {
+            "currentRent": null,
+            "increasePercent": null,
+            "newRent": null
+          }
+        },
+        "notes": {
+          "after": [
+            "Landlords must give at least 3 full calendar months' notice.",
+            "Annual rent increase is capped by the rate set by the BC government.",
+            "Some properties are exempt from the cap."
+          ]
+        }
+      }
+    }
+  }
+]

@@ -157,4 +157,10 @@ export const calculators = [
     description:
       "Calculate security deposit caps, return deadlines, and penalties by state.",
   },
+  {
+    name: "Utilities and Essential Services",
+    slug: "utilities",
+    description:
+      "Calculate utilities and essential services rules and deadlines for your jurisdiction.",
+  },
 ];

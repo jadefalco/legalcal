@@ -54,8 +54,18 @@ export default function WidgetDeveloperPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-mono text-xs">data-state</td>
-                  <td className="px-4 py-3 text-red-600 font-medium">Yes</td>
+                  <td className="px-4 py-3 text-red-600 font-medium">Yes (US)</td>
                   <td className="px-4 py-3 text-slate-600">Two-letter state code, e.g. ca</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-mono text-xs">data-country</td>
+                  <td className="px-4 py-3 text-slate-500">No</td>
+                  <td className="px-4 py-3 text-slate-600">Country code: us or ca (default: us)</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-mono text-xs">data-province</td>
+                  <td className="px-4 py-3 text-red-600 font-medium">Yes (CA)</td>
+                  <td className="px-4 py-3 text-slate-600">Province code for Canadian provinces (e.g. bc)</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-mono text-xs">data-city</td>
@@ -96,29 +106,40 @@ export default function WidgetDeveloperPage() {
   return () => document.body.removeChild(script);
 }, []);
 
-// In JSX:
-<div data-legalcals-calculator="security-deposit" data-state="ca" />`}
+// In JSX (US):
+<div data-legalcals-calculator="security-deposit" data-state="ca" />
+
+// In JSX (Canada):
+<div data-legalcals-calculator="bc-security-deposit" data-country="ca" data-province="bc" />`}
             </ExampleBlock>
 
             <ExampleBlock title="Vue">
-              {`<template>
+{`<template>
+  <!-- US -->
   <div data-legalcals-calculator="security-deposit" data-state="ca" />
+
+  <!-- Canada (BC) -->
+  <div
+    data-legalcals-calculator="bc-security-deposit"
+    data-country="ca"
+    data-province="bc"
+  ></div>
 </template>
 
 <script setup>
 import { onMounted } from 'vue';
+
 onMounted(() => {
   const script = document.createElement('script');
   script.src = 'https://legalcals.com/embed.js';
   document.head.appendChild(script);
 });
 </script>`}
-            </ExampleBlock>
-
+</ExampleBlock>
             <ExampleBlock title="WordPress">
               {`<!-- Paste into Custom HTML block -->
 <script src="https://legalcals.com/embed.js"></script>
-<div data-legalcals-calculator="security-deposit" data-state="ca"></div>`}
+<div data-legalcals-calculator="bc-security-deposit" data-country="ca" data-province="bc"></div>`}
             </ExampleBlock>
 
             <ExampleBlock title="Webflow">

@@ -4,6 +4,8 @@ const snapshotTopics = [
   { state: "ca", topic: "security-deposit" },
   { state: "ny", topic: "security-deposit" },
   { state: "tx", topic: "security-deposit" },
+  { state: "bc", topic: "security-deposit" },
+  { state: "bc", topic: "rent-increase" },
 ];
 
 describe("Rule Data Snapshots", () => {

@@ -44,6 +44,13 @@ export default function GlobalNav() {
             US States
           </Link>
           <Link
+            href="/calculators/ca/bc"
+            className="hover:text-blue-600 transition flex items-center gap-1"
+          >
+            <MapIcon className="w-4 h-4" />
+            Canada
+          </Link>
+          <Link
             href="/us/states"
             className="hover:text-blue-600 transition flex items-center gap-1"
           >

@@ -1,0 +1,39 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "repair-request",
+  "rule": {
+    "data": {
+      "repairUrgentTimelineHours": 24,
+      "repairNonUrgentTimelineDays": 7,
+      "tenantRepairDeductAllowed": false,
+      "tenantRepairDeductLimit": null,
+      "emergencyRepairs": [
+        "major leaks",
+        "broken heating in winter",
+        "electrical hazards",
+        "sewage backup"
+      ],
+      "notes": [
+        "Landlords must make urgent repairs within a reasonable time, typically 24 hours for emergencies.",
+        "Non-urgent repairs should be addressed within a reasonable timeframe, typically within 7 days.",
+        "Tenants should request repairs in writing and keep a copy."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 32(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord must provide and maintain the rental unit in a reasonable state of decoration and repair.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder timelines. Verify with RTB or local tenant resources."]
+    }
+  }
+}

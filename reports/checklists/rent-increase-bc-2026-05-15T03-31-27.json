@@ -1,0 +1,40 @@
+{
+  "title": "Compliance Checklist — BC rent increase",
+  "preconditions": [
+    "Move-in date or tenancy start date is confirmed.",
+    "Confirm scenario description appears brief; additional facts may improve the analysis.",
+    "Confirm the current rent amount.",
+    "Verify the proposed new rent amount.",
+    "Check whether the property qualifies for any exemptions."
+  ],
+  "steps": [
+    "Identify the current rent amount and the proposed new rent amount.",
+    "Calculate the percentage increase from the current rent.",
+    "Verify that written notice was provided at least 90 days in advance.",
+    "Confirm that the required 12-month interval between increases has elapsed.",
+    "Check whether the property qualifies for any exemptions (new construction, subsidized housing).",
+    "Compare the scenario facts against the structured rule limits."
+  ],
+  "documents": [
+    "Written notice of rent increase",
+    "Current lease or tenancy agreement",
+    "Previous rent amount or last rent receipt"
+  ],
+  "datesToCheck": [
+    "Required notice period before increase can take effect",
+    "Frequency limit — date of last increase",
+    "Effective date of the current rule version",
+    "Rule version effective date: 2025-01-01"
+  ],
+  "uncertainties": [
+    "The tenancy start date is not specified, which may affect frequency limits."
+  ],
+  "warnings": [
+    "This rule has an expired effective date. Verify the current rule before proceeding.",
+    "This rule may be outdated. Check for more recent amendments."
+  ],
+  "citations": [
+    "Residential Tenancy Act, SBC 2002, c 78",
+    "Residential Tenancy Regulation, BC Reg 477/2003"
+  ]
+}

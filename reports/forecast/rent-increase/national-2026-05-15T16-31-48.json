@@ -1,0 +1,645 @@
+{
+  "topic": "rent-increase",
+  "jurisdictions": [
+    {
+      "jurisdiction": "bc",
+      "name": "British Columbia",
+      "country": "ca",
+      "predictedRisk": "high",
+      "confidence": 0.92,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.33
+    },
+    {
+      "jurisdiction": "al",
+      "name": "Alabama",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ak",
+      "name": "Alaska",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "az",
+      "name": "Arizona",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ar",
+      "name": "Arkansas",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "co",
+      "name": "Colorado",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ct",
+      "name": "Connecticut",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "de",
+      "name": "Delaware",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "fl",
+      "name": "Florida",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ga",
+      "name": "Georgia",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "hi",
+      "name": "Hawaii",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "id",
+      "name": "Idaho",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "il",
+      "name": "Illinois",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "in",
+      "name": "Indiana",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ia",
+      "name": "Iowa",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ks",
+      "name": "Kansas",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ky",
+      "name": "Kentucky",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "la",
+      "name": "Louisiana",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "me",
+      "name": "Maine",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "md",
+      "name": "Maryland",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ma",
+      "name": "Massachusetts",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "mi",
+      "name": "Michigan",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "mn",
+      "name": "Minnesota",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ms",
+      "name": "Mississippi",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "mo",
+      "name": "Missouri",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "mt",
+      "name": "Montana",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ne",
+      "name": "Nebraska",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nv",
+      "name": "Nevada",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nh",
+      "name": "New Hampshire",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nj",
+      "name": "New Jersey",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nm",
+      "name": "New Mexico",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ny",
+      "name": "New York",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nc",
+      "name": "North Carolina",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "nd",
+      "name": "North Dakota",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "oh",
+      "name": "Ohio",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ok",
+      "name": "Oklahoma",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "pa",
+      "name": "Pennsylvania",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ri",
+      "name": "Rhode Island",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "sc",
+      "name": "South Carolina",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "sd",
+      "name": "South Dakota",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "tn",
+      "name": "Tennessee",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "tx",
+      "name": "Texas",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ut",
+      "name": "Utah",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "vt",
+      "name": "Vermont",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "va",
+      "name": "Virginia",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "wa",
+      "name": "Washington",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "wv",
+      "name": "West Virginia",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "wi",
+      "name": "Wisconsin",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "wy",
+      "name": "Wyoming",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 0.95,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.25
+    },
+    {
+      "jurisdiction": "ca",
+      "name": "California",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.06
+    },
+    {
+      "jurisdiction": "or",
+      "name": "Oregon",
+      "country": "us",
+      "predictedRisk": "high",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0.06
+    },
+    {
+      "jurisdiction": "ab",
+      "name": "Alberta",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "sk",
+      "name": "Saskatchewan",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "mb",
+      "name": "Manitoba",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "on",
+      "name": "Ontario",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "qc",
+      "name": "Quebec",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "nb",
+      "name": "New Brunswick",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "ns",
+      "name": "Nova Scotia",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "pe",
+      "name": "Prince Edward Island",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "nl",
+      "name": "Newfoundland and Labrador",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "yt",
+      "name": "Yukon",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "nt",
+      "name": "Northwest Territories",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "nu",
+      "name": "Nunavut",
+      "country": "ca",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    },
+    {
+      "jurisdiction": "dc",
+      "name": "District of Columbia",
+      "country": "us",
+      "predictedRisk": "low",
+      "confidence": 1,
+      "trendDirection": "stable",
+      "clusterMovement": "stable within cluster",
+      "volatility": 0
+    }
+  ]
+}

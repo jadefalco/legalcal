@@ -20,9 +20,9 @@ import {
 
 const genericCalculators = [
   {
-    slug: "/calculators/ca",
-    label: "Canada Calculators",
-    description: "Browse all province-specific calculators.",
+    slug: "/calculators/ca/bc",
+    label: "British Columbia Calculators",
+    description: "Browse all BC-specific calculators.",
     icon: CalculatorIcon,
   },
 ];
@@ -71,13 +71,13 @@ export default function Page() {
       <div className="space-y-4">
         <h2 className="text-lg font-semibold text-slate-800">Province-Specific Calculators</h2>
         <p className="text-sm text-slate-600">
-          These calculators are available for every province and territory. Select a calculator type to browse by province.
+          These calculators are available for British Columbia. Select a calculator to run it with BC-specific rules.
         </p>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {provinceSpecificTypes.map((calc) => (
             <Link
               key={calc.slug}
-              href={`/calculators/ca/${calc.slug}`}
+              href={`/calculators/ca/bc/${calc.slug}`}
             >
               <LCCard theme={theme} className="h-full hover:border-blue-300 transition-colors space-y-2">
                 <div className="flex items-center gap-2">

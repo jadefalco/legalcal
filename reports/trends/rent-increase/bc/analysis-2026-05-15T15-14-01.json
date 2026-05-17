@@ -1,0 +1,73 @@
+{
+  "topic": "rent-increase",
+  "jurisdiction": "bc",
+  "snapshots": [
+    {
+      "topic": "rent-increase",
+      "jurisdiction": "bc",
+      "timestamp": "2026-05-15T15:14:01.170Z",
+      "structuralRisk": "high",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "overallRisk": "high",
+      "similarityVector": [
+        0.16666666666666666,
+        0.3333333333333333,
+        0.5,
+        1,
+        0.5,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.13333333333333333,
+        1,
+        0.2465753424657534
+      ],
+      "ruleVersion": "2025.01"
+    },
+    {
+      "topic": "rent-increase",
+      "jurisdiction": "bc",
+      "timestamp": "2026-05-15T15:14:01.178Z",
+      "structuralRisk": "high",
+      "proceduralRisk": "high",
+      "documentationRisk": "high",
+      "overallRisk": "high",
+      "similarityVector": [
+        0.16666666666666666,
+        0.3333333333333333,
+        0.5,
+        1,
+        0.5,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.13333333333333333,
+        1,
+        0.2465753424657534
+      ],
+      "ruleVersion": "2025.01"
+    }
+  ],
+  "riskTrend": {
+    "structural": [
+      1,
+      1
+    ],
+    "procedural": [
+      1,
+      1
+    ],
+    "documentation": [
+      1,
+      1
+    ],
+    "overall": [
+      1,
+      1
+    ]
+  },
+  "similarityDrift": [
+    0
+  ],
+  "ruleChanges": [],
+  "volatilityScore": 0
+}

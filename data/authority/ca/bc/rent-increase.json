@@ -1,0 +1,46 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "rent-increase",
+  "rule": {
+    "data": {
+      "rentIncreaseLimit": 3.5,
+      "noticePeriodDays": 90,
+      "frequencyLimitMonths": 12,
+      "exemptions": ["new construction", "subsidized housing"],
+      "calculatorFields": {
+        "currentRent": null,
+        "increasePercent": null,
+        "newRent": null
+      },
+      "notes": [
+        "Landlords must give at least 3 full calendar months' notice (approx. 24 days minimum formal notice).",
+        "Annual rent increase is capped by the rate set by the BC government.",
+        "Some properties are exempt from the cap."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 42(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord may increase the rent only if the landlord has given the tenant at least 3 months' notice.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      },
+      {
+        "statute": "Residential Tenancy Regulation, BC Reg 477/2003, s 7",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/477_2003",
+        "excerpt": "The maximum annual rent increase is set by regulation.",
+        "sourceType": "regulation",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.85
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder cap of 3.5%. Verify current year's allowed increase with RTB."]
+    }
+  }
+}

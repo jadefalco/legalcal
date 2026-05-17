@@ -49,5 +49,6 @@ export const usStates = {
   wa: { name: "Washington", slug: "wa", accent: "#006C54", seal: "/seals/us/wa.png" },
   wv: { name: "West Virginia", slug: "wv", accent: "#0033A0", seal: "/seals/us/wv.png" },
   wi: { name: "Wisconsin", slug: "wi", accent: "#0033A0", seal: "/seals/us/wi.png" },
-  wy: { name: "Wyoming", slug: "wy", accent: "#FFC72C", seal: "/seals/us/wy.png" }
+  wy: { name: "Wyoming", slug: "wy", accent: "#FFC72C", seal: "/seals/us/wy.png" },
+  dc: { name: "District of Columbia", slug: "dc", accent: "#E81B23", seal: "/seals/us/dc.png" }
 };

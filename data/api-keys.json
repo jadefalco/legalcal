@@ -1,0 +1,22 @@
+[
+  {
+    "clientId": "acme-corp",
+    "apiKeyHash": "1cd9c55d27618aab67e225e7d882b3a4f5d88a99ce2c85fca834be385a7160c8",
+    "limits": {
+      "perMinute": 60,
+      "perDay": 5000
+    },
+    "createdAt": "2026-05-16T15:31:49.072Z",
+    "active": false
+  },
+  {
+    "clientId": "test-client",
+    "apiKeyHash": "bea202bf2e8d111326effe0ce9d3e13069594c39b9faa23d08fe84de550c3bb3",
+    "limits": {
+      "perMinute": 60,
+      "perDay": 5000
+    },
+    "createdAt": "2026-05-16T15:32:09.942Z",
+    "active": true
+  }
+]

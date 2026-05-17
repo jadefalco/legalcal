@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model widget_usage {
+  id         Int      @id @default(autoincrement())
+  api_key_id Int?
+  calculator String
+  country    String
+  state      String?
+  province   String?
+  city       String?
+  timestamp  DateTime @default(now())
+  event_type String
+  metadata   String?
+}

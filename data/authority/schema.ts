@@ -9,7 +9,7 @@ export interface LegalCitation {
 
 export interface LegalVersion {
   version: string;
-  effectiveDate: string;
+  effectiveDate: string | null;
   supersedes: string | null;
   notes: string[];
 }
@@ -18,6 +18,8 @@ export interface LegalRuleBlock {
   data: Record<string, unknown>;
   citations: LegalCitation[];
   version: LegalVersion;
+  expiresOn?: string | null;
+  lastUpdated?: string | null;
 }
 
 export interface LegalAuthorityFile {

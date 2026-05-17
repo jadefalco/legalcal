@@ -1,25 +1,53 @@
 import { NextRequest, NextResponse } from "next/server";
+import { z } from "zod";
 import { logWidgetEvent } from "@/lib/authority/db";
+
+const widgetEventSchema = z
+  .object({
+    calculator: z.string(),
+    country: z.enum(["us", "ca"]),
+    state: z.string().optional(),
+    province: z.string().optional(),
+    city: z.string().optional(),
+    eventType: z.enum(["view", "calculate"]),
+    metadata: z.record(z.string(), z.unknown()).optional(),
+  })
+  .superRefine((data, ctx) => {
+    if (data.country === "us" && !data.state) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "state is required for US",
+        path: ["state"],
+      });
+    }
+    if (data.country === "ca" && !data.province) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "province is required for CA",
+        path: ["province"],
+      });
+    }
+  });
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { calculator, state, city, eventType, metadata } = body;
+    const parseResult = widgetEventSchema.safeParse(body);
 
-    if (
-      typeof calculator !== "string" ||
-      typeof state !== "string" ||
-      !["view", "calculate"].includes(eventType)
-    ) {
+    if (!parseResult.success) {
       return NextResponse.json(
         { success: false, error: "Missing or invalid fields" },
         { status: 400 }
       );
     }
 
+    const { calculator, country, state, province, city, eventType, metadata } = parseResult.data;
+
     await logWidgetEvent({
       calculator,
+      country,
       state,
+      province,
       city,
       eventType,
       metadata: metadata || {},

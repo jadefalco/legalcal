@@ -1,0 +1,35 @@
+{
+  "jurisdiction": { "country": "ca", "state": "bc" },
+  "topic": "condition-inspection",
+  "rule": {
+    "data": {
+      "inspectionRequired": true,
+      "moveInInspection": true,
+      "moveOutInspection": true,
+      "reportDeadlineDays": 7,
+      "tenantMustBePresent": false,
+      "tenantHasRightToAttend": true,
+      "notes": [
+        "Landlord and tenant should conduct a condition inspection at move-in and move-out.",
+        "The inspection report must be signed by both parties.",
+        "A copy must be provided to the tenant within a reasonable time."
+      ]
+    },
+    "citations": [
+      {
+        "statute": "Residential Tenancy Act, SBC 2002, c 78, s 17(1)",
+        "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/02078_01",
+        "excerpt": "A landlord and tenant must inspect the rental unit together at the beginning and end of the tenancy.",
+        "sourceType": "statute",
+        "lastUpdated": "2025-01-01",
+        "confidence": 0.9
+      }
+    ],
+    "version": {
+      "version": "2025.01",
+      "effectiveDate": "2025-01-01",
+      "supersedes": null,
+      "notes": ["Placeholder values. Verify with RTB."]
+    }
+  }
+}

@@ -63,15 +63,17 @@ export default function PageClient({ states, theme, securityDepositStateCodes }:
           </LCCard>
         </Link>
 
-        <LCCard theme={theme} className="p-6 opacity-50 cursor-not-allowed">
-          <div className="flex items-center gap-3">
-            <ShieldCheckIcon className="w-7 h-7 text-slate-400" />
-            <div>
-              <h3 className="font-semibold text-slate-500">Canada</h3>
-              <p className="text-sm text-slate-500">Coming soon</p>
+        <Link href="/calculators/ca/bc">
+          <LCCard theme={theme} className="p-6 hover:border-blue-300 transition">
+            <div className="flex items-center gap-3">
+              <ShieldCheckIcon className="w-7 h-7 text-blue-600" />
+              <div>
+                <h3 className="font-semibold text-slate-800">Canada</h3>
+                <p className="text-sm text-slate-600">British Columbia available</p>
+              </div>
             </div>
-          </div>
-        </LCCard>
+          </LCCard>
+        </Link>
 
       </div>
 

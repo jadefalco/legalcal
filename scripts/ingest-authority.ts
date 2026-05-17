@@ -3,7 +3,7 @@ import path from "path";
 import { getDb, closeDb } from "../lib/authority/db";
 import type { LegalAuthorityFile, LegalCitation, LegalVersion } from "../data/authority/schema";
 
-const AUTHORITY_DIR = path.join(process.cwd(), "data", "authority", "us");
+const AUTHORITY_BASE_DIR = path.join(process.cwd(), "data", "authority");
 
 function deepMerge(base: any, override: any): any {
   if (Array.isArray(override)) {
@@ -30,14 +30,11 @@ function loadJsonFile(filePath: string): LegalAuthorityFile | null {
   return JSON.parse(content) as LegalAuthorityFile;
 }
 
-function ingestAuthority() {
-  const db = getDb();
-
-  // Clear existing data
-  db.exec(`DELETE FROM citations;`);
-  db.exec(`DELETE FROM rules;`);
-  db.exec(`DELETE FROM topics;`);
-  db.exec(`DELETE FROM jurisdictions;`);
+function ingestCountry(db: any, countryDir: string, country: string) {
+  if (!fs.existsSync(countryDir)) {
+    console.log(`No authority data found for ${country}.`);
+    return;
+  }
 
   const insertJurisdiction = db.prepare(`
     INSERT OR IGNORE INTO jurisdictions (country, state, city)
@@ -67,18 +64,13 @@ function ingestAuthority() {
     SELECT id FROM topics WHERE name = ?
   `);
 
-  if (!fs.existsSync(AUTHORITY_DIR)) {
-    console.log("No authority data found.");
-    return;
-  }
-
-  const stateDirs = fs.readdirSync(AUTHORITY_DIR).filter((d) => {
-    const fullPath = path.join(AUTHORITY_DIR, d);
+  const stateDirs = fs.readdirSync(countryDir).filter((d) => {
+    const fullPath = path.join(countryDir, d);
     return fs.statSync(fullPath).isDirectory() && d !== "schema.ts";
   });
 
   for (const state of stateDirs) {
-    const statePath = path.join(AUTHORITY_DIR, state);
+    const statePath = path.join(countryDir, state);
     const files = fs.readdirSync(statePath).filter((f) => f.endsWith(".json"));
 
     for (const file of files) {
@@ -184,6 +176,26 @@ function ingestAuthority() {
         }
       }
     }
+  }
+}
+
+function ingestAuthority() {
+  const db = getDb();
+
+  // Clear existing data
+  db.exec(`DELETE FROM citations;`);
+  db.exec(`DELETE FROM rules;`);
+  db.exec(`DELETE FROM topics;`);
+  db.exec(`DELETE FROM jurisdictions;`);
+
+  const countries = fs.readdirSync(AUTHORITY_BASE_DIR).filter((d) => {
+    const fullPath = path.join(AUTHORITY_BASE_DIR, d);
+    return fs.statSync(fullPath).isDirectory();
+  });
+
+  for (const country of countries) {
+    const countryDir = path.join(AUTHORITY_BASE_DIR, country);
+    ingestCountry(db, countryDir, country);
   }
 
   console.log("Authority ingestion complete.");
