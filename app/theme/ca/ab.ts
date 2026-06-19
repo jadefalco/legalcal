@@ -2,8 +2,8 @@ import type { Theme } from "@/app/types/Theme";
 
 export const theme: Theme = {
   colors: {
-    primary: "#003A6C",
-    accent: "#003A6C",
+    primary: "#F04C23",
+    accent: "#F04C23",
     background: "#F8FAFC",
   },
   emblem: "/emblems/ab.svg",

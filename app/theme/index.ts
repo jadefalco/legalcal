@@ -61,6 +61,7 @@ import { theme as caPE } from "./ca/pe";
 import { theme as caQC } from "./ca/qc";
 import { theme as caSK } from "./ca/sk";
 import { theme as caYT } from "./ca/yt";
+import { theme as caFederal } from "./ca/federal";
 
 import type { Theme } from "@/app/types/Theme";
 
@@ -141,6 +142,7 @@ const caThemes: Record<string, Theme> = {
   qc: caQC,
   sk: caSK,
   yt: caYT,
+  federal: caFederal,
 };
 
 export function getTheme(country: "us" | "ca", code: string): Theme {

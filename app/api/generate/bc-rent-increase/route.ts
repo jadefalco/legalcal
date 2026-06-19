@@ -1,0 +1,161 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { validateRentIncrease } from "@/lib/bcRentIncreaseRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+const serviceMethodLabels: Record<string, string> = {
+  in_person: "In person",
+  posted_on_door: "Posted on door",
+  registered_mail: "Registered mail",
+};
+
+function formatCurrency(value: number): string {
+  return new Intl.NumberFormat("en-CA", {
+    style: "currency",
+    currency: "CAD",
+  }).format(value);
+}
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const currentRentAmount = Number(form.currentRentAmount || 0);
+    const proposedRentAmount = Number(form.proposedRentAmount || 0);
+    const tenancyStartDate = String(form.tenancyStartDate || "");
+    const noticeServeDate = String(form.noticeServeDate || "");
+    const rentIncreaseEffectiveDate = String(form.rentIncreaseEffectiveDate || "");
+
+    const { valid, increasePercent } = validateRentIncrease(
+      currentRentAmount,
+      proposedRentAmount,
+      tenancyStartDate,
+      noticeServeDate,
+      rentIncreaseEffectiveDate
+    );
+
+    if (!valid) {
+      return NextResponse.json(
+        { success: false, error: "Rent increase validation failed" },
+        { status: 400 }
+      );
+    }
+
+    const landlordName = String(form.landlordName || "");
+    const landlordAddressLine1 = String(form.landlordAddressLine1 || "");
+    const landlordAddressLine2 = form.landlordAddressLine2
+      ? String(form.landlordAddressLine2)
+      : "";
+    const landlordCity = String(form.landlordCity || "");
+    const landlordPostalCode = String(form.landlordPostalCode || "");
+    const tenantName = String(form.tenantName || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const serviceMethod = String(form.serviceMethod || "");
+
+    const serviceLabel = serviceMethodLabels[serviceMethod] || serviceMethod;
+
+    const html = `
+<h1>Notice of Rent Increase – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Landlord:</strong> ${escapeHtml(landlordName)}<br>
+  ${escapeHtml(landlordAddressLine1)}<br>
+  ${landlordAddressLine2 ? escapeHtml(landlordAddressLine2) + "<br>" : ""}
+  ${escapeHtml(landlordCity)}, ${escapeHtml(landlordPostalCode)}</p>
+
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Current Rent</h2>
+<ul>
+  <li>Current rent amount: ${formatCurrency(currentRentAmount)}</li>
+  <li>Tenancy start date: ${formatDate(tenancyStartDate)}</li>
+</ul>
+
+<h2>Proposed Rent</h2>
+<ul>
+  <li>Proposed rent amount: ${formatCurrency(proposedRentAmount)}</li>
+  <li>Calculated increase percentage: ${increasePercent.toFixed(2)}%</li>
+  <li>Effective date of increase: ${formatDate(rentIncreaseEffectiveDate)}</li>
+</ul>
+
+<p>This notice complies with the maximum allowable rent increase and notice period required under the Residential Tenancy Act.</p>
+
+<h2>Service Method</h2>
+<p>${escapeHtml(serviceLabel)}</p>
+<p>You must serve this notice using the method selected above and keep proof of service.</p>
+
+<h2>Signature</h2>
+<p>Landlord: ${escapeHtml(landlordName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-rent-increase-notice.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

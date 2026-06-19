@@ -1,0 +1,165 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { validateEntryNotice } from "@/lib/bcEntryRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+const entryReasonLabels: Record<string, string> = {
+  repairs: "Repairs",
+  inspection: "Inspection",
+  showing_to_prospective_tenants: "Showing to prospective tenants",
+  showing_to_prospective_buyers: "Showing to prospective buyers",
+  emergency: "Emergency",
+  pest_control: "Pest control",
+  other: "Other",
+};
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const entryReason = String(form.entryReason || "");
+    const noticeServeDate = String(form.noticeServeDate || "");
+    const entryDate = String(form.entryDate || "");
+
+    const { valid, requiredNoticeHours, actualNoticeHours } = validateEntryNotice(
+      entryReason,
+      noticeServeDate,
+      entryDate
+    );
+
+    if (!valid) {
+      return NextResponse.json(
+        { success: false, error: "Entry notice validation failed" },
+        { status: 400 }
+      );
+    }
+
+    const landlordName = String(form.landlordName || "");
+    const landlordAddressLine1 = String(form.landlordAddressLine1 || "");
+    const landlordAddressLine2 = form.landlordAddressLine2
+      ? String(form.landlordAddressLine2)
+      : "";
+    const landlordCity = String(form.landlordCity || "");
+    const landlordPostalCode = String(form.landlordPostalCode || "");
+    const tenantName = String(form.tenantName || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const entryTime = String(form.entryTime || "");
+    const entryReasonOtherDescription = form.entryReasonOtherDescription
+      ? String(form.entryReasonOtherDescription)
+      : "";
+
+    const reasonLabel = entryReasonLabels[entryReason] || entryReason;
+
+    let otherReasonHtml = "";
+    if (entryReason === "other" && entryReasonOtherDescription) {
+      otherReasonHtml = `<p>Reason: ${escapeHtml(entryReasonOtherDescription)}</p>`;
+    }
+
+    let emergencyHtml = "";
+    if (entryReason === "emergency") {
+      emergencyHtml = `<p>This entry is due to an emergency. No advance notice is required under the Residential Tenancy Act.</p>`;
+    }
+
+    const html = `
+<h1>Notice of Entry – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Landlord:</strong> ${escapeHtml(landlordName)}<br>
+  ${escapeHtml(landlordAddressLine1)}<br>
+  ${landlordAddressLine2 ? escapeHtml(landlordAddressLine2) + "<br>" : ""}
+  ${escapeHtml(landlordCity)}, ${escapeHtml(landlordPostalCode)}</p>
+
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Entry Details</h2>
+<ul>
+  <li>Reason for entry: ${escapeHtml(reasonLabel)}</li>
+  <li>Entry date: ${formatDate(entryDate)}</li>
+  <li>Entry time: ${escapeHtml(entryTime)}</li>
+  <li>Notice serve date: ${formatDate(noticeServeDate)}</li>
+  <li>Required notice hours: ${requiredNoticeHours}</li>
+  <li>Actual notice hours: ${actualNoticeHours}</li>
+</ul>
+
+${otherReasonHtml}
+
+<h2>Legal Reference</h2>
+<p>Under the Residential Tenancy Act, landlords must provide at least 24 hours’ written notice before entering a rental unit, except in an emergency.</p>
+
+${emergencyHtml}
+
+<h2>Signature</h2>
+<p>Landlord: ${escapeHtml(landlordName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-notice-of-entry.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

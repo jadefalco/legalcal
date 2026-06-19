@@ -1,0 +1,169 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { validateLateRent } from "@/lib/bcLateRentRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+function formatCurrency(value: number): string {
+  return new Intl.NumberFormat("en-CA", {
+    style: "currency",
+    currency: "CAD",
+  }).format(value);
+}
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const rentDueDate = String(form.rentDueDate || "");
+    const noticeServeDate = String(form.noticeServeDate || "");
+
+    const { valid, calculatedDaysLate } = validateLateRent(
+      rentDueDate,
+      noticeServeDate
+    );
+    if (!valid) {
+      return NextResponse.json(
+        { success: false, error: "Late rent validation failed" },
+        { status: 400 }
+      );
+    }
+
+    const landlordName = String(form.landlordName || "");
+    const landlordEmail = form.landlordEmail
+      ? String(form.landlordEmail)
+      : "";
+    const landlordPhone = form.landlordPhone
+      ? String(form.landlordPhone)
+      : "";
+    const tenantName = String(form.tenantName || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const monthlyRentAmount = Number(form.monthlyRentAmount || 0);
+    const rentOutstandingAmount = Number(form.rentOutstandingAmount || 0);
+    const serviceMethod = String(form.serviceMethod || "");
+    const additionalNotes = form.additionalNotes
+      ? String(form.additionalNotes)
+      : "";
+
+    const serviceMethodLabels: Record<string, string> = {
+      in_person: "In Person",
+      posted_on_door: "Posted on Door",
+      registered_mail: "Registered Mail",
+      email: "Email",
+    };
+
+    const serviceMethodLabel =
+      serviceMethodLabels[serviceMethod] || serviceMethod;
+
+    let serviceMethodHtml = `<p>Service method: ${escapeHtml(serviceMethodLabel)}</p>`;
+    if (serviceMethod === "email") {
+      serviceMethodHtml += `<p>This notice has been served by email, which is permitted if the tenant has provided an email address for service.</p>`;
+    }
+
+    const additionalNotesHtml = additionalNotes
+      ? `<h2>Additional Notes</h2><p>Notes: ${escapeHtml(additionalNotes)}</p>`
+      : "";
+
+    const html = `
+<h1>Late Rent Notice – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Landlord:</strong> ${escapeHtml(landlordName)}<br>
+  ${landlordEmail ? escapeHtml(landlordEmail) + "<br>" : ""}
+  ${landlordPhone ? escapeHtml(landlordPhone) + "<br>" : ""}</p>
+
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Rent Details</h2>
+<ul>
+  <li>Monthly rent amount: ${formatCurrency(monthlyRentAmount)}</li>
+  <li>Rent due date: ${formatDate(rentDueDate)}</li>
+  <li>Rent outstanding amount: ${formatCurrency(rentOutstandingAmount)}</li>
+  <li>Days late: ${calculatedDaysLate}</li>
+</ul>
+
+<h2>Statement of Late Payment</h2>
+<p>This notice informs you that your rent payment is late and remains outstanding.</p>
+
+<h2>Service Method</h2>
+${serviceMethodHtml}
+
+${additionalNotesHtml}
+
+<h2>Legal Reference</h2>
+<p>Under the Residential Tenancy Act, tenants must pay rent in full and on time. Failure to do so may result in further action.</p>
+
+<h2>Signature</h2>
+<p>Landlord: ${escapeHtml(landlordName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-late-rent-notice.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

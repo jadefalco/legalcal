@@ -25,6 +25,12 @@ import {
   ArrowRightIcon,
   ClipboardDocumentCheckIcon,
   ClockIcon,
+  UserMinusIcon,
+  UsersIcon,
+  SunIcon,
+  CurrencyDollarIcon,
+  StarIcon,
+  HeartIcon,
 } from "@heroicons/react/24/outline";
 
 const bcCalculators = [
@@ -35,6 +41,14 @@ const bcCalculators = [
   { slug: "deposit-return", name: "Deposit Return Deadline Calculator", description: "Calculate security deposit return deadlines for BC tenancies.", icon: BanknotesIcon },
   { slug: "condition-inspection", name: "Condition Inspection Checklist", description: "Review BC condition inspection requirements and timelines.", icon: ClipboardDocumentCheckIcon },
   { slug: "ending-tenancy", name: "Ending Tenancy Calculator", description: "Calculate notice periods for ending a BC tenancy.", icon: ClockIcon },
+  { slug: "termination-pay", name: "Termination Pay Calculator", description: "Calculate BC termination pay entitlements based on length of service.", icon: UserMinusIcon },
+  { slug: "severance-pay", name: "Severance Pay Calculator", description: "Determine BC severance pay obligations for group terminations.", icon: UsersIcon },
+  { slug: "overtime", name: "Overtime Calculator", description: "Calculate daily overtime pay under the BC Employment Standards Act.", icon: ClockIcon },
+  { slug: "vacation-pay", name: "Vacation Pay Calculator", description: "Calculate BC vacation pay and days entitlement.", icon: SunIcon },
+  { slug: "minimum-wage", name: "Minimum Wage Calculator", description: "Check if a wage meets the current BC minimum wage requirement.", icon: CurrencyDollarIcon },
+  { slug: "statutory-holiday", name: "Statutory Holiday Pay Calculator", description: "Calculate statutory holiday pay eligibility under BC law.", icon: StarIcon },
+  { slug: "average-weekly-earnings", name: "Average Weekly Earnings Calculator", description: "Calculate average weekly earnings for BC employment claims.", icon: ChartBarIcon },
+  { slug: "maternity-parental-leave", name: "Maternity & Parental Leave Calculator", description: "Calculate BC leave entitlements and estimate EI benefits.", icon: HeartIcon },
 ];
 
 const theme = getTheme("ca", "bc");
@@ -59,6 +73,22 @@ function getRuleSummary(slug: string): string | null {
       return `Inspection required at move-in and move-out.`;
     case "ending-tenancy":
       return `Notice period: ${data.tenantNoticePeriodDays ?? 30} days (tenant), ${data.landlordNoticePeriodDays ?? 30} days (landlord).`;
+    case "termination-pay":
+      return `Up to 8 weeks based on years of service.`;
+    case "severance-pay":
+      return `Group terminations: 50+ employees, 3+ years service required.`;
+    case "overtime":
+      return `1.5x after 8h, 2x after 12h daily.`;
+    case "vacation-pay":
+      return `4% (<5 yrs), 6% (5+ yrs). 10–15 days.`;
+    case "minimum-wage":
+      return `Current: $${data.generalMinimumWage ?? 17.40}/hr general minimum.`;
+    case "statutory-holiday":
+      return `30 days employed, 15 of 30 days worked required.`;
+    case "average-weekly-earnings":
+      return `Used for termination, vacation, and severance calculations.`;
+    case "maternity-parental-leave":
+      return `17 weeks maternity + up to 61 weeks parental (BC ESA).`;
     default:
       return null;
   }

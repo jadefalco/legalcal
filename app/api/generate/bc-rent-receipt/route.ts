@@ -1,0 +1,165 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { validateRentPeriod } from "@/lib/bcRentReceiptRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+const paymentMethodLabels: Record<string, string> = {
+  e_transfer: "E-Transfer",
+  cash: "Cash",
+  cheque: "Cheque",
+  bank_deposit: "Bank Deposit",
+  other: "Other",
+};
+
+function formatCurrency(value: number): string {
+  return new Intl.NumberFormat("en-CA", {
+    style: "currency",
+    currency: "CAD",
+  }).format(value);
+}
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const paymentPeriodStart = String(form.paymentPeriodStart || "");
+    const paymentPeriodEnd = String(form.paymentPeriodEnd || "");
+
+    const { valid } = validateRentPeriod(paymentPeriodStart, paymentPeriodEnd);
+    if (!valid) {
+      return NextResponse.json(
+        { success: false, error: "Payment period validation failed" },
+        { status: 400 }
+      );
+    }
+
+    const landlordName = String(form.landlordName || "");
+    const landlordAddressLine1 = String(form.landlordAddressLine1 || "");
+    const landlordAddressLine2 = form.landlordAddressLine2
+      ? String(form.landlordAddressLine2)
+      : "";
+    const landlordCity = String(form.landlordCity || "");
+    const landlordPostalCode = String(form.landlordPostalCode || "");
+    const tenantName = String(form.tenantName || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const rentAmount = Number(form.rentAmount || 0);
+    const paymentDate = String(form.paymentDate || "");
+    const paymentMethod = String(form.paymentMethod || "");
+    const paymentMethodOtherDescription = form.paymentMethodOtherDescription
+      ? String(form.paymentMethodOtherDescription)
+      : "";
+    const receiptNotes = form.receiptNotes
+      ? String(form.receiptNotes)
+      : "";
+
+    const methodLabel = paymentMethodLabels[paymentMethod] || paymentMethod;
+
+    let otherMethodHtml = "";
+    if (paymentMethod === "other" && paymentMethodOtherDescription) {
+      otherMethodHtml = `<p>Payment method: ${escapeHtml(paymentMethodOtherDescription)}</p>`;
+    }
+
+    const notesHtml = receiptNotes
+      ? `<p>Notes: ${escapeHtml(receiptNotes)}</p>`
+      : "";
+
+    const html = `
+<h1>Rent Receipt – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Landlord:</strong> ${escapeHtml(landlordName)}<br>
+  ${escapeHtml(landlordAddressLine1)}<br>
+  ${landlordAddressLine2 ? escapeHtml(landlordAddressLine2) + "<br>" : ""}
+  ${escapeHtml(landlordCity)}, ${escapeHtml(landlordPostalCode)}</p>
+
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Payment Details</h2>
+<ul>
+  <li>Rent amount: ${formatCurrency(rentAmount)}</li>
+  <li>Payment date: ${formatDate(paymentDate)}</li>
+  <li>Payment method: ${escapeHtml(methodLabel)}</li>
+  <li>Payment period: ${formatDate(paymentPeriodStart)} → ${formatDate(paymentPeriodEnd)}</li>
+</ul>
+
+${otherMethodHtml}
+${notesHtml}
+
+<h2>Legal Reference</h2>
+<p>This receipt acknowledges payment of rent for the period stated above.</p>
+
+<h2>Signature</h2>
+<p>Landlord: ${escapeHtml(landlordName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-rent-receipt.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

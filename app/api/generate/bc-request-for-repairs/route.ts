@@ -1,0 +1,157 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { classifyRepairUrgency } from "@/lib/bcRepairRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const tenantName = String(form.tenantName || "");
+    const tenantEmail = String(form.tenantEmail || "");
+    const tenantPhone = String(form.tenantPhone || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const landlordName = String(form.landlordName || "");
+    const landlordAddressLine1 = String(form.landlordAddressLine1 || "");
+    const landlordAddressLine2 = form.landlordAddressLine2
+      ? String(form.landlordAddressLine2)
+      : "";
+    const landlordCity = String(form.landlordCity || "");
+    const landlordPostalCode = String(form.landlordPostalCode || "");
+    const issueDescription = String(form.issueDescription || "");
+    const dateIssueNoticed = String(form.dateIssueNoticed || "");
+    const urgencyLevel = String(form.urgencyLevel || "");
+    const hasPhotos = Boolean(form.hasPhotos);
+    const preferredResolutionDate = String(form.preferredResolutionDate || "");
+    const tenantBelievesHealthOrSafetyRisk = Boolean(
+      form.tenantBelievesHealthOrSafetyRisk
+    );
+    const tenantBelievesBreachOfStandard = Boolean(
+      form.tenantBelievesBreachOfStandard
+    );
+
+    const { category, recommendedTimelineDays } = classifyRepairUrgency(
+      urgencyLevel,
+      tenantBelievesHealthOrSafetyRisk
+    );
+
+    let legalBasisHtml = "";
+    if (tenantBelievesHealthOrSafetyRisk) {
+      legalBasisHtml += `<p>The tenant believes this issue poses a health or safety risk.</p>`;
+    }
+    if (tenantBelievesBreachOfStandard) {
+      legalBasisHtml += `<p>The tenant believes this issue breaches the landlord’s obligation to maintain the rental unit in a state of repair.</p>`;
+    }
+
+    const photosNote = hasPhotos
+      ? `<p>The tenant has photos available upon request.</p>`
+      : "";
+
+    const html = `
+<h1>Request for Repairs – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  Email: ${escapeHtml(tenantEmail)}<br>
+  Phone: ${escapeHtml(tenantPhone)}</p>
+
+  <p><strong>Rental Address:</strong><br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Landlord Information</h2>
+<p>${escapeHtml(landlordName)}<br>
+${escapeHtml(landlordAddressLine1)}<br>
+${landlordAddressLine2 ? escapeHtml(landlordAddressLine2) + "<br>" : ""}
+${escapeHtml(landlordCity)}, ${escapeHtml(landlordPostalCode)}</p>
+
+<h2>Repair Details</h2>
+<ul>
+  <li>Description of issue: ${escapeHtml(issueDescription)}</li>
+  <li>Date issue was first noticed: ${formatDate(dateIssueNoticed)}</li>
+  <li>Urgency classification: ${escapeHtml(category)}</li>
+  <li>Recommended response timeline: ${recommendedTimelineDays} days</li>
+  <li>Preferred resolution date: ${formatDate(preferredResolutionDate)}</li>
+</ul>
+
+<h2>Legal Basis</h2>
+${legalBasisHtml}
+
+<h2>Request</h2>
+<p>The tenant requests that the landlord address this issue within the recommended timeline.</p>
+
+${photosNote}
+
+<h2>Signature</h2>
+<p>Tenant: ${escapeHtml(tenantName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-request-for-repairs.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

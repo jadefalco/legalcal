@@ -40,13 +40,16 @@
     "better-sqlite3": "^12.9.0",
     "d3": "^7.9.0",
     "next": "14.2.35",
+    "nodemailer": "^8.0.9",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "stripe": "^22.2.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/supertest": "^7.2.0",

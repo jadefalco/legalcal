@@ -15,6 +15,14 @@ import BCRepairRequestCalculator from "@/app/ca/calculators/bc/repair-request/BC
 import BCDepositReturnCalculator from "@/app/ca/calculators/bc/deposit-return/BCDepositReturnCalculator";
 import BCConditionInspectionCalculator from "@/app/ca/calculators/bc/condition-inspection/BCConditionInspectionCalculator";
 import BCEndingTenancyCalculator from "@/app/ca/calculators/bc/ending-tenancy/BCEndingTenancyCalculator";
+import BCTerminationPayCalculator from "@/app/ca/calculators/bc/termination-pay/BCTerminationPayCalculator";
+import BCSeverancePayCalculator from "@/app/ca/calculators/bc/severance-pay/BCSeverancePayCalculator";
+import BCOvertimeCalculator from "@/app/ca/calculators/bc/overtime/BCOvertimeCalculator";
+import BCVacationPayCalculator from "@/app/ca/calculators/bc/vacation-pay/BCVacationPayCalculator";
+import BCMinimumWageCalculator from "@/app/ca/calculators/bc/minimum-wage/BCMinimumWageCalculator";
+import BCStatutoryHolidayCalculator from "@/app/ca/calculators/bc/statutory-holiday/BCStatutoryHolidayCalculator";
+import BCAverageWeeklyEarningsCalculator from "@/app/ca/calculators/bc/average-weekly-earnings/BCAverageWeeklyEarningsCalculator";
+import BCMaternityParentalLeaveCalculator from "@/app/ca/calculators/bc/maternity-parental-leave/BCMaternityParentalLeaveCalculator";
 import RuleFreshnessBanner from "@/components/RuleFreshnessBanner";
 
 import {
@@ -32,6 +40,14 @@ const calculatorComponents: Record<string, React.ComponentType> = {
   "deposit-return": BCDepositReturnCalculator,
   "condition-inspection": BCConditionInspectionCalculator,
   "ending-tenancy": BCEndingTenancyCalculator,
+  "termination-pay": BCTerminationPayCalculator,
+  "severance-pay": BCSeverancePayCalculator,
+  "overtime": BCOvertimeCalculator,
+  "vacation-pay": BCVacationPayCalculator,
+  "minimum-wage": BCMinimumWageCalculator,
+  "statutory-holiday": BCStatutoryHolidayCalculator,
+  "average-weekly-earnings": BCAverageWeeklyEarningsCalculator,
+  "maternity-parental-leave": BCMaternityParentalLeaveCalculator,
 };
 
 const calculatorNames: Record<string, string> = {
@@ -42,6 +58,14 @@ const calculatorNames: Record<string, string> = {
   "deposit-return": "Deposit Return Deadline Calculator",
   "condition-inspection": "Condition Inspection Checklist",
   "ending-tenancy": "Ending Tenancy Calculator",
+  "termination-pay": "Termination Pay Calculator",
+  "severance-pay": "Severance Pay Calculator",
+  "overtime": "Overtime Calculator",
+  "vacation-pay": "Vacation Pay Calculator",
+  "minimum-wage": "Minimum Wage Calculator",
+  "statutory-holiday": "Statutory Holiday Pay Calculator",
+  "average-weekly-earnings": "Average Weekly Earnings Calculator",
+  "maternity-parental-leave": "Maternity & Parental Leave Calculator",
 };
 
 const calculatorApiTopics: Record<string, string> = {
@@ -52,6 +76,14 @@ const calculatorApiTopics: Record<string, string> = {
   "deposit-return": "deposit-return",
   "condition-inspection": "condition-inspection",
   "ending-tenancy": "ending-tenancy",
+  "termination-pay": "termination-pay",
+  "severance-pay": "severance-pay",
+  "overtime": "overtime",
+  "vacation-pay": "vacation-pay",
+  "minimum-wage": "minimum-wage",
+  "statutory-holiday": "statutory-holiday",
+  "average-weekly-earnings": "average-weekly-earnings",
+  "maternity-parental-leave": "maternity-parental-leave",
 };
 
 export async function generateMetadata({

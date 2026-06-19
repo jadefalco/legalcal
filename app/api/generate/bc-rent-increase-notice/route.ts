@@ -1,0 +1,164 @@
+import { NextRequest, NextResponse } from "next/server";
+import { getSession, deleteSession } from "@/lib/session";
+import { validateRentIncrease } from "@/lib/bcRentIncreaseNoticeRules";
+import { renderPdfFromHtml } from "@/lib/documents/renderPdf";
+
+function formatCurrency(value: number): string {
+  return new Intl.NumberFormat("en-CA", {
+    style: "currency",
+    currency: "CAD",
+  }).format(value);
+}
+
+function formatDate(dateStr: string): string {
+  if (!dateStr) return "";
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const date = new Date(year, month - 1, day);
+  return date.toLocaleDateString("en-CA", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const token = searchParams.get("token");
+
+    if (!token || typeof token !== "string") {
+      return NextResponse.json(
+        { success: false, error: "Missing token" },
+        { status: 400 }
+      );
+    }
+
+    const data = getSession(token);
+    if (!data) {
+      return NextResponse.json(
+        { success: false, error: "Session not found or expired" },
+        { status: 404 }
+      );
+    }
+
+    const form = data as Record<string, unknown>;
+
+    const currentRentAmount = Number(form.currentRentAmount || 0);
+    const proposedRentAmount = Number(form.proposedRentAmount || 0);
+    const rentIncreasePercent = Number(form.rentIncreasePercent || 0);
+    const noticeServeDate = String(form.noticeServeDate || "");
+    const effectiveDate = String(form.effectiveDate || "");
+
+    const { valid } = validateRentIncrease(
+      currentRentAmount,
+      proposedRentAmount,
+      rentIncreasePercent,
+      noticeServeDate,
+      effectiveDate
+    );
+
+    if (!valid) {
+      return NextResponse.json(
+        { success: false, error: "Rent increase validation failed" },
+        { status: 400 }
+      );
+    }
+
+    const landlordName = String(form.landlordName || "");
+    const landlordEmail = form.landlordEmail
+      ? String(form.landlordEmail)
+      : "";
+    const landlordPhone = form.landlordPhone
+      ? String(form.landlordPhone)
+      : "";
+    const tenantName = String(form.tenantName || "");
+    const rentalAddressLine1 = String(form.rentalAddressLine1 || "");
+    const rentalAddressLine2 = form.rentalAddressLine2
+      ? String(form.rentalAddressLine2)
+      : "";
+    const rentalCity = String(form.rentalCity || "");
+    const rentalPostalCode = String(form.rentalPostalCode || "");
+    const serviceMethod = String(form.serviceMethod || "");
+
+    const [sy, sm, sd] = noticeServeDate.split("-").map(Number);
+    const [ey, em, ed] = effectiveDate.split("-").map(Number);
+    let actualNoticeMonths = (ey - sy) * 12 + (em - sm);
+    if (ed < sd) {
+      actualNoticeMonths -= 1;
+    }
+
+    let serviceMethodHtml = "";
+    if (serviceMethod === "email") {
+      serviceMethodHtml = `<p>This notice has been served by email, which is permitted if the tenant has provided an email address for service.</p>`;
+    } else {
+      serviceMethodHtml = `<p>${escapeHtml(serviceMethod)}</p>`;
+    }
+
+    const html = `
+<h1>Rent Increase Notice – British Columbia</h1>
+
+<div style="margin-bottom: 16pt;">
+  <p><strong>Landlord:</strong> ${escapeHtml(landlordName)}<br>
+  ${landlordEmail ? escapeHtml(landlordEmail) + "<br>" : ""}
+  ${landlordPhone ? escapeHtml(landlordPhone) + "<br>" : ""}</p>
+
+  <p><strong>Tenant:</strong> ${escapeHtml(tenantName)}<br>
+  ${escapeHtml(rentalAddressLine1)}<br>
+  ${rentalAddressLine2 ? escapeHtml(rentalAddressLine2) + "<br>" : ""}
+  ${escapeHtml(rentalCity)}, ${escapeHtml(rentalPostalCode)}</p>
+</div>
+
+<h2>Rent Details</h2>
+<ul>
+  <li>Current rent amount: ${formatCurrency(currentRentAmount)}</li>
+  <li>Proposed rent amount: ${formatCurrency(proposedRentAmount)}</li>
+  <li>Rent increase percent: ${rentIncreasePercent}%</li>
+  <li>Effective date: ${formatDate(effectiveDate)}</li>
+  <li>Notice serve date: ${formatDate(noticeServeDate)}</li>
+  <li>Required notice: 3 full calendar months</li>
+  <li>Actual notice months: ${actualNoticeMonths}</li>
+</ul>
+
+<h2>Legal Reference</h2>
+<p>Under the Residential Tenancy Act, landlords must give at least three full calendar months' written notice before increasing rent.</p>
+
+<h2>Service Method</h2>
+${serviceMethodHtml}
+
+<h2>Signature</h2>
+<p>Landlord: ${escapeHtml(landlordName)}</p>
+<p style="margin-top: 24pt;">______________________________<br>Signature</p>
+<p style="margin-top: 16pt;">Date: ______________</p>
+
+<div style="margin-top: 40pt; padding-top: 12pt; border-top: 1px solid #cbd5e1; font-size: 10pt; color: #64748b;">
+  <p>Generated by LegalCals.com. This is not legal advice.</p>
+</div>
+`;
+
+    const pdf = await renderPdfFromHtml(html);
+
+    deleteSession(token);
+
+    return new NextResponse(new Uint8Array(pdf), {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": `attachment; filename="bc-rent-increase-notice.pdf"`,
+      },
+    });
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    return NextResponse.json(
+      { success: false, error: message },
+      { status: 500 }
+    );
+  }
+}

@@ -16,14 +16,42 @@ import {
   ClockIcon,
   ScaleIcon,
   ArrowRightCircleIcon,
+  MapIcon,
+  HeartIcon,
+  UsersIcon,
+  ShieldExclamationIcon,
+  BriefcaseIcon,
+  StarIcon,
 } from "@heroicons/react/24/outline";
 
-const genericCalculators = [
+const provinceHubs = [
   {
     slug: "/calculators/ca/bc",
-    label: "British Columbia Calculators",
-    description: "Browse all BC-specific calculators.",
-    icon: CalculatorIcon,
+    label: "British Columbia",
+    description: "BC-specific calculators for employment, tenancy, and more.",
+    icon: MapIcon,
+    themeColor: "#003366",
+  },
+  {
+    slug: "/calculators/ca/ab",
+    label: "Alberta",
+    description: "Alberta-specific calculators for employment standards and more.",
+    icon: MapIcon,
+    themeColor: "#F04C23",
+  },
+  {
+    slug: "/calculators/ca/on",
+    label: "Ontario",
+    description: "Ontario-specific calculators for employment and tenancy rules.",
+    icon: MapIcon,
+    themeColor: "#00205B",
+  },
+  {
+    slug: "/calculators/ca/federal",
+    label: "Federal",
+    description: "Federal calculators for EI, CPP, and Canada Labour Code.",
+    icon: MapIcon,
+    themeColor: "#003366",
   },
 ];
 
@@ -44,23 +72,23 @@ export default function Page() {
     <main className="min-h-screen px-4 py-12 max-w-5xl mx-auto space-y-12">
       <LCSection
         title="Canada Calculators Directory"
-        description="Browse all legal calculators for Canada."
+        description="Browse all legal calculators for Canada by province or federal jurisdiction."
         icon={CalculatorIcon}
         theme={theme}
       />
 
-      {/* General Calculators */}
+      {/* Province & Federal Hubs */}
       <div className="space-y-4">
-        <h2 className="text-lg font-semibold text-slate-800">General Calculators</h2>
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
-          {genericCalculators.map((calc) => (
-            <Link key={calc.slug} href={calc.slug}>
+        <h2 className="text-lg font-semibold text-slate-800">Jurisdiction Hubs</h2>
+        <div className="grid gap-4 sm:grid-cols-2">
+          {provinceHubs.map((hub) => (
+            <Link key={hub.slug} href={hub.slug}>
               <LCCard theme={theme} className="h-full hover:border-blue-300 transition-colors space-y-2">
                 <div className="flex items-center gap-2">
-                  <calc.icon className="w-5 h-5 text-blue-600" />
-                  <h3 className="font-semibold text-slate-800">{calc.label}</h3>
+                  <hub.icon className="w-5 h-5" style={{ color: hub.themeColor }} />
+                  <h3 className="font-semibold text-slate-800">{hub.label}</h3>
                 </div>
-                <p className="text-sm text-slate-600">{calc.description}</p>
+                <p className="text-sm text-slate-600">{hub.description}</p>
               </LCCard>
             </Link>
           ))}
@@ -71,7 +99,7 @@ export default function Page() {
       <div className="space-y-4">
         <h2 className="text-lg font-semibold text-slate-800">Province-Specific Calculators</h2>
         <p className="text-sm text-slate-600">
-          These calculators are available for British Columbia. Select a calculator to run it with BC-specific rules.
+          These calculators are available for multiple provinces. Select a province hub above to run them with jurisdiction-specific rules.
         </p>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
           {provinceSpecificTypes.map((calc) => (
